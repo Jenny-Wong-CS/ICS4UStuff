@@ -1,0 +1,32 @@
+import javax.swing.*;
+//import java.awt.event.*;
+import java.awt.*;
+
+public class DemoGUI extends JFrame{
+	private JButton button;
+	private JTextArea area;
+	
+	public DemoGUI() {
+		this.setSize(600, 400);
+		this.setResizable(false);
+		this.setLayout(null);
+		this.setTitle("GUI DEMO");
+		
+		Container c = getContentPane();
+		c.setBackground(new Color(0,90,150));
+		
+		this.setVisible(true);
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		
+	}
+	
+	
+	
+
+	public static void main(String[] args) {
+		DemoGUI gui = new DemoGUI();
+
+	}
+
+}
