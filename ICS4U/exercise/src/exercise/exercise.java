@@ -30,3 +30,12 @@ public class exercise {
 	}
 
 }
+
+
+//1. Write a program that prompts the user for their name, age, and address, and then outputs this information using one or two nicely formatted sentences.
+//2. Write a program that asks the user to input marks for 4 courses, and the displays the average mark.
+//3. Ask 5 simple math problems. After the user enters their answer, display the problem and the correct answer. The correct answer should be calculated by your program.
+//4. Ask the user their name, age, and the current year. Greet the user and tell them the year they will be 25, 50, and 75 years old.
+//5. Have the user enter two integers between 1 and 9. Do the basic math operations using these numbers and display the answer (add, subtract, multiply, divide, exponent).
+//6. Using the available help or online resources for your programming language, investigate how to do #2 with your answer rounded to one decimal place.
+//7. Integrate each of these as different options in a GUI.
