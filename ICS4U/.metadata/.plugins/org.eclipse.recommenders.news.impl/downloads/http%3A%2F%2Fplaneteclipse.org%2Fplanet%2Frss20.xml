@@ -8,6 +8,314 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>itemis: Xtext 2.15 released!</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/en/xtext-2.15-released</guid>
+	<link>https://blogs.itemis.com/en/xtext-2.15-released</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;We are proud to announce Xtext and Xtend 2.15! As you can learn from the release notes (&lt;a href=&quot;https://www.eclipse.org/Xtext/releasenotes.html#/releasenotes/2018/09/04/version-2-15-0&quot;&gt;Xtext&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/xtend/releasenotes.html#/releasenotes/2018/09/04/version-2-15-0&quot;&gt;Xtend&lt;/a&gt;), the focus of this release was on stability, quality and performance. Especially the Xtend Gradle build could be improved significantly and the integration with Eclipse 2018-09 works like a charm, now.&lt;/span&gt;&lt;/p&gt;  
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In the last three months, it turned out to be rather challenging to keep up with the new concept of rolling releases at Eclipse. We had to learn a lot and more than once we did this the hard way. In the end we are pretty satisfied with the outcome, though. And besides quite some fundamental groundwork on the process-side to get ready for the shorter 3 month release cadence, we did also find the time to squeeze in a few goodies that will make working with Xtext DSLs even more pleasant.&lt;/span&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bye bye Chunk 5 of 17&lt;/span&gt;&lt;/h2&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;One of the noticeable adjustments, that we made, is the improved progress reporting. We redid the logic that tracks the remaining number of files during a build in Eclipse and are now issuing more fine grained feedback to the user. This was possible due to recent changes in the Eclipse platform. We do no longer face a performance degradation when reporting on such a granularity so it was about time to provide more insights on what's going on during a full build.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;img alt=&quot;1–Eclipse-Building–Workspace&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/1%E2%80%93Eclipse-Building%E2%80%93Workspace.gif?t=1537446193710&amp;amp;width=600&amp;amp;name=1%E2%80%93Eclipse-Building%E2%80%93Workspace.gif&quot; style=&quot;width: 600px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;600&quot; /&gt;
+&lt;br /&gt; 
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;For the unit test addicted among us&lt;/span&gt;&lt;/h2&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Besides the fact that Xtext does now correctly mark test folders as such, when you create a new project, we are constantly working on improvements of the APIs for testing various Xtext services. This time, the infrastructure to test lexical and semantic coloring was added. It greatly simplifies testing of custom highlighting logic.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;2–Highlightinh–Xtext&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/2%E2%80%93Highlightinh%E2%80%93Xtext.png?t=1537446193710&amp;amp;width=724&amp;amp;name=2%E2%80%93Highlightinh%E2%80%93Xtext.png&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;br /&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Also Xtend is now aware of the JUnit annotations and will flag methods with an invalid return type (read: non-void) already in the editor so you get immediate feedback if the type inference has computed some undesired return type for your test method. Especially when working with fluent test APIs this may be very handy.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;3–Xtend–JUnit&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/3%E2%80%93Xtend%E2%80%93JUnit.png?t=1537446193710&amp;amp;width=724&amp;amp;name=3%E2%80%93Xtend%E2%80%93JUnit.png&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;There is more&lt;/span&gt;&lt;/h2&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The 2.15 release has more goodies that you can read about in the release notes of &lt;a href=&quot;https://www.eclipse.org/Xtext/releasenotes.html#/releasenotes/2018/09/04/version-2-15-0&quot;&gt;Xtext&lt;/a&gt; or &lt;a href=&quot;https://www.eclipse.org/xtend/releasenotes.html#/releasenotes/2018/09/04/version-2-15-0&quot;&gt;Xtend&lt;/a&gt;. Being it the improved support for Task markers in Eclipse, the tweaks to the handling of files, that are external to your workspace, a command-line interface for creation of projects or new APIs in the core, make sure you do not miss some interesting bit or piece.&lt;/span&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We value your feedback&lt;/span&gt;&lt;/h2&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As usual, if you face any issues with Xtext 2.15 or if you do have any other feedback, please don't hesitate to get in touch with us on &lt;/span&gt;&lt;a href=&quot;https://github.com/eclipse/xtext&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;GitHub&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, via the &lt;a href=&quot;https://www.eclipse.org/forums/index.php?t=thread&amp;amp;frm_id=27&quot;&gt;newsgroup&lt;/a&gt; or simply drop us a comment.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a class=&quot;cta_button&quot; href=&quot;https://info.itemis.com/cs/ci/?pg=78567f96-0e8e-4c0b-8822-523822026eba&amp;amp;pid=761475&amp;amp;ecid=&amp;amp;hseid=&amp;amp;hsic=&quot;&gt;&lt;img align=&quot;middle&quot; alt=&quot;Contact the  itemis Xtext team&quot; class=&quot;hs-cta-img &quot; src=&quot;https://no-cache.hubspot.com/cta/default/761475/78567f96-0e8e-4c0b-8822-523822026eba.png&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fxtext-2.15-released&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 20 Sep 2018 13:00:00 +0000</pubDate>
+	<author>xtext@itemis.com (Xtext-Team)</author>
+</item>
+<item>
+	<title>N4JS: Null/Undefined Analysis in N4JS</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-7569987920628430132.post-875574530099273704</guid>
+	<link>https://n4js.blogspot.com/2018/09/nullundefined-analysis-in-n4js_20.html</link>
+	<description>&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;b&gt;The N4JS IDE integrates validations and analyses that are quite common for IDEs of statically typed languages. However, these analyses are seldom available for dynamically typed languages like N4JS or TypeScript. In this post we present the null/undefined analysis for N4JS source code.&lt;/b&gt;&lt;/h4&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;span&gt;TypeError: Cannot read property of undefined&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;div style=&quot;text-align: right;&quot;&gt;- Developer's staff of life&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;The runtime error above occurs pretty often for JavaScript programmers: A quick search on Google returned about 1.2 million for the term &lt;i&gt;TypeError: Cannot read property of undefined&lt;/i&gt;. When constraining search results to &lt;i&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;site:stackoverflow.com&lt;/span&gt;&lt;/i&gt; the query will still yield 126 thousand results. These numbers are comparable to the somewhat similar error &lt;i&gt;NullPointerException&lt;/i&gt; which has about 3 million hits on Google and about 525 thousand when constrained to stackoverflow.com. Some of these results are caused by rather simple mistakes that a null/undefined analysis could detect. As a result, the developer could restructure his code and remove these potential errors even before he runs his first test and hence save time.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Null/Undefined Analysis&lt;/h3&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;The N4JS IDE provides static analyses to indicate problems when it detects a property access on a variable which can be null or undefined. The analysis considers all assignments that occur either through a simple assignment expression or via destructuring. Loops, conditional expressions (e.g. &lt;span&gt;i = c? 1 : 0;&lt;/span&gt;) and declaration initializers are respected as well.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-2MLOhdP3dEk/W3_Cnrj20zI/AAAAAAAAAIU/VD7GMOKA5RkedjFYi2nhKfW2pHKtn2BLACEwYBhgL/s1600/N4JS-IDE.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://4.bp.blogspot.com/-2MLOhdP3dEk/W3_Cnrj20zI/AAAAAAAAAIU/VD7GMOKA5RkedjFYi2nhKfW2pHKtn2BLACEwYBhgL/s1600/N4JS-IDE.png&quot; width=&quot;570&quot; /&gt;&lt;/a&gt;&lt;/div&gt;The screenshot above shows a first example where a potential TypeError is detected. Since there exists at least one control flow from &lt;span&gt;v.length&lt;/span&gt; backwards to all reachable definitions of &lt;span&gt;v&lt;/span&gt;,  such that one definition assigns null or undefined to &lt;span&gt;v&lt;/span&gt;, a warning is issued telling that &lt;span&gt;v&lt;/span&gt; may be undefined.&lt;br /&gt;&lt;br /&gt;To make sure that the analysis will produce fast results, it is implemented within some limitations. One is that the analysis is done separately for each body of a function, method, etc. (i.e. &lt;i&gt;intra-procedural&lt;/i&gt; analysis). Hence it lacks knowledge of variables that cross the borders of these bodies such as the return value of a nested function call. In addition, property variables (such as &lt;span&gt;v.length&lt;/span&gt;) are not analyzed since this would require the analysis to be context sensitive to the receiver object (here &lt;span&gt;v&lt;/span&gt;). However, these limitations are common for static analyses of statically typed languages and still allow to detect many problems regarding local variables and parameters.&lt;br /&gt;&lt;br /&gt;Usually, the analysis makes optimistic assumptions. For instance it can happen that a local variable receives the value of a method call or another non-local variable. In this situation the analysis assumes this value is neither null nor undefined. The same is true for function parameters. Only when there are distinct indications in the source code for a value of a local variable to be null or undefined, the analysis will issue a warning.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Guards&lt;/h3&gt;&lt;h3&gt; &lt;/h3&gt;Sometimes the programmer knows that a variable may be null or undefined and hence checks the variable explicitly, for instance using &lt;span&gt;if (v) {...}&lt;/span&gt;. As a result this check disables the warning in the then-branch that complies to the execution semantics.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-Pjtv74Dim8U/W3_CntUSe0I/AAAAAAAAAIM/ECKOxqI2d2khOrBgcpxIva02wlkcAtnhACEwYBhgL/s1600/No_Warning.png&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-Pjtv74Dim8U/W3_CntUSe0I/AAAAAAAAAIM/ECKOxqI2d2khOrBgcpxIva02wlkcAtnhACEwYBhgL/s1600/No_Warning.png&quot; width=&quot;570&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;As shown in the screenshot above, neither at the expression &lt;span&gt;w.length &amp;lt; 1&lt;/span&gt; nor at the statement &lt;span&gt;return w.length&lt;/span&gt;; a warning is shown. Of course, the else-branch of such a check would consequently always indicate a warning when a property of variable &lt;span&gt;v&lt;/span&gt; is accessed. Checks for conditional expressions and binary logical expressions (e.g. &lt;span&gt;v &amp;amp;&amp;amp; v.length&lt;/span&gt;) are also supported. A reader might think: &quot;In case &lt;span&gt;w&lt;/span&gt; i&lt;span style=&quot;font-family: inherit;&quot;&gt;s null  the e&lt;/span&gt;xpression &lt;span&gt;w.length&lt;/span&gt; would fail.&quot; True, but in this example the analysis detects the value of &lt;span&gt;w&lt;/span&gt; being undefined. In ca&lt;span style=&quot;font-family: inherit;&quot;&gt;se null might&lt;/span&gt; have been assigned to &lt;span&gt;w&lt;/span&gt; e.g. in an if-condition before, the analysis will issue a warning of &lt;span&gt;w&lt;/span&gt; being null at the two &lt;span&gt;w.length&lt;/span&gt; expressions.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Data Flow&lt;/h3&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-y8LwrCo27Lw/W3_CnoC3pZI/AAAAAAAAAIQ/2B7jVp9SjqAqz-2TU1rg4gG3iDbdATlJgCEwYBhgL/s1600/Previous_Variable.png&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://1.bp.blogspot.com/-y8LwrCo27Lw/W3_CnoC3pZI/AAAAAAAAAIQ/2B7jVp9SjqAqz-2TU1rg4gG3iDbdATlJgCEwYBhgL/s1600/Previous_Variable.png&quot; width=&quot;570&quot; /&gt;&lt;/a&gt;&lt;/div&gt;There are situations where the value of a variable is null or undefined due to a previous assignment of a variable which may have been null or undefined before, like shown in the example above. Then, the null/undefined dereference problem occurs later when a property is accessed. Since the analysis respects data flow, it can follow the subsequent assignments. Hence a warning is shown at a property access indicating the null or undefined problem. Moreover, the warning also indicates the source of the null or undefined value which would be the variable &lt;span&gt;w&lt;/span&gt; in the example above.&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;by Marcus Mews&lt;/span&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 20 Sep 2018 12:39:45 +0000</pubDate>
+	<author>noreply@blogger.com (Project N4JS)</author>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: Get Acquainted With Sprotty at EclipseCon Europe</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/729 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/get-acquainted-sprotty-eclipsecon-europe</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h4&gt;by Jan Koehnlein&lt;/h4&gt;
+&lt;p&gt;Sprotty is a graphical framework that allows interactive diagrams in web-applications. It has a strong emphasis on usability, customizability and modern rendering. While being completely usable in standalone applications, Sprotty is also very easy to use in a distributed client-server environment. As such, it nicely plays the graphical counterpart in the Language Server Protocol.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/get-acquainted-sprotty-eclipsecon-europe&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/JanK.png?itok=dlg7Lb6d&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 20 Sep 2018 11:40:45 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: Sponsor Testimonial: Typefox</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/730 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/sponsor-testimonial-typefox</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Autumn time is EclipseCon time! Eclipse has evolved from a pure Java IDE, over a platform for tool integration on the desktop, towards an incubation tank for modern cloud-based development tooling. If you search for the place where all flavors of development tools and frameworks are concentrating, it’s here. We are happy that our latest cloud-based endeavors, Theia and Sprotty, found a home under the Eclipse umbrella.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/sponsor-testimonial-typefox&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Typefoxtransp2.png?itok=mGcQK8s2&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 20 Sep 2018 11:30:08 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Welcoming GlassFish to the Eclipse Foundation</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/K_nSIPDOW9Y/welcoming-glassfish-eclipse-foundation</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/K_nSIPDOW9Y/welcoming-glassfish-eclipse-foundation</link>
+	<description>A major milestone was achieved yesterday! The GlassFish code from Oracle made its home in the Eclipse Foundation's Git repositories, starting a new era of Eclipse GlassFish.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/K_nSIPDOW9Y&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 19 Sep 2018 19:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: EMF Forms and EMF Client Platform 1.18.0 released!</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=39920</guid>
+	<link>https://eclipsesource.com/blogs/2018/09/19/emf-forms-and-emf-client-platform-1-18-0-released/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are happy to announce that with the Eclipse Release 2018-09, we have also shipped  &lt;/span&gt;&lt;a href=&quot;http://eclipse.org/ecp/emfforms&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMF Forms&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and &lt;/span&gt;&lt;a href=&quot;http://eclipse.org/ecp&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMF Client Platform&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; 1.18.0! &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We want to thank our continuously active team of &lt;/span&gt;&lt;b&gt;11 contributors &lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;(&lt;/span&gt;&lt;b&gt;41 contributors&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; overall) for completing &lt;/span&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&amp;amp;bug_status=NEW&amp;amp;bug_status=ASSIGNED&amp;amp;bug_status=REOPENED&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&amp;amp;classification=Modeling&amp;amp;component=Common&amp;amp;component=Editor&amp;amp;component=EMF%20Forms&amp;amp;component=Model%20Workspace&amp;amp;component=Navigator&amp;amp;component=Validation&amp;amp;list_id=17638428&amp;amp;product=ECP&amp;amp;query_format=advanced&amp;amp;target_milestone=1.17.0&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;50 bug fixes and features&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. EMF Forms continues to be one of the most active projects at Eclipse with a very stable development activity:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As announced during the 1.17.0 release, we have added a new service for adopters. The development team uses a defined  “Test” tag on important bug reports. In general, the “Test” keyword highlights bug reports, which should definitely be looked at and tested in detail by all adopters when updating to a new version. Please see more details in &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/de/blogs/2018/06/28/emf-forms-and-emf-client-platform-1-17-0-released/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;this announcement&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. All relevant “test” bug reports in 1.18.0 can be found &lt;/span&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&amp;amp;bug_status=NEW&amp;amp;bug_status=ASSIGNED&amp;amp;bug_status=REOPENED&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&amp;amp;classification=Modeling&amp;amp;component=Common&amp;amp;component=Editor&amp;amp;component=EMF%20Forms&amp;amp;component=Model%20Workspace&amp;amp;component=Navigator&amp;amp;component=Validation&amp;amp;keywords=test%2C%20&amp;amp;keywords_type=allwords&amp;amp;list_id=17877777&amp;amp;product=ECP&amp;amp;query_format=advanced&amp;amp;target_milestone=1.18.0&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please note, that due to the new release cadence of the Eclipse release train, there will be 4 releases per year for EMF Forms and EMF Client Platform from now on, too. As a consequence, we will be able to publish new features and improvements faster. The next release, 2018-12 is already due in December (19th).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Further, kindly continue to ask questions &lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/forums/index.php/f/19/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;in the newsgroup&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and &lt;/span&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/enter_bug.cgi?product=ecp&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;file Bug Reports&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In case you don’t know EMF Forms: It is a framework focused on the creation of form-based UIs. EMF Client Platform is designed to support the development of applications based on an EMF data model. If you are not yet familiar with EMF Forms, please refer to &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/tutorials/getting-started-with-EMF-Forms/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;this tutorial&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for an introduction.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Both of these frameworks are part of the Eclipse Modeling Tools Photon package, but you can also find the new release on our download pages:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;http://eclipse.org/ecp/download.html&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Download EMF Client Platform&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;http://eclipse.org/ecp/emfforms/download.html&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Download EMF Forms&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As always, we will also blog about new features of the EMF Forms / ECP 1.18.0 release in the upcoming weeks! Please follow this blog or follow us on twitter for notifications about new posts.&lt;/span&gt;&lt;/p&gt;</description>
+	<pubDate>Wed, 19 Sep 2018 15:14:15 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: Papyrus IC at Models 2018</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=1121</guid>
+	<link>https://papyrusuml.wordpress.com/2018/09/19/papyrus-ic-at-models-2018/</link>
+	<description>&lt;p&gt;It’s official! The Papyrus IC is a sponsor of Models 2018.&lt;/p&gt;
+&lt;p&gt;It’s members and users will be there to show me to anyone interested – Please go meet them so they don’t feel too alone out there!&lt;/p&gt;
+&lt;p&gt;I do not have the details yet, but I will be sure to pressure my minions to get me their game plans so I can let you all know!&lt;/p&gt;</description>
+	<pubDate>Wed, 19 Sep 2018 14:05:56 +0000</pubDate>
+</item>
+<item>
+	<title>Jens Reimann: Apache Camel Java DSL in combination Eclipse Kura Wires</title>
+	<guid isPermaLink="false">https://dentrassi.de/?p=4021</guid>
+	<link>https://dentrassi.de/2018/09/19/apache-camel-java-dsl-eclipse-kura-wires/</link>
+	<description>&lt;p&gt;In &lt;a href=&quot;https://dentrassi.de/2018/09/14/the-power-of-apache-camel-in-eclipse-kura/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;part #1&lt;/a&gt; and &lt;a href=&quot;https://dentrassi.de/2018/09/17/sunny-weather-apache-camel-kura-wires/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;part #2&lt;/a&gt;, we saw how easy it is to interface &lt;a href=&quot;https://camel.apache.org&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Apache Camel&lt;/a&gt; with &lt;a href=&quot;https://eclipse.org/kura&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Kura&lt;/a&gt; Wires. Simply by re-using some existing functionality. A few lines of XML, Groovy and you can already build an IoT solution based on the Camel ecosystem and the Eclipse Kura runtime. This part will focus on the Java DSL of Apache Camel.&lt;/p&gt;
+&lt;p&gt;It will also take into account, that when you develop and deploy an application, you need some kind of development, test and integration environment. When you build something, no matter how big, based on Camel or Kura Wires, you do want to test it. You want to have unit tests, and the capability to automatically test if your solution works, or still works after you made changes.&lt;/p&gt;
+&lt;p&gt;Using Kura Wires alone, this can be a problem. But Camel offers you a way to easily run your solution in a local IDE, debugging the whole process. You can have extra support for debugging Camel specific constructs like routes and endpoints. Camel has support for JUnit and e.g. using the “seda” endpoints, you can in create an abstraction layer between Camel and Wires.&lt;/p&gt;
+&lt;h2&gt;The goal&lt;/h2&gt;
+&lt;p&gt;I’ll make this one up (and yes, let’s try to keep it realistic). We have a device, and his device allows to set two parameters for its operation (P1 and P2, both floating points). Now we already have the device connection set up in Kura. Maybe using Modbus, or something else. Kura can talk to it using Kura Wires and that is all that counts.&lt;/p&gt;
+&lt;p&gt;Now we do get two additional requirements. There is some kind of operating panel next to the device, which should allow viewing and setting those parameters locally. Also, those parameters should be accessible, using IEC 60870-5-104, for an additional device, right next to the Kura gateway.&lt;/p&gt;
+&lt;p&gt;All of those operations have to be local only, and still work when no connection to the cloud is possible. But of course, we don’t want to lose the ability to monitor the parameters from our cloud system.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-4023&quot; height=&quot;1389&quot; src=&quot;https://dentrassi.de/wp-content/uploads/drawing_5.png&quot; width=&quot;1680&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The operator panel will, of course, be programmed in the newest and hippest Web UI technology possible. It is super easy to fire a few HTTP API calls and encode everything in JSON. While, at the same time, the IEC 60870 layer has no idea about complex data structures. The panel application will send a full update of both parameters, while the 60870 client, due to the nature of this protocol, will only send one parameter at a time.&lt;/p&gt;
+&lt;p&gt;Doesn’t too unrealistic, does it?&lt;/p&gt;
+&lt;h2&gt;The project structure&lt;/h2&gt;
+&lt;p&gt;The full project source code is available at &lt;a href=&quot;https://github.com/ctron/kura-examples/tree/master/camel/camel-example4&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;ctron/kura-examples&lt;/a&gt;, on GitHub. So this blog post will only focus on some important spots of the whole project.&lt;/p&gt;
+&lt;p&gt;The project is a standard Maven project, and thus has the typical project structure:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Maven Camel project structure&quot; class=&quot;aligncenter size-full wp-image-4026&quot; height=&quot;525&quot; src=&quot;https://dentrassi.de/wp-content/uploads/Selection_529.png&quot; width=&quot;363&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;There are only three important differences to a standard Java Maven project:&lt;/p&gt;
+&lt;p&gt;The packaging type is &lt;code&gt;bundle&lt;/code&gt;, which requires the &lt;code&gt;maven-bundle-plugin&lt;/code&gt;. It will create an OSGi bundle JAR, instead of a plain JAR file. This is required as the Kura IoT gateway is based on OSGi.&lt;/p&gt;
+&lt;p&gt;We will create a “DP” package at the end of the build, using the &lt;a href=&quot;https://ctron.github.io/osgi-dp/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;OSGi DP Maven Plugin&lt;/a&gt;. This package can directly be uploaded to the Kura instance. As this plugin does include direct dependencies, but doesn’t include transient dependencies (on purpose), the project declares a few dependencies as “provided” to prevent them from being re-packaged in the final DP package.&lt;/p&gt;
+&lt;p&gt;The project uses the &lt;code&gt;maven-antrun-plugin&lt;/code&gt; to download and unpack the static Swagger UI resources. Swagger UI is just a convenience for playing around with the REST API later on. Camel will take care of creating the OpenAPI (Swagger) JSON description, even if the SwaggerUI part is removed. So in a production setup, you most likely would not add Swagger UI to the deployment.&lt;/p&gt;
+&lt;h2&gt;Starting it up&lt;/h2&gt;
+&lt;p&gt;The project has three entry points:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;CamelApplicationComponent&lt;/code&gt; is the OSGi service, which will be managed by the OSGi service component runtime (SCR) when the component is uploaded to Kura.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TestApplication&lt;/code&gt; is a local test application, which is intended to be started from the local IDE for manual testing.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CamelApplicationComponentTest&lt;/code&gt; is the JUnit 4 based test for testing the Camel routes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All three entry points will have a slightly different creation process for the Camel Context. This is simply due to the fact that different environments (like plain Java, OSGI and JUnit) have different requirements.&lt;/p&gt;
+&lt;p&gt;The routes configuration, which is the same for all entry points, is located in &lt;code&gt;Routes&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Let’s have a quick look at the OSGi startup:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;@Activate
+public void start(final BundleContext context) throws Exception {
+  this.context = new OsgiDefaultCamelContext(context, SwaggerUi.createRegistry());
+  this.context.addRoutes(new Routes(this.state));
+  this.context.start();
+
+  final Dictionary&amp;lt;String, Object&amp;gt; properties = new Hashtable&amp;lt;&amp;gt;();
+  properties.put(&quot;camel.context.id&quot;, &quot;camel.example.4&quot;);
+  this.registration = context.registerService(CamelContext.class, this.context, properties);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once the component is placed inside an OSGi container, the start method will be called and set up the Camel context. This is all pretty straightforward Camel code. As the last step, the Camel context will be registered with the OSGi service layer. Setting the service property &lt;code&gt;camel.context.id&lt;/code&gt; in the process. This property is important, as we will, later on, use it to locate the Camel context from the Kura Wires graph by it.&lt;/p&gt;
+&lt;h2&gt;The Java DSL routes&lt;/h2&gt;
+&lt;p&gt;The routes configuration is pretty simple Camel stuff. First, the REST DSL will be used to configure the REST API. For example, the “GET” operation to receive the currently active parameters:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;…
+  .get()
+  .description(&quot;Get the current parameters&quot;)
+  .outType(Parameters.class)
+  .to(&quot;direct:getParameters&quot;)
+…
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This creates a get operation, which is being redirected to the internal “direct:getParameters” endpoint. Which is a way of forwarding that call to another Camel Route. This way Camel routes can be re-used from different callers.&lt;/p&gt;
+&lt;p&gt;Like for example the `direct:updateParameters` route, which will be called by all routes which want to update the parameters, no matter if that call originated in the IEC 60870, the REST or the Kura Wires component:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;from(&quot;direct:updateParameters&quot;)
+  .routeId(&quot;updateParameters&quot;)
+  .bean(this.state, &quot;updateCurrentParameters&quot;)
+  .multicast()
+  .to(&quot;direct:update.wires&quot;, &quot;direct:update.iec.p1&quot;, &quot;direct:update.iec.p2&quot;).end();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The route will forward the new parameters to the method &lt;code&gt;updateCurrentParameters&lt;/code&gt; of the &lt;code&gt;State&lt;/code&gt; class. This class is a plain Java class, holding the state and filling in &lt;code&gt;null&lt;/code&gt; parameters with the current state. The result of this method will be forwarded to the other routes, for updating Kura Wires and the two parameters in the IEC 60870 data layer.&lt;/p&gt;
+&lt;h2&gt;Trying it out&lt;/h2&gt;
+&lt;p&gt;If you have Java and Maven installed, then you can simply compile the package by running:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd camel/camel-example4
+mvn clean package
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will compile, run the unit tests and create the &lt;code&gt;.dp&lt;/code&gt; package in the folder &lt;code&gt;target&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can upload the package directly to your Kura instance. Please note that you do need the dependencies installed in &lt;a href=&quot;https://dentrassi.de/2018/09/14/the-power-of-apache-camel-in-eclipse-kura/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;part #1&lt;/a&gt; of the tutorial. In additional you will need to install the following dependencies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;https://repo1.maven.org/maven2/de/dentrassi/kura/addons/de.dentrassi.kura.addons.camel.iec60870/0.6.1/de.dentrassi.kura.addons.camel.iec60870-0.6.1.dp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;https://repo1.maven.org/maven2/de/dentrassi/kura/addons/de.dentrassi.kura.addons.camel.jetty/0.6.1/de.dentrassi.kura.addons.camel.jetty-0.6.1.dp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;https://repo1.maven.org/maven2/de/dentrassi/kura/addons/de.dentrassi.kura.addons.camel.swagger/0.6.1/de.dentrassi.kura.addons.camel.swagger-0.6.1.dp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This will install the support for REST APIs, backed by Jetty. As Kura already contains Jetty, it only makes sense to re-use those existing components.&lt;/p&gt;
+&lt;p&gt;Once the component is deployed and started, you can navigate your web browser to &lt;code&gt;http://:8090/api&lt;/code&gt;. This should bring up the Swagger UI, showing the API of the routes:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;SwaggerUI of Camel example for Kura&quot; class=&quot;aligncenter size-full wp-image-4032&quot; height=&quot;864&quot; src=&quot;https://dentrassi.de/wp-content/uploads/Selection_530.png&quot; width=&quot;806&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, you can create the following components in the Kura wires graph:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new “Camel consumer”, named &lt;code&gt;consumer2&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Set the ID to &lt;code&gt;camel.example.4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Set the endpoint URI to &lt;code&gt;seda:wiresOutput1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Create a new “Logger”, named &lt;code&gt;logger2&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Set it to “verbose”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Connect &lt;code&gt;consumer2&lt;/code&gt; with &lt;code&gt;logger2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Click on “Apply” to activate the changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Open the console of Kura and then open the Swagger UI page with the Web browser. Click on ““Try Out” of the “PUT” operation, enter some new values for &lt;code&gt;setpoint1&lt;/code&gt; and/or &lt;code&gt;setpoint2&lt;/code&gt; and click on the blue “Execute” button.&lt;/p&gt;
+&lt;p&gt;In the console of Kura you should see the following output:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;2018-09-17T13:35:49,589 [Camel (camel-10) thread #27 - seda://wiresOutput1] INFO  o.e.k.i.w.l.Logger - Received WireEnvelope from org.eclipse.kura.wire.camel.CamelConsume-1537188764126-1
+2018-09-17T13:35:49,589 […] INFO  o.e.k.i.w.l.Logger - Record List content:
+2018-09-17T13:35:49,589 […] INFO  o.e.k.i.w.l.Logger -   Record content:
+2018-09-17T13:35:49,589 […] INFO  o.e.k.i.w.l.Logger -     P1 : 3.0
+2018-09-17T13:35:49,589 […] INFO  o.e.k.i.w.l.Logger -     P2 : 2.0
+2018-09-17T13:35:49,589 […] INFO  o.e.k.i.w.l.Logger -
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is the result of the “Logger” component from Kura Wires. Which did receive the new parameter updates from the Camel Context, as they got triggered through the Web UI. At the same time, the &lt;a href=&quot;https://dentrassi.de/2017/02/17/iec-60870-5-104-with-apache-camel/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;IEC 60870 server&lt;/a&gt; would update all clients being subscribed to those data items.&lt;/p&gt;
+&lt;h2&gt;Wrapping it up&lt;/h2&gt;
+&lt;p&gt;The last part of this tutorial showed that, if the prep-prepared XML router component of Eclipse Kura, is not enough, then you can drop in your own and powerful replacements. Developing with all the bells and whistles of Apache Camel, and still integrate with Kura Wires if necessary.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://dentrassi.de/2018/09/19/apache-camel-java-dsl-eclipse-kura-wires/&quot; rel=&quot;nofollow&quot;&gt;Apache Camel Java DSL in combination Eclipse Kura Wires&lt;/a&gt; appeared first on &lt;a href=&quot;https://dentrassi.de&quot; rel=&quot;nofollow&quot;&gt;ctron's blog&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Wed, 19 Sep 2018 08:30:33 +0000</pubDate>
+</item>
+<item>
+	<title>Tanja Obradovic: Welcoming GlassFish to the Eclipse Foundation</title>
+	<guid isPermaLink="false">https://blogs.eclipse.org/6641 at https://blogs.eclipse.org</guid>
+	<link>https://blogs.eclipse.org/post/tanja-obradovic/welcoming-glassfish-eclipse-foundation</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p dir=&quot;ltr&quot;&gt;A major milestone was achieved yesterday! The GlassFish code from Oracle made its home in the Eclipse Foundation's Git repositories (&lt;a href=&quot;https://github.com/eclipse-ee4j/glassfish&quot;&gt;https://github.com/eclipse-ee4j/glassfish&lt;/a&gt;), starting a new era of Eclipse GlassFish. This is another step in making Jakarta EE a vehicle for innovation in cloud-native application development.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;The Eclipse GlassFish application server is still based on the Java EE specification, and we have a ways to go to finalize our work on defining necessary processes and approaches when working with open source TCKs. With the arrival of this codebase, we can start contemplating our first steps once we open up Jakarta EE for community contributions.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;You can use the PMC’s &lt;a href=&quot;https://www.eclipse.org/ee4j/status.php&quot;&gt;project status page&lt;/a&gt; to track the progress we’re making in migrating all of the projects related to Jakarta EE.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;Thanks to all involved in this effort, especially the Oracle team behind this move.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags: &lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/eclipse-foundation&quot;&gt;Eclipse Foundation&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/jakarta-ee&quot;&gt;Jakarta EE&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/glassfish&quot;&gt;GlassFish&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;https://blogs.eclipse.org/blog-tags/eclipse-glassfish&quot;&gt;Eclipse GlassFish&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 19 Sep 2018 00:45:49 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: Papyrus UMLLight is go!</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=1119</guid>
+	<link>https://papyrusuml.wordpress.com/2018/09/18/papyrus-umllight-is-go/</link>
+	<description>&lt;p&gt;There were already a few posts [&lt;a href=&quot;https://papyrusuml.wordpress.com/2018/06/19/new-papyrus-based-tool/&quot;&gt;here&lt;/a&gt;] and [&lt;a href=&quot;https://papyrusuml.wordpress.com/2018/07/26/eclipse-newsletter-on-papyrus-uml-light/&quot;&gt;here&lt;/a&gt;] in which we talked about the new &lt;strong&gt;Papyrus UMLLight&lt;/strong&gt; variant. Well – it is one step closer to completion.&lt;/p&gt;
+&lt;p&gt;My sources tell me that the scope has been defined and that requirements have been written, and that a request for quotation has been created and will soon be published!&lt;/p&gt;
+&lt;p&gt;Stay tuned for more information through official channels!&lt;/p&gt;
+&lt;p&gt;And of course, you will know about it here!&lt;/p&gt;</description>
+	<pubDate>Tue, 18 Sep 2018 12:57:26 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: Special B2B Event at ECE</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/721 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/special-b2b-event-ece</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;An &lt;a href=&quot;https://www.eclipse.org/membership/&quot; target=&quot;_blank&quot;&gt;Eclipse Foundation membership&lt;/a&gt; is a unique opportunity for smaller businesses. To encourage these organizations to join the Foundation, we are offering a special membership-plus-conference-attendance package.&lt;/p&gt;
+
+&lt;p&gt;Part of the package is a special business-to-business (B2B) event at the conference that offers a way for companies to expand both their commercial and development networks.&lt;/p&gt;
+
+&lt;p&gt;To learn more about this offering, &lt;a href=&quot;mailto:marc.vloemans@eclipse-foundation.org?subject=ECE 2018 B2B Opportunity&quot;&gt;please email Marc Vloemans&lt;/a&gt;, Eclipse Foundation Director, Ecosystem Development.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/special-b2b-event-ece&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/eclipse_foundationmember_square.png?itok=eOKubBGs&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 17 Sep 2018 19:36:46 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: Call for BoFs</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/719 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/call-bofs</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Birds of a Feather (BoF) sessions will be on Tuesday, 23 October, in the evening. If you are thinking of organizing a BoF, please &lt;a href=&quot;https://www.eclipsecon.org/europe2018/propose-bof&quot; target=&quot;_blank&quot;&gt;visit this page&lt;/a&gt; for more information, and for access to the submission form for pre-scheduled  BoFs.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/call-bofs&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/BoF_Board_square.jpg?itok=GoRX-4ju&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 17 Sep 2018 18:03:17 +0000</pubDate>
+</item>
+<item>
+	<title>Jens Reimann: Sunny weather with Apache Camel and Kura Wires</title>
+	<guid isPermaLink="false">https://dentrassi.de/?p=4009</guid>
+	<link>https://dentrassi.de/2018/09/17/sunny-weather-apache-camel-kura-wires/</link>
+	<description>&lt;p&gt;&lt;a href=&quot;https://dentrassi.de/2018/09/14/the-power-of-apache-camel-in-eclipse-kura/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Part #1&lt;/a&gt; of the &lt;a href=&quot;https://camel.apache.org&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Apache Camel&lt;/a&gt; to &lt;a href=&quot;https://eclipse.org/kura&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Kura&lt;/a&gt; Wires integration tutorial did focus on pushing data from Kura Wires to Camel and processing it there. But part #1 already mentioned that it is also possible to pull in data from Camel into Kura Wires.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Apache Camel consumer node in Kura Wires&quot; class=&quot;aligncenter size-full wp-image-3999&quot; height=&quot;429&quot; src=&quot;https://dentrassi.de/wp-content/uploads/drawing_2.png&quot; width=&quot;1680&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Preparations&lt;/h2&gt;
+&lt;p&gt;For the next step, you again need to install a Camel package, for interfacing with &lt;a href=&quot;https://openweathermap.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Open Weather Map&lt;/a&gt;:  &lt;code&gt;https://repo1.maven.org/maven2/de/dentrassi/kura/addons/de.dentrassi.kura.addons.camel.weather/0.6.0/de.dentrassi.kura.addons.camel.weather-0.6.0.dp&lt;/code&gt; The installation follows the same way as already described in part #1.&lt;/p&gt;
+&lt;p&gt;In addition to the installation of the package, you will also need to create an account at &lt;a href=&quot;https://openweathermap.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;https://openweathermap.org/&lt;/a&gt; and create an API key. You can select the free tier plan, it is more than enough for our example.&lt;/p&gt;
+&lt;h2&gt;Back to Wires&lt;/h2&gt;
+&lt;p&gt;Next, create a new Camel context, like before, and give it the ID “camel2”. Add the required component &lt;code&gt;weather&lt;/code&gt;, the required language &lt;code&gt;groovy&lt;/code&gt; and set the following XML router content (be sure to replace &amp;lt;appid&amp;gt; with your API token):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;xml&quot;&gt;&amp;lt;routes xmlns=&quot;http://camel.apache.org/schema/spring&quot;&amp;gt;
+
+  &amp;lt;route&amp;gt;
+
+    &amp;lt;from uri=&quot;weather:dummy?appid=&amp;lt;YOUR API TOKEN&amp;gt;&amp;amp;amp;lat=48.1351&amp;amp;amp;lon=11.5820&quot;/&amp;gt;
+    &amp;lt;to uri=&quot;stream:out&quot;/&amp;gt;
+
+    &amp;lt;unmarshal&amp;gt;&amp;lt;json library=&quot;Gson&quot;&amp;gt;&amp;lt;/json&amp;gt;&amp;lt;/unmarshal&amp;gt;
+    &amp;lt;transform&amp;gt;&amp;lt;simple&amp;gt;${body[&quot;main&quot;][&quot;temp&quot;]}&amp;lt;/simple&amp;gt;&amp;lt;/transform&amp;gt;
+    &amp;lt;convertBodyTo type=&quot;java.lang.Double&quot;/&amp;gt;
+    &amp;lt;to uri=&quot;stream:out&quot;/&amp;gt;
+
+    &amp;lt;transform&amp;gt;&amp;lt;groovy&amp;gt;[&quot;TEMP&quot;: request.body-273.15]&amp;lt;/groovy&amp;gt;&amp;lt;/transform&amp;gt;
+    &amp;lt;to uri=&quot;stream:out&quot;/&amp;gt;
+    &amp;lt;to uri=&quot;seda:output1&quot;/&amp;gt;
+
+  &amp;lt;/route&amp;gt;
+
+&amp;lt;/routes&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After applying the changes, you can create two new components in the Wire graph:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new “Camel Consumer”, name it &lt;code&gt;consumer1&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Set the Camel context ID &lt;code&gt;camel2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Set the endpoint URI &lt;code&gt;seda:output1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Create a new “Logger”, name it &lt;code&gt;logger1&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Set it to “verbose”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Connect &lt;code&gt;consumer1&lt;/code&gt; with &lt;code&gt;logger1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Click on “Apply” to activate the changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What does it do?&lt;/h2&gt;
+&lt;p&gt;What this Camel context does, is to first start polling information from the Open Weather Map API. It requests with a manually provided GPS location, Munich.&lt;/p&gt;
+&lt;p&gt;It then parses the JSON, so that we can work with the data. Then it extracts the current temperature from the rather complex Open Weather Map structure. Of course, we could also use a different approach and extract additional or other information.&lt;/p&gt;
+&lt;p&gt;The extracted value could still be a number, represented internally by a string. So we ask Camel to ensure that the body of the message gets converted to a Double. If the body already is a double, then nothing will be done. But, if necessary, Camel will pull in its type converter system and optionally convert e.g. a string to a double by parsing it.&lt;/p&gt;
+&lt;p&gt;Now the body contains the raw value, as a Java double. But we still have two issues with that. The first one is, that the value is in degree Kelvin. Living in Germany, I would expect degree Celsius &lt;img alt=&quot;😉&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/11/72x72/1f609.png&quot; style=&quot;height: 1em;&quot; /&gt; The second issue is, that Kura Wires requires some kind of key to that value, like a Map structure.&lt;/p&gt;
+&lt;p&gt;Fortunately, we easily can solve both issues with a short snippet of Groovy: &lt;code class=&quot;groovy&quot;&gt;[&quot;TEMP&quot;: request.body-273.15]&lt;/code&gt;. This will take the message (request) body, convert it to degree Celsius, and using this as a value for the key &lt;code&gt;TEMP&lt;/code&gt; in the newly created map.&lt;/p&gt;
+&lt;h2&gt;Checking the result&lt;/h2&gt;
+&lt;p&gt;As soon as you apply the changes, you should see some output on the console, which shows the incoming weather data:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;{&quot;coord&quot;:{&quot;lon&quot;:11.58,&quot;lat&quot;:48.14},&quot;weather&quot;:[{&quot;id&quot;:801,&quot;main&quot;:&quot;Clouds&quot;,&quot;description&quot;:&quot;few clouds&quot;,&quot;icon&quot;:&quot;02d&quot;}],&quot;base&quot;:&quot;stations&quot;,&quot;main&quot;:{&quot;temp&quot;:297.72,&quot;pressure&quot;:1021,&quot;humidity&quot;:53,&quot;temp_min&quot;:295.15,&quot;temp_max&quot;:299.15},&quot;visibility&quot;:10000,&quot;wind&quot;:{&quot;speed&quot;:1.5},&quot;clouds&quot;:{&quot;all&quot;:20},&quot;dt&quot;:1537190400,&quot;sys&quot;:{&quot;type&quot;:1,&quot;id&quot;:4914,&quot;message&quot;:0.0022,&quot;country&quot;:&quot;DE&quot;,&quot;sunrise&quot;:1537160035,&quot;sunset&quot;:1537204873},&quot;id&quot;:2867714,&quot;name&quot;:&quot;Muenchen&quot;,&quot;cod&quot;:200}
+297.72
+{TEMP=24.57000000000005}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Every change, which should happen every second, shows three lines. First the raw JSON data, directly from the Open Weather Map API. Then the raw temperature in degree Kelvin, parsed by Camel and converted into a Java type already. Followed by the custom Map structure, created by the Groovy script. The beauty here is again, that you don’t need to fiddle around with custom data structures of the Kura Wires system, but can rely on standard data structures likes plain Java maps.&lt;/p&gt;
+&lt;p&gt;Looking at the Kura log file, which is by default &lt;code&gt;/var/log/kura.log&lt;/code&gt;, you should see some output like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;2018-09-17T13:57:10,117 [Camel (camel-15) thread #31 - seda://output1] INFO  o.e.k.i.w.l.Logger - Received WireEnvelope from org.eclipse.kura.wire.camel.CamelConsume-1537188764126-1
+2018-09-17T13:57:10,117 [Camel (camel-15) thread #31 - seda://output1] INFO  o.e.k.i.w.l.Logger - Record List content:
+2018-09-17T13:57:10,118 [Camel (camel-15) thread #31 - seda://output1] INFO  o.e.k.i.w.l.Logger -   Record content:
+2018-09-17T13:57:10,118 [Camel (camel-15) thread #31 - seda://output1] INFO  o.e.k.i.w.l.Logger -     TEMP : 24.57000000000005
+2018-09-17T13:57:10,118 [Camel (camel-15) thread #31 - seda://output1] INFO  o.e.k.i.w.l.Logger -
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This shows the same value, as processed by the Camel context but received by Kura Wires. &lt;/p&gt;
+&lt;h2&gt;Wrapping it up&lt;/h2&gt;
+&lt;p&gt;Now, of course, a simple logger component isn’t really useful. But as you might now, Kura has the ability to connect to a GPS receiver. So you could also take the current position as an input to the Open Weather Map request. And instead of using my static GPS coordinates of Munich, you could query for the nearby weather information. So this might allow you to create some amazing IoT applications.&lt;/p&gt;
+&lt;p&gt;Stay tuned for &lt;a href=&quot;https://dentrassi.de/2018/09/19/apache-camel-java-dsl-eclipse-kura-wires/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Part #3&lt;/a&gt;, where we will look at a Camel based solution, which can run inside of Kura, as well as outside. Including actual unit tests, ready for continuous delivery.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://dentrassi.de/2018/09/17/sunny-weather-apache-camel-kura-wires/&quot; rel=&quot;nofollow&quot;&gt;Sunny weather with Apache Camel and Kura Wires&lt;/a&gt; appeared first on &lt;a href=&quot;https://dentrassi.de&quot; rel=&quot;nofollow&quot;&gt;ctron's blog&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Mon, 17 Sep 2018 14:48:37 +0000</pubDate>
+</item>
+<item>
 	<title>Jens Reimann: Leveraging the power of Apache Camel in Eclipse Kura</title>
 	<guid isPermaLink="false">https://dentrassi.de/?p=3969</guid>
 	<link>https://dentrassi.de/2018/09/14/the-power-of-apache-camel-in-eclipse-kura/</link>
@@ -156,9 +464,21 @@ return  [&quot;value&quot;: new Random().nextInt(10), &quot;timer&quot;: request
 &lt;h2&gt;Wrapping it up&lt;/h2&gt;
 &lt;p&gt;What we have seen so far is that, with a few lines of XML, it is possible to interface with Kura Wires, and start processing data that was originally not supported by Kura, sending to a target that also isn’t supported by Kura. On for that we only used a few lines of XML.&lt;/p&gt;
 &lt;p&gt;In addition to that, you can test and develop everything in a local, confined space. Without having to worry too much about actually running a Kura instance.&lt;/p&gt;
-&lt;p&gt;In Part #2 of this tutorial, we will continue with this approach and develop a Camel based solution, which can run inside of Kura, as well as outside, including actual unit tests.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&quot;https://dentrassi.de/2018/09/17/sunny-weather-apache-camel-kura-wires/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Part #2&lt;/a&gt;, we will have a look at ways to get data from Camel back into Kura Wires. And in &lt;a href=&quot;https://dentrassi.de/2018/09/19/apache-camel-java-dsl-eclipse-kura-wires/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Part #3&lt;/a&gt; of this tutorial, we will continue with this approach and develop a Camel based solution, which can run inside of Kura, as well as outside, including actual unit tests.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://dentrassi.de/2018/09/14/the-power-of-apache-camel-in-eclipse-kura/&quot; rel=&quot;nofollow&quot;&gt;Leveraging the power of Apache Camel in Eclipse Kura&lt;/a&gt; appeared first on &lt;a href=&quot;https://dentrassi.de&quot; rel=&quot;nofollow&quot;&gt;ctron's blog&lt;/a&gt;.&lt;/p&gt;</description>
 	<pubDate>Fri, 14 Sep 2018 13:52:25 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: Sponsor testimonial: Jonas Helming on EclipseSource @ EclipseCon</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/717 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/sponsor-testimonial-jonas-helming-eclipsesource-eclipsecon</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;em&gt;Learn more about the EclipseSource contributions to the program on themes such as the Eclipse Theia platform, modeling tools, Eclipse 4 and general web-related topics.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Q - If you had to choose a theme to watch at the conference, what would it be?&lt;/p&gt;
+
+&lt;p&gt;A new trending topic at EclipseCon is definitely the growing interest into web-based tools. It is interesting for projects, whether web-based tooling is already a valid alternative and if so when and how to migrate. A lot of this interest is focussed around Eclipse Theia ..&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/sponsor-testimonial-jonas-helming-eclipsesource-eclipsecon&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Jonas600.png?itok=wbTEv6zr&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 14 Sep 2018 11:54:27 +0000</pubDate>
 </item>
 <item>
 	<title>Eclipse Announcements: An $8.7 Billion Shared Investment: Sizing the Economic Value of Eclipse Community Collaboration</title>
@@ -259,7 +579,7 @@ return  [&quot;value&quot;: new Random().nextInt(10), &quot;timer&quot;: request
 	<link>https://www.eclipsecon.org/europe2018/news/introducing-our-keynote-speakers</link>
 	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Hirash Pillay, Global Head, Community Architecture and Leadership at RedHat - Lessons on Open Source&lt;em&gt; from a 25-Year-Old Company&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Tony Walsh, European Space Agency - &lt;em&gt;Flying to Jupiter with OSGi&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Tony Walsh, European Space Agency and Hristo Indzhov, Telespazio-Vega Deutschland - &lt;em&gt;Flying to Jupiter with OSGi&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Amanda Whaley, Director of Developer Experience &amp;amp; Developer Advocacy for Cisco DevNet -  &lt;em&gt;Marie Curie, Open Source, Kickstarter, and Women in Tech&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/introducing-our-keynote-speakers&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Keynotes.png?itok=nViEJQZF&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Wed, 12 Sep 2018 10:04:47 +0000</pubDate>
@@ -295,618 +615,6 @@ export CXX=/opt/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-
 &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;That’s it! Copy your project directory onto your Raspberry and start it as usual:&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Note: There is currently a time out issue when running Theia on a slow machine like a Raspberry Pi. You can avoid this problem by appending &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;–no-cluster to the yarn start command. With this option, everything will run in the same process rather than separate worker processes. The progress of this issue is being tracked &lt;/span&gt;&lt;a href=&quot;https://github.com/theia-ide/theia/issues/2710&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;</description>
 	<pubDate>Wed, 12 Sep 2018 09:49:45 +0000</pubDate>
-</item>
-<item>
-	<title>JBoss Tools Team: JBoss Tools 4.9.0.AM2 for Eclipse 2018-09 M2</title>
-	<guid isPermaLink="true">https://tools.jboss.org/blog/4.9.0.am2.html</guid>
-	<link>https://tools.jboss.org/blog/4.9.0.am2.html</link>
-	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Happy to announce 4.9.0.AM2 (Developer Milestone 2) build for Eclipse 2018-09 M2.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Downloads available at &lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/2018-09/4.9.0.AM2.html&quot;&gt;JBoss Tools 4.9.0 AM2&lt;/a&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Full info is at &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.9.0.AM2.html&quot;&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;general&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#general&quot;&gt;&lt;/a&gt;General&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;eclipse-2018-09&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#eclipse-2018-09&quot;&gt;&lt;/a&gt;Eclipse 2018-09&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;JBoss Tools is now targeting Eclipse 2018-09 M2.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;wsdl-to-camel-rest-dsl-improvements&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#wsdl-to-camel-rest-dsl-improvements&quot;&gt;&lt;/a&gt;WSDL to Camel REST DSL improvements&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The version of the library used to generate Camel REST DSL from WSDl files has been updated. It now covers more types of WSDL files. See &lt;a class=&quot;bare&quot; href=&quot;https://github.com/jboss-fuse/wsdl2rest/milestone/3?closed=1&quot;&gt;https://github.com/jboss-fuse/wsdl2rest/milestone/3?closed=1&lt;/a&gt; for the list of improvements.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;rest-editor-tab-improvements&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#rest-editor-tab-improvements&quot;&gt;&lt;/a&gt;REST Editor tab improvements&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;In the last milestone we began adding editing capabilities to the read-only REST tab to the route editor we added in the previous release. Those efforts have continued and we now have a fully editable REST tab.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Fully Editable REST Editor&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/fuse-editor-rest-tab-properties-11.1.0.am2.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;You can now:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ulist&quot;&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;Create and delete REST Configurations&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Create and delete new REST Elements&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Create and delete new REST Operations&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Edit properties for a selected REST Element in the Properties view&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Edit properties for a selected REST Operation in the Properties view&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;In addition, we’ve improved the look and feel by fixing the scrolling capabilities of the REST Element and REST Operations lists.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Enjoy!&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Jeff Maury&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 12 Sep 2018 06:24:40 +0000</pubDate>
-</item>
-<item>
-	<title>Donald Raab: EC by Example: InjectInto</title>
-	<guid isPermaLink="false">https://medium.com/p/923a35c3b0cd</guid>
-	<link>https://medium.com/@donraab/ec-by-example-injectinto-923a35c3b0cd?source=rss-df39b86e9f04------2</link>
-	<description>&lt;p&gt;Learn one of the most general, flexible, and least understood iteration patterns in &lt;a href=&quot;http://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*oVENcGt-nrxKgVPBGfRBGQ.png&quot; /&gt;Grounds for Sculpture, Hamilton N.J.&lt;/figure&gt;&lt;h3&gt;Continuum Transfunctioner&lt;/h3&gt;&lt;p&gt;Like the Continuum Transfunctioner from “Dude, Where’s my car”, the method &lt;em&gt;injectInto&lt;/em&gt; is a very mysterious and powerful method, and its mystery is only exceeded by its power.&lt;/p&gt;&lt;h3&gt;So what does injectInto do?&lt;/h3&gt;&lt;p&gt;The method &lt;em&gt;injectInto&lt;/em&gt; can be used to do pretty much anything. The method injects an initial value into a two argument function along with the first element of the collection, and calculates some result. That result is then passed to the next invocation of the function as the initial value along with the next element of the collection. And so on and so forth until all elements of the collection have been visited and a final result is returned.&lt;/p&gt;&lt;p&gt;The name &lt;em&gt;injectInto&lt;/em&gt; is based on the &lt;a href=&quot;https://martinfowler.com/articles/collection-pipeline/#op-catalog&quot;&gt;&lt;em&gt;inject:into&lt;/em&gt;:&lt;/a&gt; selector from Smalltalk. &lt;em&gt;InjectInto&lt;/em&gt; is an alternative name for &lt;em&gt;foldLeft&lt;/em&gt; or &lt;em&gt;reduce&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;I will illustrate ways to implement various algorithms using &lt;em&gt;injectInto&lt;/em&gt; to show how mysterious and powerful it is.&lt;/p&gt;&lt;h3&gt;Example: Min and Max&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void injectIntoMinAndMax()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; list = Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;br /&gt;&lt;br /&gt;    Integer maxInt = Integer.&lt;strong&gt;&lt;em&gt;MAX_VALUE&lt;/em&gt;&lt;/strong&gt;;&lt;br /&gt;    Integer minValue = list.injectInto(maxInt, Math::&lt;em&gt;min&lt;/em&gt;);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(list.min(), minValue);&lt;br /&gt;&lt;br /&gt;    Integer minInt = Integer.&lt;strong&gt;&lt;em&gt;MIN_VALUE&lt;/em&gt;&lt;/strong&gt;;&lt;br /&gt;    Integer maxValue = list.injectInto(minInt, Math::&lt;em&gt;max&lt;/em&gt;);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(list.max(), maxValue);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Example: Sum&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void injectIntoSum()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; list = Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;br /&gt;&lt;br /&gt;    Integer sum = list.injectInto(Integer.&lt;em&gt;valueOf&lt;/em&gt;(0), Integer::&lt;em&gt;sum&lt;/em&gt;);&lt;/pre&gt;&lt;pre&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(Integer.&lt;em&gt;valueOf&lt;/em&gt;(15), sum);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Example: Product&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void injectIntoProduct()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; list = Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;br /&gt;&lt;br /&gt;    Integer product =&lt;br /&gt;            list.injectInto(&lt;br /&gt;                    Integer.&lt;em&gt;valueOf&lt;/em&gt;(1), &lt;br /&gt;                    (result, each) -&amp;gt; result * each);&lt;/pre&gt;&lt;pre&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(Integer.&lt;em&gt;valueOf&lt;/em&gt;(120), product);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Example: Collect&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void injectIntoCollect()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;String&amp;gt; lowerCase =&lt;br /&gt;            Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;a&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;b&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;c&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;d&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;e&quot;&lt;/strong&gt;);&lt;/pre&gt;&lt;pre&gt;    MutableList&amp;lt;Object&amp;gt; upperCase =&lt;br /&gt;            lowerCase.injectInto(&lt;br /&gt;                    Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.empty(),&lt;br /&gt;                    (list, each) -&amp;gt; list.with(each.toUpperCase()));&lt;/pre&gt;&lt;pre&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;br /&gt;            lowerCase.collect(String::toUpperCase), &lt;br /&gt;            upperCase);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Example: GroupBy&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void injectIntoGroupBy()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; list = Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;/pre&gt;&lt;pre&gt;    MutableListMultimap&amp;lt;Integer, Integer&amp;gt; grouped = &lt;br /&gt;            Multimaps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.list.empty();&lt;/pre&gt;&lt;pre&gt;    list.injectInto(grouped, (multimap, each) -&amp;gt; {&lt;br /&gt;        multimap.put(each % 2, each);&lt;br /&gt;        return multimap;&lt;br /&gt;    });&lt;/pre&gt;&lt;pre&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(list.groupBy(each -&amp;gt; each % 2), grouped);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Example: Collectors.groupingBy&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void injectIntoGroupingBy()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; list = Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;/pre&gt;&lt;pre&gt;    MutableMap&amp;lt;Integer, List&amp;lt;Integer&amp;gt;&amp;gt; grouped =&lt;br /&gt;            Maps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.empty();&lt;/pre&gt;&lt;pre&gt;    list.injectInto(grouped, (map, each) -&amp;gt; {&lt;br /&gt;        map.getIfAbsentPut(each % 2,Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;::empty)&lt;br /&gt;                .add(each);&lt;br /&gt;        return map;&lt;br /&gt;    });&lt;/pre&gt;&lt;pre&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;br /&gt;            list.stream().collect(&lt;br /&gt;                    Collectors.&lt;em&gt;groupingBy&lt;/em&gt;(each -&amp;gt; each % 2)),&lt;br /&gt;            grouped);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Example: Detect&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void injectIntoDetect()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; list = Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;/pre&gt;&lt;pre&gt;    Integer value = list.injectInto(&lt;br /&gt;            null,&lt;br /&gt;            (result, each) -&amp;gt;&lt;br /&gt;                    result == null &amp;amp;&amp;amp; each &amp;gt; 2 ? each : result);&lt;/pre&gt;&lt;pre&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(list.detect(each -&amp;gt; each &amp;gt; 2), value);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Example: Select&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void injectIntoSelect()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; list = Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;/pre&gt;&lt;pre&gt;    MutableList&amp;lt;Integer&amp;gt; value = list.injectInto(&lt;br /&gt;            Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.empty(),&lt;br /&gt;            (result, each) -&amp;gt;&lt;br /&gt;                    each % 2 == 0 ? result.with(each) : result);&lt;/pre&gt;&lt;pre&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(list.select(each -&amp;gt; each % 2 == 0), value);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;APIs covered in the examples&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#injectInto-IV-org.eclipse.collections.api.block.function.Function2-&quot;&gt;injectInto&lt;/a&gt; — applies a two argument function to each element of a collection using an initial value, and then injecting the result of each application of the function into the next iteration.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Check out this &lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/api-design&quot;&gt;presentation&lt;/a&gt; to learn more about the origins, design and evolution of the Eclipse Collections API.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=923a35c3b0cd&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 12 Sep 2018 00:39:59 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Mizuho International Joins Eclipse Foundation</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/FqTq8dU945o/Mizuho-International-Joins-Eclipse-Foundation.html</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/FqTq8dU945o/Mizuho-International-Joins-Eclipse-Foundation.html</link>
-	<description>Mizuho International, the securities &amp;amp; investment banking arm of the Mizuho Financial Group, has joined the Eclipse Foundation.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/FqTq8dU945o&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 11 Sep 2018 19:55:00 +0000</pubDate>
-</item>
-<item>
-	<title>Wayne Beaton: Lightening the Release Review Burden</title>
-	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5444</guid>
-	<link>https://waynebeaton.wordpress.com/2018/09/11/lightening-the-release-review-burden/</link>
-	<description>&lt;p&gt;The Eclipse Architecture Council is in the process of making a change to how the &lt;a href=&quot;http://www.eclipse.org/projects/dev_process/development_process.php&quot;&gt;Eclipse Development Process&lt;/a&gt; (EDP) defines the Reviews that Eclipse open source projects are required to engage in. Foremost on our minds is the nature of Release Reviews which the EDP current requires ahead of all major and minor releases (service releases are excused from the requirement).&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=496321&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;current thinking&lt;/a&gt; is that we will decouple Releases from Reviews and instead require a regular (probably annual) equivalent to the Release Review.&lt;/p&gt;
-&lt;p&gt;This is actually not as big a departure from the current process as you might think. The EDP describes the Release Review as an opportunity “to summarize the accomplishments of the release, to verify that the IP Policy has been followed and all approvals have been received, to highlight any remaining quality and/or architectural issues, and to verify that the project is continuing to operate according to the principles and purposes of Eclipse.” That is, it is far less about the current release than it is about ensuring that the process is being followed and that the project is doing the right sorts of things to attract and grow community.&lt;/p&gt;
-&lt;p&gt;Likewise, the purpose of an IP Log is &lt;b&gt;not&lt;/b&gt; to accurately represent the contents of any particular release, but rather to provide a checkpoint to ensure that the project is correctly following the &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip&quot;&gt;Eclipse IP Due Diligence Process&lt;/a&gt; (so project teams can continue to receive contributions or engage in other activities that might change the IP Log between the point in time when it is reviewed and approved, and the project makes a release).&lt;/p&gt;
-&lt;p&gt;Eclipse committers are required to observe the &lt;a href=&quot;http://eclipse.org/org/documents/Eclipse_IP_Policy.pdf&quot;&gt;Eclipse IP Policy&lt;/a&gt; and IP Due Diligence Process at all times, and so our open source projects must &lt;b&gt;always&lt;/b&gt; be in correct state with regard to intellectual property management.&lt;/p&gt;
-&lt;p&gt;For those of you who have made it this far, it would be great if you could weigh in on &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=534828&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Bug 534828&lt;/a&gt; which includes an effort to more precisely define “Release”. We’re tracking all of our plans to update the EDP via &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=484593&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Bug 484593&lt;/a&gt;. Input is welcome.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;</description>
-	<pubDate>Tue, 11 Sep 2018 15:00:43 +0000</pubDate>
-</item>
-<item>
-	<title>Thabang Mashologu: An $8.7 Billion Shared Investment: Sizing the Economic Value of Eclipse Community Collaboration</title>
-	<guid isPermaLink="false">https://blogs.eclipse.org/6639 at https://blogs.eclipse.org</guid>
-	<link>https://blogs.eclipse.org/post/thabang-mashologu/87-billion-shared-investment-sizing-economic-value-eclipse-community</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;What is the value of the code contributed by the Eclipse community? Inspired by a 2015 Linux Foundation study of &lt;a href=&quot;https://www.linuxfoundation.org/press-release/2015/09/the-linux-foundation-releases-first-ever-value-of-collaborative-development-report/&quot;&gt;the value of open source collaboration&lt;/a&gt;, we estimate that the roughly &lt;strong&gt;162 million total physical source lines of code&lt;/strong&gt; in Eclipse repositories represent an &lt;strong&gt;$8.7 billion USD shared technology investment&lt;/strong&gt; by our community.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://blogs.eclipse.org/sites/default/files/users/user160/thabang_blog_imagev5.png&quot; style=&quot;height: 315px; width: 560px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Open source has won because no single company can compete with the rate and scale of disruptive innovation delivered by collaborative ecosystems. In this post, I’ll share the details of our analysis of the economic value of open collaboration under the Eclipse governance model. As borne out by our experience, industry collaboration done properly delivers broad benefits to the ecosystem, including increased business agility, margin preservation, and the riskless sharing of intellectual property. &lt;/p&gt;
-
-&lt;h2&gt;The Strategic Value of Eclipse Collaboration&lt;/h2&gt;
-
-&lt;p&gt;Delivering sustainable software innovation at scale requires an economic investment that is unlikely to be shouldered by one company alone. Industry leaders like Bosch, Google, Amazon, and many others have embraced this reality. Increasingly, collaboration is viewed as a basis for competitive advantage. &lt;/p&gt;
-
-&lt;p&gt;The thinking goes like this: working with other industry players — even your fiercest competitors — on technology below the value line frees up scarce organizational resources to focus on delivering differentiating features faster, thereby igniting revenue growth. By pooling the development effort associated with commodity or backend capabilities, open source participants can save on headcount expenses, lower their development costs, and mitigate business risk by accelerating the market adoption of technologies and standards.&lt;/p&gt;
-
-&lt;p&gt;Consider mature industries faced with commoditization of traditional differentiators like the automotive and telecommunications sectors, where incumbents are squeezed by declining profits and the entry of digital-native disruptors like Tesla and Google. Collaborative development done right enables margin preservation and IP sharing without the threat of antitrust and regulatory challenges.&lt;/p&gt;
-
-&lt;p&gt;There are plenty of real-world examples of fierce industry rivals collaborating on open source. At the Eclipse Foundation’s &lt;a href=&quot;https://www.openmdm.org/&quot;&gt;openMDM Working Group&lt;/a&gt;, BMW, Daimler, Audi, and other automotive OEMs and supply chain partners collaborate on open technologies for the management of standardized measurement data. In the cloud space, Alibaba, Amazon, Google and Microsoft are members of the Cloud Native Computing Foundation. Commercially-friendly OSS foundations provide the even playing field for everyone to frictionlessly work together on sustainable technology, while managing risk, and extracting value.&lt;/p&gt;
-
-&lt;p&gt;The Eclipse Foundation has a proven track record of enabling open collaboration and innovation earned over 15 years. The &lt;a href=&quot;https://www.eclipse.org/org/workinggroups/&quot;&gt;Eclipse Working Groups&lt;/a&gt; provide an open and vendor-neutral governance framework for individuals and organizations to engage in collaborative development. Combined with efficient &lt;a href=&quot;https://www.eclipse.org/org/#Development&quot;&gt;development processes&lt;/a&gt; and rigorous &lt;a href=&quot;https://www.eclipse.org/org/#IP_Management&quot;&gt;intellectual property services&lt;/a&gt;, the end result is clean code that is readily built into commercial products. In essence, we help the Eclipse community deliver open source code that works and scales in the real world.&lt;/p&gt;
-
-&lt;h2&gt;What’s in a Number?&lt;/h2&gt;
-
-&lt;p&gt;My colleague Benjamin Cabé recently &lt;a href=&quot;https://blog.benjamin-cabe.com/2018/09/04/how-many-lines-of-open-source-code-are-hosted-at-the-eclipse-foundation&quot;&gt;shared the detailed methodology&lt;/a&gt; behind the count of 162 million total physical source lines of code contributed to 330 active Eclipse projects in 1,120 Git repositories (as of August 1, 2018). The goal of our economic analysis was to assess the value to the ecosystem delivered by Eclipse projects. &lt;/p&gt;
-
-&lt;p&gt;The creation of the original Eclipse project was announced in a 2001 IBM &lt;a href=&quot;https://www-03.ibm.com/press/us/en/pressrelease/1025.wss&quot;&gt;press release&lt;/a&gt; as a contribution of $40 million of software. At the time, the Eclipse community already involved more than 150 leading software tool suppliers and over 1,200 individual developers from 63 countries.&lt;/p&gt;
-
-&lt;p&gt;The Eclipse ecosystem is now supported by over 275 members and more than 1,550 committers. By sizing the software development effort to recreate the R&amp;amp;D effort over the last 14 years and now available to all, we can estimate the value provided to everyone who consumes these projects, including companies shipping this open code in commercial products.&lt;/p&gt;
-
-&lt;p&gt;The findings are remarkable:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Using Barry W. Boehm’s well-regarded Basic Constructive Cost Model (&lt;a href=&quot;https://en.wikipedia.org/wiki/COCOMO&quot;&gt;COCOMO&lt;/a&gt;), &lt;strong&gt;the total amount of development effort required to rebuild the R&amp;amp;D available to all is an estimated 59,246 person-years.&lt;/strong&gt;&lt;/li&gt;
-	&lt;li&gt;It would take &lt;strong&gt;1,700 developers about 35 years&lt;/strong&gt; to rebuild the 162 million total physical source lines of code in the Eclipse code repositories.&lt;/li&gt;
-	&lt;li&gt;The total economic value of this work is estimated to be &lt;strong&gt;$8.7 billion&lt;/strong&gt;. &lt;/li&gt;
-	&lt;li&gt;Coming in at 2.93 million lines of code, the development costs of &lt;a href=&quot;https://iot.eclipse.org/projects/&quot;&gt;Eclipse IoT projects&lt;/a&gt; total about $&lt;strong&gt;128 million&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Breaking Down the Math&lt;/h2&gt;
-
-&lt;p&gt;Here are the detailed results of our analysis:&lt;/p&gt;
-
-&lt;table border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; style=&quot;width: 590px;&quot;&gt;
-	&lt;thead&gt;
-		&lt;tr&gt;
-			&lt;th scope=&quot;col&quot; style=&quot;width: 236px;&quot;&gt; &lt;/th&gt;
-			&lt;th scope=&quot;col&quot; style=&quot;width: 133px;&quot;&gt;Value&lt;/th&gt;
-			&lt;th scope=&quot;col&quot; style=&quot;width: 218px;&quot;&gt;Notes&lt;/th&gt;
-		&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-		&lt;tr&gt;
-			&lt;td style=&quot;width: 236px;&quot;&gt;Total Physical Source Lines of Code (SLOC)&lt;/td&gt;
-			&lt;td style=&quot;width: 133px;&quot;&gt;162,582,158&lt;/td&gt;
-			&lt;td style=&quot;width: 218px;&quot;&gt;Within the Eclipse repository as of August 2018&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td style=&quot;width: 236px;&quot;&gt;Thousands of Source Lines of Code (KSLOC)&lt;/td&gt;
-			&lt;td style=&quot;width: 133px;&quot;&gt;162,582&lt;/td&gt;
-			&lt;td style=&quot;width: 218px;&quot;&gt;(KSLOC = SLOC / 1,000)&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td style=&quot;width: 236px;&quot;&gt;Development Effort Estimate, Person-Years (Person-Months)&lt;/td&gt;
-			&lt;td style=&quot;width: 133px;&quot;&gt;710,948 (59,246)&lt;/td&gt;
-			&lt;td style=&quot;width: 218px;&quot;&gt;(Basic COCOMO model, Person-Months = 2.4 * (KSLOC**1.05))&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td style=&quot;width: 236px;&quot;&gt;Schedule Estimate, Years (Months)&lt;/td&gt;
-			&lt;td style=&quot;width: 133px;&quot;&gt;35 (418)&lt;/td&gt;
-			&lt;td style=&quot;width: 218px;&quot;&gt;(Basic COCOMO model, Months = 2.5 * (person-months**0.38))&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td style=&quot;width: 236px;&quot;&gt;Development Team Size&lt;/td&gt;
-			&lt;td style=&quot;width: 133px;&quot;&gt;1,699&lt;/td&gt;
-			&lt;td style=&quot;width: 218px;&quot;&gt;(Team Size = Effort/Schedule)&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td style=&quot;width: 236px;&quot;&gt;&lt;strong&gt;Total Estimated Cost to Develop&lt;/strong&gt;&lt;/td&gt;
-			&lt;td style=&quot;width: 133px;&quot;&gt;&lt;strong&gt;$8,735,111,546 USD&lt;/strong&gt;&lt;/td&gt;
-			&lt;td style=&quot;width: 218px;&quot;&gt;
-			&lt;p&gt;Average salary = $102,470 / year, overhead dividend = 0.695&lt;/p&gt;
-
-			&lt;p&gt;(Total Estimated Cost = Schedule Estimate, Years * Development Team Size *  $102,470 / 0.695)&lt;/p&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;Model Assumptions and Limitations:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;https://www.bls.gov/oes/current/oes_nat.htm&quot;&gt;Salary&lt;/a&gt; and &lt;a href=&quot;https://www.bls.gov/news.release/pdf/ecec.pdf&quot;&gt;fully loaded costs&lt;/a&gt; used are courtesy of the US Bureau of Labor Statistics (March and August 2018 data). The Linux Foundation’s 2015 study used $95,280 per year for the median software developer salary and a 0.693 fully-loaded overhead factor.&lt;/li&gt;
-	&lt;li&gt;The model assumes all the software development would occur in the US. Clearly software development is global, and labor costs would vary accordingly.&lt;/li&gt;
-	&lt;li&gt;It is assumed that all lines of code have equal value. This ignores the differences in languages, functionality and quality of the code. While counting lines of code allows an estimation of the development effort required to recreate the code within these projects, the languages, problems being solved, and the resulting code within the various Eclipse projects is quite varied. Arguably, better measures of value and derived benefits are the potential or measured impact to the ecosystem and end users.&lt;/li&gt;
-	&lt;li&gt;The figures above do not include the value of the Eclipse intellectual property services. Thus the value of code of IP cleanliness — a major factor for companies building commercial products — is not captured.&lt;/li&gt;
-	&lt;li&gt;Certain Eclipse projects, most notably the Eclipse Modeling, include code generation capabilities. For instance, the Eclipse Modeling Framework (EMF) project is a modeling framework and code generation facility for building tools and other applications based on a structured data model. Modeling accounts for 27.1 million out of the 162 million total lines of code. See the analysis by Eclipse project below for additional context.&lt;/li&gt;
-	&lt;li&gt;This analysis focuses on net additions to the code base. Thus, the amount of effort tied to deleting and changing the code (not to mention modifying dependent code) is not captured in the estimate. &lt;/li&gt;
-	&lt;li&gt;For consistency with the &lt;a href=&quot;https://www.dwheeler.com/sloc/redhat71-v1/redhat71sloc.html&quot;&gt;studies by David Wheeler&lt;/a&gt; and The Linux Foundation respectively, the line counting approach ignores blank lines and comments. The case can be made that this approach undervalues code readability and maintainability.&lt;/li&gt;
-	&lt;li&gt;The analysis assumes the same COCOMO complexity factors and development constants used by Wheeler et al. in their studies.&lt;br /&gt;
-	 &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 dir=&quot;ltr&quot;&gt;&lt;strong&gt;Line Count by Project&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;table border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; style=&quot;width: 500px;&quot;&gt;
-	&lt;thead&gt;
-		&lt;tr&gt;
-			&lt;th scope=&quot;col&quot;&gt;&lt;strong&gt;Top Level Project&lt;/strong&gt;&lt;/th&gt;
-			&lt;th scope=&quot;col&quot;&gt;&lt;strong&gt;Lines of Code&lt;/strong&gt;&lt;/th&gt;
-		&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/rt&quot;&gt;Eclipse RT&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;54,961,728&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/technology&quot;&gt;Eclipse Technology&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;28,887,621&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/modeling&quot;&gt;Eclipse Modeling&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;27,140,344&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/tools&quot;&gt;Eclipse Tools&lt;/a&gt; &lt;/td&gt;
-			&lt;td&gt;14,214,182&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/webtools&quot;&gt;Eclipse Web Tools&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;9,651,900&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/eclipse&quot;&gt;Eclipse&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;6,401,518&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/ee4j&quot;&gt;Eclipse Enterprise for Java (EE4J)&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;5,809,126&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/ecd&quot;&gt;Eclipse Cloud Development&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;3,114,768&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://www.polarsys.org/projects/polarsys&quot;&gt;PolarSys&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;3,105,229&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/iot&quot;&gt;Eclipse IoT&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;2,930,217&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/birt&quot;&gt;Eclipse Business Intelligence and Reporting Tools (BIRT)&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;2,235,624&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/science&quot;&gt;Eclipse Science&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;1,670,051&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/tools.datatools&quot;&gt;Eclipse Data Tools&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;939,424&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/mylyn&quot;&gt;Eclipse Mylyn&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;767,652&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/soa&quot;&gt;Eclipse SOA&lt;/a&gt;&lt;/td&gt;
-			&lt;td&gt;752,774&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;strong&gt;Grand Total&lt;/strong&gt;&lt;/td&gt;
-			&lt;td&gt;&lt;strong&gt;162,582,158&lt;/strong&gt;&lt;/td&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;h2&gt;Collaboration in the Real World&lt;/h2&gt;
-
-&lt;p&gt;The massive shared code investment by the Eclipse community is a testament to the power of collaboration. More than 275 organizations and thousands of developers globally have contributed to the creation of billions of dollars of software value for the ecosystem to leverage. The Eclipse Foundation is proud to support these collective efforts.&lt;/p&gt;
-
-&lt;p&gt;Many thanks to Benjamin Cabé, Wayne Beaton, Barry W. Boehm, David Wheeler, and the authors of the various Linux Foundation studies which inspired this analysis.&lt;br /&gt;
- &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Mon, 10 Sep 2018 21:08:00 +0000</pubDate>
-</item>
-<item>
-	<title>Doug Schaefer: C++ and TypeScript - The Next Generation is Now</title>
-	<guid isPermaLink="false">https://cdtdoug.ca/2018/09/10/native-to-webview</guid>
-	<link>https://cdtdoug.ca/2018/09/10/native-to-webview.html</link>
-	<description>&lt;p&gt;We’re coming up on the 10’th anniversary of one of my favorite EclipseCon memories, Eclipse Summit Europe 2008. Something about staying up until 5 a.m. local time with a bunch of messed up Canadians and Europeans who just didn’t want to go to bed that make an event legendary. What made that special was probably the audience with a legend himself, Dave Thomas, who arguably started this all and who stayed right with us.&lt;/p&gt;
-
-&lt;p&gt;But it was his keynote, “Next Generation Embedded Software - The Imperative is Agility!” that I drew a lot of inspiration from. I can barely remember what it was about but he seemed to be bashing Java a lot so I had somewhat tuned it out. Until the last slide or so where he presented the alternative he controversially suggested would be the next generation: C++ and JavaScript. Wait, what?&lt;/p&gt;
-
-&lt;p&gt;I was probably the only person in the room who took that seriously. &lt;a href=&quot;https://www.mediacurrent.com/blog/brief-history-googles-v8-javascript-engine/&quot;&gt;It was the year that Google had introduced the V8 JavaScript virtual machine.&lt;/a&gt; I spent a little time after the conference figuring out how you’d use it with a C++ application and it definitely seemed plausible. What was missing was a user interface and that seemed like an enormous amount of work so I left it aside.&lt;/p&gt;
-
-&lt;p&gt;Fast forward a few years, we began to see people try and solve that problem by slapping node.js and browser together to create a desktop application framework. First, we had &lt;a href=&quot;https://nwjs.io&quot;&gt;NW.js&lt;/a&gt; who started with webkit but at some point switched to Chromium. Now we also have &lt;a href=&quot;https://electron.io&quot;&gt;Electron&lt;/a&gt; who have done the same but with more separation between node and Chromium to make it easier to keep up with releases of both, in theory.&lt;/p&gt;
-
-&lt;p&gt;Playing with Electron a couple of years ago I started to get the feeling that this vision was indeed coming soon, especially the first time I got Electron to load a C++ Node Addon. And now, I just used a C++ addon to solve a performance problem I was having in a VS Code extension (Electron incarnated as an IDE). That sealed it for me.&lt;/p&gt;
-
-&lt;p&gt;To show what I mean, I have taken the environment I’m using and created a really simple VS Code extension that has everything one would need to get started. It’s dumb, but it implements an asynchronous native function to add two numbers and shows the results in a VS Code webview panel. It includes a bit of messaging framework to allow for type-safe(r) messaging between the webview and the extension. &lt;a href=&quot;https://github.com/dschaefer/n2w-vscode-starter&quot;&gt;As usual, it’s available on my github to check out.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;That was a bit of a long winded introduction, but I’ll dive into the technical details for the rest of this article. Needless to say, I’m pretty excited about it.&lt;/p&gt;
-
-&lt;h2 id=&quot;believe-me-it-builds&quot;&gt;Believe Me, It Builds&lt;/h2&gt;
-
-&lt;p&gt;Figuring out the cleanest way to build this thing and bundle everything together was the most challenging part, and probably what I’m most happy with. There are three different platforms at work and I am able to build them all with a single ‘yarn compile’. And I’m able to work incrementally with minimal fuss, pretty much none, a watch, for for the extension and view and a simple incremental build for native on demand. And thanks to VS Code’s TypeScript support and the clangd C++ language server, I find errors even before I build, as it should be.&lt;/p&gt;
-
-&lt;h3 id=&quot;cmake&quot;&gt;CMake&lt;/h3&gt;
-
-&lt;p&gt;Let’s start with the native side. Everyone who knows me from my work on the Eclipse CDT know I’m all about the CMake build tool these days. After years of working with Makefiles that model the system file by file, CMake lets you work at a higher level where you specify executables and libraries and dependencies between them. It takes care of the file level dependencies for you with a lot of magic, but good magic.&lt;/p&gt;
-
-&lt;p&gt;To build against the node.js APIs, you also need to download the header files, and for Windows, a library to build against. That’s tricky to do, so I borrowed a few ideas from the interweb and created a NodeModule.cmake file under the CMake folder. It takes care of downloading the and extracting the necessary tar ball and sets up the dependencies to it. That makes the CMakeLists.txt file as simple as setting the Electron version for the tar ball, the output directory, and then defining your module.&lt;/p&gt;
-
-&lt;div class=&quot;language-cmake highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ELECTRON_VERSION 2.0.5&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;NODE_MODULE_OUTPUT_DIR &lt;span class=&quot;si&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;CMAKE_SOURCE_DIR&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;/out&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;NodeModule&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;add_node_module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;n2wNative native.cpp&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;That places your module, n2wNative.node in this case, into a platform specific bin directory in the out directory of the project ready to import into the extension.&lt;/p&gt;
-
-&lt;h3 id=&quot;webpack&quot;&gt;Webpack&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://webpack.js.org/&quot;&gt;Webpack&lt;/a&gt; seems to be the leading build framework for web applications. I also noticed with the latest VS Code release they are using it now with it’s built-in extensions. Previously, I had a two step extension build, running webpack for client side and the TypeScript compiler for the extension. They both have file watchers but found the TypeScript one a bit flaky. So bringing them together into the same builder would make things a lot cleaner.&lt;/p&gt;
-
-&lt;p&gt;Webpack allows you to have multiple configs. I created one for the client side and one for the extension. The only real difference is the options for the TypeScript compiler to deal with the different modules systems between the browser and the extension which is running on node.js. I also chunked out the node_modules content for the clients since you are likely to have multiple of those.&lt;/p&gt;
-
-&lt;p&gt;The toughest issue I had was the ‘require’ loading the native module. It seems webpack tries to guess at location and changes the require to somewhere it thinks the module will be. But the whole idea of this module is that it’s platform specific and it needs to calculate which platform it’s on at run time. I finally ran into &lt;strong&gt;non_webpack_require&lt;/strong&gt; which is a hacky way to tell webpack to leave things alone. The TypeScript doesn’t know about that magic so it needs to be declared.&lt;/p&gt;
-
-&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;declare&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;__non_webpack_require__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;any&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;native&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;__non_webpack_require__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`./&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;platform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/n2wNative`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;native&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The next issue I had to deal with was source maps. When I first got things running, VS Code with the Chromium debugger couldn’t figure out my breakpoints. I managed to stumble across a magic command in the Debug Output view, .script, which showed a detail view of the source maps. Webpack uses a magic URL webpack:// in the source maps it seems to be causing the confusion. Luckily, I found out you can control that.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;__dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'out'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'[name].js'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;libraryTarget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'commonjs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;devtoolModuleFilenameTemplate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'[absolute-resource-path]'&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;devtoolModuleFilenameTemplate lets you manage the path used for your source file. I guess webpack is designed more for web apps where using the absolute path is weird.&lt;/p&gt;
-
-&lt;h2 id=&quot;time-for-a-n-api&quot;&gt;Time for a N-API&lt;/h2&gt;
-
-&lt;p&gt;Node offers two API to hook up your C++ Addon, a scary one and a nice one. The scary one actually uses a lot of the V8 APIs and is heavy C++ and tends to tie you to a specific node release for some reason. Their newer simpler API introduce in version 8.0 is called N-API and thankfully VS Code finally switched to Node 8 in version 1.26. It’s a C API and is very reminiscent of Java’s JNI so I found it very easy to work with. It’s marked experimental in Node 8 but I don’t notice any major changes in version 10.&lt;/p&gt;
-
-&lt;p&gt;I didn’t originally intend to go so native. I was working on a tool that scanned a gigabyte size binary memory mapped file extracting data. I started doing that in TypeScript using node Buffers and found the performance surprisingly good, under 3 seconds to do a complete scan. But then I added an else clause to the main if statement and the time hit around 15 seconds. Really? Did I disturb something in JIT that killed performance? How do you even predict how that’s going to work.&lt;/p&gt;
-
-&lt;p&gt;Since I had written my own little memory map function using, I decided to rewrite the algorithm in C++ and ended up with around 1 seconds for the scan. Wow. Being a CDT guy, I know C++ and am pretty comfortable with it. And Modern C++ makes dealing with pointers pretty safe and collections fairly easy. For me, the performance gains were well worth it.&lt;/p&gt;
-
-&lt;p&gt;As I dug more into the features of N-API, I also discovered a hidden treasure. You can actually run your time consuming native algorithm on a worker thread and then use a JavaScript Promise to return the result when it finishes.&lt;/p&gt;
-
-&lt;p&gt;Basically, you create a struct to hold the arguments and result of the algorithm as well as the ‘work’ object the API gives you and a ‘deferred’ object that you use to resolve or reject the promise. That struct gets passed to a ‘work’ function that runs in a worker thread. When the work finishes a ‘completed’ function runs on the JavaScript main thread where you convert the result to a JavaScript value and send it out the promise through the deferred object. Easy, peasy, and pretty powerful.&lt;/p&gt;
-
-&lt;p&gt;I won’t reproduce the whole file here, but check it out at &lt;a href=&quot;https://github.com/dschaefer/n2w-vscode-starter/blob/master/src/native/native.cpp&quot;&gt;src/native/native.cpp&lt;/a&gt;. It’s a bit wordy written in C but I imagine one could wrap it in some C++ classes and generics to make it easier.&lt;/p&gt;
-
-&lt;h2 id=&quot;playing-it-safe&quot;&gt;Playing it Safe&lt;/h2&gt;
-
-&lt;p&gt;When you spend most of your life working in typed languages, first C++ then Java, the prospect of writing a serious app in a dynamically typed scripting language like JavaScript is a bit unsettling. Luckily I’m jumping into this as TypeScript is maturing. It has really helped me, especially as I learn both the VS Code API and the various npm packages I’m using thanks to the great IDE features you get with typed languages.&lt;/p&gt;
-
-&lt;p&gt;But there are two areas where you end up interacting with the raw JavaScript environment that you have to manage. The first is the native module. Most modules that you get off npm come with TypeScript definition files to make the integration easy. You have to provide something like that for the native module.&lt;/p&gt;
-
-&lt;p&gt;I already showed the TypeScript code to do this above. The require call returns a JavaScript object that you create in the module init native function. There are magic ways to give that object a type but I found it easier to start to just wrap it with a TypeScript function that manages loading the module and making the function call, at least for now.&lt;/p&gt;
-
-&lt;p&gt;The other area we need to manage is the communication channel between the extension and the code running in the webview. The webview extension API let’s you bind a OnReceivedMessage callback that gives you the message as a JavaScript object. The webview client injects ‘message’ events into the window object where you can pick them up with a listener.&lt;/p&gt;
-
-&lt;p&gt;To make the messages type safe, I leveraged TypeScript’s Discriminated Unions to declare message types in the &lt;a href=&quot;https://github.com/dschaefer/n2w-vscode-starter/blob/master/src/common/messages.ts&quot;&gt;shared messages.ts file&lt;/a&gt;. On the client side, I created &lt;a href=&quot;https://github.com/dschaefer/n2w-vscode-starter/blob/master/src/view/ServerPort.ts&quot;&gt;a ServerPort class&lt;/a&gt; to manage the client side where I declared override methods to make posting messages type safe. The server side just has a switch statement where TypeScript figures out the type based on the case.&lt;/p&gt;
-
-&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;receiveMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'addRequest'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;postMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-                    &lt;span class=&quot;na&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'addResponse'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;na&quot;&gt;token&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;token&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;na&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;That’s the great thing about TypeScript. You still have the ability to do JavaScript when you need. But you have to come up with a strategy to minimize that surface area as much as possible.&lt;/p&gt;
-
-&lt;h2 id=&quot;challenges-ahead&quot;&gt;Challenges Ahead&lt;/h2&gt;
-
-&lt;p&gt;Now that I have this running in Visual Studio Code, I don’t see any reason why you couldn’t use this architecture in other environments. It is just node.js and a browser in the end.&lt;/p&gt;
-
-&lt;p&gt;For example, I could simply get my tools running directly in Electron as a stand alone offering for people who don’t want to use VS Code as an editor.&lt;/p&gt;
-
-&lt;p&gt;Web IDEs could also benefit. The Theia IDE promises to be compatible with VS Code extensions. It’ll be interesting to try since this is probably the most complex extension I can think of. But other IDEs that have node.js as a server could also work this way.&lt;/p&gt;
-
-&lt;p&gt;But one thing is clear. I’m excited! Whether other tools developers will be as excited isn’t as clear. Either way, I’ve found my next generation tools platform. It uses C++ and JavaScript/TypeScript. And that next generation is now.&lt;/p&gt;</description>
-	<pubDate>Mon, 10 Sep 2018 04:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: How many lines of Open Source code are hosted at the Eclipse Foundation?</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/I9l5sgscxAs/how-many-lines-of-open-source-code-are-hosted-at-the-eclipse-foundation</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/I9l5sgscxAs/how-many-lines-of-open-source-code-are-hosted-at-the-eclipse-foundation</link>
-	<description>As of August 1st, there are 330 active open-source projects and 1120 Git repositories, as for lines of code...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/I9l5sgscxAs&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 05 Sep 2018 14:30:00 +0000</pubDate>
-</item>
-<item>
-	<title>vert.x project: The RSS reader tutorial. Step 2.</title>
-	<guid isPermaLink="true">https://vertx.io/blog/the-rss-reader-tutorial-step-2</guid>
-	<link>https://vertx.io/blog/the-rss-reader-tutorial-step-2</link>
-	<description>&lt;article&gt;&lt;h1 id=&quot;quick-recap&quot;&gt;Quick recap&lt;/h1&gt;
-&lt;p&gt;In &lt;a href=&quot;https://vertx.io/blog/the-rss-reader-tutorial/&quot;&gt;the previous step&lt;/a&gt; we have successfully implemented the first endpoint 
-of the RSS reader app.&lt;/p&gt;
-&lt;p&gt;The RSS reader example assumes implementing 3 endpoints. This article is dedicated to implementing the &lt;code&gt;GET /user/{user_id}/rss_channels&lt;/code&gt; endpoint.&lt;/p&gt;
-&lt;p&gt;Before completing this step, make sure your are in the &lt;code&gt;step_2&lt;/code&gt; git branch:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;git checkout step_2&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&quot;implementing-the-second-endpoint&quot;&gt;Implementing the second endpoint&lt;/h1&gt;
-&lt;p&gt;The second endpoint produces an array of RSS channels by given &lt;code&gt;user_id&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;We need to execute the two following queries to:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Fetch RSS links for a given user: &lt;pre&gt;&lt;code&gt;&lt;span class=&quot;hljs-operator&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;SELECT&lt;/span&gt; rss_link &lt;span class=&quot;hljs-keyword&quot;&gt;FROM&lt;/span&gt; rss_by_user &lt;span class=&quot;hljs-keyword&quot;&gt;WHERE&lt;/span&gt; login = GIVEN_USER_ID ;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Fetch RSS channel details for a given link: &lt;pre&gt;&lt;code&gt;&lt;span class=&quot;hljs-operator&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;SELECT&lt;/span&gt; description, title, site_link, rss_link &lt;span class=&quot;hljs-keyword&quot;&gt;FROM&lt;/span&gt; channel_info_by_rss_link &lt;span class=&quot;hljs-keyword&quot;&gt;WHERE&lt;/span&gt; rss_link = GIVEN_LINK ;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&quot;implementation&quot;&gt;Implementation&lt;/h1&gt;
-&lt;p&gt;The endpoint allows the the front-end app to display the list of RSS feeds a user subscribed on. When the endpoint is accessed, the &lt;code&gt;AppVerticle#getRssChannels&lt;/code&gt; method is called. We can implement this method in this way:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;getRssChannels&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(RoutingContext ctx)&lt;/span&gt; &lt;/span&gt;{
-    String userId = ctx.request().getParam(&lt;span class=&quot;hljs-string&quot;&gt;&quot;user_id&quot;&lt;/span&gt;);
-    &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (userId == &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;) {
-        responseWithInvalidRequest(ctx);
-    } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
-        Future&amp;gt; future = Future.future();
-        client.executeWithFullFetch(selectRssLinksByLogin.bind(userId), future);
-        future.compose(rows -&amp;gt; {
-            List links = rows.stream()
-                    .map(row -&amp;gt; row.getString(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;))
-                    .collect(Collectors.toList());
-
-            &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; CompositeFuture.all(
-                    links.stream().map(selectChannelInfo::bind).map(statement -&amp;gt; {
-                        Future&amp;gt; channelInfoRow = Future.future();
-                        client.executeWithFullFetch(statement, channelInfoRow);
-                        &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; channelInfoRow;
-                    }).collect(Collectors.toList())
-            );
-        }).setHandler(h -&amp;gt; {
-            &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (h.succeeded()) {
-                CompositeFuture result = h.result();
-                List&amp;gt; results = result.list();
-                List list = results.stream()
-                        .flatMap(List::stream)
-                        .collect(Collectors.toList());
-                JsonObject responseJson = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; JsonObject();
-                JsonArray channels = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; JsonArray();
-
-                list.forEach(eachRow -&amp;gt; channels.add(
-                        &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; JsonObject()
-                                .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;description&quot;&lt;/span&gt;, eachRow.getString(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;))
-                                .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;title&quot;&lt;/span&gt;, eachRow.getString(&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;))
-                                .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;link&quot;&lt;/span&gt;, eachRow.getString(&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;))
-                                .put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;rss_link&quot;&lt;/span&gt;, eachRow.getString(&lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;))
-                ));
-
-                responseJson.put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;channels&quot;&lt;/span&gt;, channels);
-                ctx.response().end(responseJson.toString());
-            } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
-                log.error(&lt;span class=&quot;hljs-string&quot;&gt;&quot;failed to get rss channels&quot;&lt;/span&gt;, h.cause());
-                ctx.response().setStatusCode(&lt;span class=&quot;hljs-number&quot;&gt;500&lt;/span&gt;).end(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Unable to retrieve the info from C*&quot;&lt;/span&gt;);
-            }
-        });
-    }
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Also, this method uses &lt;code&gt;selectChannelInfo&lt;/code&gt; and &lt;code&gt;selectRssLinksByLogin&lt;/code&gt; fields, they should be initialized in the &lt;code&gt;AppVerticle#prepareNecessaryQueries&lt;/code&gt; method:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; Future &lt;span class=&quot;hljs-title&quot;&gt;prepareNecessaryQueries&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{
-        Future selectChannelInfoPrepFuture = Future.future();
-        client.prepare(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SELECT description, title, site_link, rss_link FROM channel_info_by_rss_link WHERE rss_link = ? ;&quot;&lt;/span&gt;, selectChannelInfoPrepFuture);
-
-        Future selectRssLinkByLoginPrepFuture = Future.future();
-        client.prepare(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SELECT rss_link FROM rss_by_user WHERE login = ? ;&quot;&lt;/span&gt;, selectRssLinkByLoginPrepFuture);
-
-        Future insertNewLinkForUserPrepFuture = Future.future();
-        client.prepare(&lt;span class=&quot;hljs-string&quot;&gt;&quot;INSERT INTO rss_by_user (login , rss_link ) VALUES ( ?, ?);&quot;&lt;/span&gt;, insertNewLinkForUserPrepFuture);
-
-        &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; CompositeFuture.all(
-                selectChannelInfoPrepFuture.compose(preparedStatement -&amp;gt; {
-                    selectChannelInfo = preparedStatement;
-                    &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; Future.succeededFuture();
-                }),
-                selectRssLinkByLoginPrepFuture.compose(preparedStatement -&amp;gt; {
-                    selectRssLinksByLogin = preparedStatement;
-                    &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; Future.succeededFuture();
-                }),
-                insertNewLinkForUserPrepFuture.compose(preparedStatement -&amp;gt; {
-                    insertNewLinkForUser = preparedStatement;
-                    &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; Future.succeededFuture();
-                })
-        ).mapEmpty();
-    }&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
-&lt;p&gt;In this part, we have successfully implemented the second endpoint, which allows the browser app to obtain channels information for a specific user. To ensure that it is working fine, point your browser to &lt;code&gt;localhost:8080&lt;/code&gt; and click to the refresh button. Channel list should appear immediately.&lt;/p&gt;
-&lt;p&gt;If you have any problems with completing this step you can checkout to &lt;code&gt;step_3&lt;/code&gt;, where you can find all changes made for completing this step:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;git checkout step_3&lt;/code&gt;&lt;/pre&gt;
-
-
-&lt;p&gt;Thanks for reading this. I hope you enjoyed reading this article. See you soon on our &lt;a href=&quot;https://gitter.im/eclipse-vertx/vertx-users&quot;&gt;Gitter channel&lt;/a&gt;!&lt;/p&gt;
-&lt;/article&gt;</description>
-	<pubDate>Wed, 05 Sep 2018 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Talk with your team about EclipseCon Europe 2018</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/IZwptI85kwQ/europe2018</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/IZwptI85kwQ/europe2018</link>
-	<description>Review the program - talks, keynotes and special events - and register by October 1 for the best rates!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/IZwptI85kwQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 04 Sep 2018 15:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Doug Schaefer: Aliens, Go Home! VS Code-style!</title>
-	<guid isPermaLink="false">https://cdtdoug.ca/2018/08/31/aliens-vscode</guid>
-	<link>https://cdtdoug.ca/2018/08/31/aliens-vscode.html</link>
-	<description>&lt;p&gt;&lt;img src=&quot;https://cdtdoug.ca/images/aliens-vscode.png&quot; style=&quot;display: block; margin: auto; height: 400px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Looks ridiculous, doesn’t it. There is a method to my madness though. Stick with me…&lt;/p&gt;
-
-&lt;p&gt;I make it no secret how enthusiastic I am about Visual Studio Code as an IDE platform. I have often commented on my desire to start building tools using web front end technologies (and not necessarily web back ends). I even prototyped an &lt;a href=&quot;https://cdtdoug.ca/2017/02/16/what-is-two-much-more-than-yet-another-eclipse-ide.html&quot;&gt;“Eclipse Two”&lt;/a&gt; that was built on Electron directly. In the end, the Microsoft Zurich team, who also happened to be former leaders at Eclipse, created something similar with a huge community and ecosystem of extensions and I jumped on the bandwagon.&lt;/p&gt;
-
-&lt;p&gt;Being a good code editor and debugger is one thing, in the end there’s more to life as a developer than writing code. Often the systems we work with are more complicated than can be simply represented in text. We need graphics that can abstract away some of the gory details and make system behavior and relationships easier to understand. And that includes both ends, from modeling when creating the system, to tracing when trying to see what it’s doing once we built it.&lt;/p&gt;
-
-&lt;p&gt;There’s a number of ways you can do graphics in a web front end. The first one I considered was SVG. I like it because it’s backed by a data model with API that will let you change properties programmatically. And it simply gives an object oriented approach to graphics. It’s not all good though since those objects come with a price in memory and setup time. But if you keep the number of elements you create under a thousand or so, it’s pretty quick.&lt;/p&gt;
-
-&lt;p&gt;The other advantage of being in the DOM is that React can handle SVG with it’s virtual DOM. This speeds up rendering from changes to the underlying data model and automatically calculates that for you. It’s one of the coolest things in React and why we use it for all our web UI work.&lt;/p&gt;
-
-&lt;p&gt;So I set off to google around for examples where people had done that and I quickly ran across an article series &lt;a href=&quot;https://auth0.com/blog/developing-games-with-react-redux-and-svg-part-1&quot;&gt;Developing Games with React, Redux, and SVG&lt;/a&gt;. It’s really cool and proves out my main thesis about handling changing data models. Games, of course, are all about changing data models!&lt;/p&gt;
-
-&lt;p&gt;To complete the exercise, hooked up a simple VS Code extension that opened up a webview panel and ran the game in it. I rewrote most of it using TypeScript, since I refuse to give into the typeless world of JavaScript. I also switched over to MobX which some of my colleagues were using and it’s much easier to deal with than Redux. The whole thing was a joy to work with.&lt;/p&gt;
-
-&lt;p&gt;If you’re interested, &lt;a href=&quot;https://github.com/dschaefer/aliens-vscode&quot;&gt;I have pushed up my results to my GitHub repositories&lt;/a&gt;. It does look ridiculous running in VS Code. But it shows off the power of the platform. Running in a webview means you’re running in a separate process from the rest of vscode so what ever you do there doesn’t impact the rest of the IDE. From there, you can communicate back with your extension to allow it to interact with your environment and grab data from systems and files and feed back data for rendering. I can’t wait to see where the community (and myself for that matter) take this architecture.&lt;/p&gt;</description>
-	<pubDate>Fri, 31 Aug 2018 18:01:00 +0000</pubDate>
-</item>
-<item>
-	<title>PapyrusUML: MetaModelAgent and Photon me</title>
-	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=1117</guid>
-	<link>https://papyrusuml.wordpress.com/2018/08/30/metamodelagent-and-me/</link>
-	<description>&lt;p&gt;Adocus, a member of my industrial consortium, has released a version of &lt;a href=&quot;http://www.adocus.com/en/products/metamodelagent/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;MetaModelAgent&lt;/a&gt;, their DSML tool, for &lt;a href=&quot;http://projects.eclipse.org/projects/modeling.mdt.papyrus/releases/4.0.0&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;my Photon edition&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;You can read more bout it on their &lt;a href=&quot;http://www.adocus.com/en/news/metamodelagent-v431-released/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;release page&lt;/a&gt;!&lt;/p&gt;
-		&lt;div class=&quot;wpcnt&quot;&gt;
-			&lt;div class=&quot;wpa wpmrec&quot;&gt;
-				&lt;span class=&quot;wpa-about&quot;&gt;Advertisements&lt;/span&gt;
-				&lt;div class=&quot;u&quot;&gt;		&lt;div style=&quot;padding-bottom: 15px; width: 300px; height: 250px; float: left; margin-right: 5px; margin-top: 0px;&quot;&gt;
-		&lt;div id=&quot;atatags-26942-5b87ed65a545d&quot;&gt;
-			
-		&lt;/div&gt;&lt;/div&gt;		&lt;div style=&quot;padding-bottom: 15px; width: 300px; height: 250px; float: left; margin-top: 0px;&quot;&gt;
-		&lt;div id=&quot;atatags-114160-5b87ed65a545f&quot;&gt;
-			
-		&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-				
-			&lt;/div&gt;
-		&lt;/div&gt;</description>
-	<pubDate>Thu, 30 Aug 2018 13:12:16 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Eclipse Foundation Welcomes 16 New Members As Jakarta EE and Eclipse IoT Developer Communities Surge</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/RrzL-H0vxCQ/Eclipse-Foundation-Welcomes-16-New-Members-As-Jakarta-EE-and-Eclipse-IoT-Developer-Communities-Surge.html</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/RrzL-H0vxCQ/Eclipse-Foundation-Welcomes-16-New-Members-As-Jakarta-EE-and-Eclipse-IoT-Developer-Communities-Surge.html</link>
-	<description>Today, the Eclipse Foundation announced the addition of 16 new members.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/RrzL-H0vxCQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 29 Aug 2018 20:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Maximilian and Jonas: Few seats available for the Eclipse Insight in Munich on September 3rd</title>
-	<guid isPermaLink="false">https://eclipsesource.com/?p=39851</guid>
-	<link>https://eclipsesource.com/blogs/2018/08/29/few-seats-available-for-the-eclipse-insight-in-munich-on-september-3rd/</link>
-	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are looking forward to host the first Eclipse Insight in Munich next week on september the 3rd (5.30 pm – 9 pm). There are a few remaining seats available, for registration please see &lt;/span&gt;&lt;a href=&quot;https://www.eventbrite.de/e/eclipse-insight-building-modeling-tools-tickets-45894598981&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The topic of the event will be how to build modeling tools based on open source and Eclipse technology. A special focus will be on the long-term protection of investments in Modeling Tools in times of technology changes, especially regarding web technologies.&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In the first part, there will be expert talks and demos about building a modeling tool based on the well-proven Eclipse platform and EMF. In the second part, we will give an outlook on how those tools can be migrated or directly implemented based on web technologies (e.g. based on &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2018/06/20/welcome-at-eclipse-theia/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse Theia&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;). All speakers will be available for detailed questions and discussions afterwards.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Registration is mandatory, as seats are limited, make sure to get one of the remaining seats and register &lt;/span&gt;&lt;a href=&quot;https://www.eventbrite.de/e/eclipse-insight-building-modeling-tools-tickets-45894598981&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. The event is free of charge including drinks and snacks.&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please feel free to forward this invitation to interested colleagues.&lt;/span&gt;&lt;/p&gt;</description>
-	<pubDate>Wed, 29 Aug 2018 18:10:44 +0000</pubDate>
-</item>
-<item>
-	<title>N4JS: Control flow graphs in N4JS</title>
-	<guid isPermaLink="false">tag:blogger.com,1999:blog-7569987920628430132.post-6918804310889311198</guid>
-	<link>https://n4js.blogspot.com/2018/08/control-flow-graphs-in-n4js_29.html</link>
-	<description>&lt;h4&gt;&lt;b&gt;The N4JS IDE comes with several tools to get insights into the source code such as the AST and the control flow. In this post we present the control flow graph view.&lt;/b&gt;&lt;/h4&gt;&lt;div&gt;&lt;span style=&quot;font-size: x-small; text-align: right;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-cAOdKALRBYk/W4Z-xpbOwvI/AAAAAAAAADQ/ifSTKJstjR82v8W2CAvcmWFKYgHl80DdgCEwYBhgL/s1600/N4JS-IDE.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-cAOdKALRBYk/W4Z-xpbOwvI/AAAAAAAAADQ/ifSTKJstjR82v8W2CAvcmWFKYgHl80DdgCEwYBhgL/s1600/N4JS-IDE.png&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;When learning a programming language, we probably start with a small &lt;i&gt;Hello World!&lt;/i&gt; program. From there on, we learn not only language keywords and libraries, but also get an implicit understanding in which order statements and expressions are executed. This order is called &lt;i&gt;control flow&lt;/i&gt;. For instance, we learn the effects of &lt;span&gt;if&lt;/span&gt; and &lt;span&gt;for&lt;/span&gt; statements which are also called &lt;i&gt;control statements&lt;/i&gt;, since they have a big influence on the execution order. The most difficult statement in this respect is probably the &lt;span&gt;try-finally&lt;/span&gt; control statement, which is explained later.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Hello World&lt;/h3&gt;&lt;span&gt;&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;span&gt;&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;function&lt;/span&gt;&lt;/b&gt; f() {&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  &lt;/span&gt;console.log(&lt;span style=&quot;color: #38761d;&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br /&gt;&lt;span&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;Let's have a look at the &lt;i&gt;Hello World!&lt;/i&gt; from a control flow perspective, first. The source code of &lt;i&gt;Hello World!&lt;/i&gt; is simple, but it already consists of three important elements:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;the method call &lt;span&gt;console.log&lt;/span&gt;,&lt;/li&gt;&lt;li&gt;the nested argument &lt;span&gt;&quot;Hello World!&quot;&lt;/span&gt;, and&lt;/li&gt;&lt;li&gt;the function body of &lt;span&gt;f()&lt;/span&gt; which contains the two elements mentioned above.&lt;/li&gt;&lt;/ul&gt;The function body is also called &lt;i&gt;control flow container&lt;/i&gt;.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-qOAz5PlWg4c/W4Z-wS4-1wI/AAAAAAAAADM/jQqFTmlDPLgp-0TWRPLuh6U8VtIDTDnWACEwYBhgL/s1600/CFG_HelloWorld.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://3.bp.blogspot.com/-qOAz5PlWg4c/W4Z-wS4-1wI/AAAAAAAAADM/jQqFTmlDPLgp-0TWRPLuh6U8VtIDTDnWACEwYBhgL/s1600/CFG_HelloWorld.png&quot; width=&quot;500&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;The image above shows the control flow graph of the &lt;i&gt;Hello World!&lt;/i&gt; example. The method call is separated into the receiver and its property &lt;span&gt;log&lt;/span&gt;. The next element the control flow goes to is the argument &lt;span&gt;&quot;Hello World!&quot;&lt;/span&gt; until it reaches the method call of &lt;span&gt;log&lt;/span&gt; as the final element.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Loops&lt;/h3&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;The example above showed the succeeding control flow of some code elements. This control flow gets more interesting in statements that introduce branches such as loop statements do. In the example below, the control flow of a &lt;span&gt;for&lt;/span&gt;-loop is shown. To indicate the start and end of the function, and also the body of the loop, the function calls &lt;span&gt;start()&lt;/span&gt;, &lt;span&gt;loop()&lt;/span&gt; and &lt;span&gt;end()&lt;/span&gt; are used.&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;function&lt;/span&gt;&lt;/b&gt; f() {&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  &lt;/span&gt;start();&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color: #660000; font-weight: bold;&quot;&gt;for&lt;/span&gt; (&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;var&lt;/span&gt;&lt;/b&gt; &lt;span style=&quot;color: #783f04;&quot;&gt;i&lt;/span&gt;=&lt;span style=&quot;color: #0b5394;&quot;&gt;0&lt;/span&gt;; &lt;span style=&quot;color: #783f04;&quot;&gt;i&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #0b5394;&quot;&gt;2&lt;/span&gt;; &lt;span style=&quot;color: #783f04;&quot;&gt;i&lt;/span&gt;++) {&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &lt;/span&gt;loop();&lt;/span&gt;&lt;br /&gt;&lt;span&gt;  }&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  &lt;/span&gt;end();&lt;/span&gt;&lt;br /&gt;&lt;span&gt;}&lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-zC8r0Ekgkjs/W4Z-wgteq8I/AAAAAAAAADE/bCidfaEh2tQuUxrg8N0P4-yNVCvbFfajgCEwYBhgL/s1600/CFG_ForLoop.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-zC8r0Ekgkjs/W4Z-wgteq8I/AAAAAAAAADE/bCidfaEh2tQuUxrg8N0P4-yNVCvbFfajgCEwYBhgL/s1600/CFG_ForLoop.png&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;The control flow of the loop example shows branches and merges. After the condition &lt;span&gt;i&amp;lt;2&lt;/span&gt;, either the body is entered via the edge named &lt;i&gt;LoopEnter&lt;/i&gt;, or the loop is exited. In case the body was entered, the control flow first targets the call to &lt;span&gt;loop()&lt;/span&gt; and then goes back to the entry of the condition.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Try-Finally&lt;/h3&gt;&lt;div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-lvDj2f4FAoQ/W4Z-w4agiiI/AAAAAAAAADM/OVSbV6kSJBcT0PtYYcpCPRav7RtTAYF5ACEwYBhgL/s1600/CFG_TryFinally.png&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; margin-left: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://3.bp.blogspot.com/-lvDj2f4FAoQ/W4Z-w4agiiI/AAAAAAAAADM/OVSbV6kSJBcT0PtYYcpCPRav7RtTAYF5ACEwYBhgL/s1600/CFG_TryFinally.png&quot; width=&quot;150&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;Finally blocks have tricky semantics since they can be entered and exited in two specific ways: normally and abruptly. Abrupt control flow occurs after a &lt;span&gt;return&lt;/span&gt;, &lt;span&gt;continue&lt;/span&gt;, &lt;span&gt;break&lt;/span&gt; or &lt;span&gt;throw&lt;/span&gt; statement. These will introduce a jump that targets either the end of the function or the entry of a finally block. In case the control flow jumps to a finally block, this finally block will be executed normally. However, since the block was entered abruptly, it will exit abruptly again. This means, that there will be a second jump from the exit of the finally block to either the end of function or the entry of the next finally block.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;The following example shows this behaviour by using some dead code elements, which have a grey background colour in the graph image. These dead code elements are not reachable, since there is no normal control flow path that exits the try block.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;function&lt;/span&gt;&lt;/b&gt; t() {&lt;br /&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &lt;/span&gt;&quot;start&quot;&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;color: #660000; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;b style=&quot;color: #660000;&quot;&gt;try&lt;/b&gt;&lt;/span&gt; {&lt;br /&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;        &lt;/span&gt;2&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;color: #660000; white-space: pre;&quot;&gt;        &lt;/span&gt;&lt;b style=&quot;color: #660000;&quot;&gt;return&lt;/b&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;        &lt;/span&gt;3&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;    } &lt;span style=&quot;color: #660000;&quot;&gt;&lt;b&gt;finally&lt;/b&gt;&lt;/span&gt; {&lt;br /&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;        &lt;/span&gt;&quot;finally&quot;&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &lt;/span&gt;}&lt;br /&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;    &lt;span style=&quot;color: #38761d;&quot;&gt;&quot;end&quot;&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;}&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Final catch&lt;/h3&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;In case you ever wondered how a thrown exception can be caught without using a catch block, have a look at the final example. It is true that once a finally block was entered abruptly, it can only be exited abruptly. However, the kind of abrupt control flow might be changed. In the example below, it is changed from throwing an exception to breaking the loop. Of course, after the loop was exited due to the &lt;span&gt;break&lt;/span&gt; statement, the control flow is normal again and the thrown exception remains without effect. Hence, the last statement &lt;span&gt;&quot;end&quot;&lt;/span&gt; is executed which would have been skipped otherwise.&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-E1VpO3JZ2ow/W4Z-wfHi1xI/AAAAAAAAADI/SWJFeScEQWg6WtYq9MgJvX_PekAqP7F1QCEwYBhgL/s1600/CFG_ThrowToBreak.png&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; margin-left: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://4.bp.blogspot.com/-E1VpO3JZ2ow/W4Z-wfHi1xI/AAAAAAAAADI/SWJFeScEQWg6WtYq9MgJvX_PekAqP7F1QCEwYBhgL/s1600/CFG_ThrowToBreak.png&quot; width=&quot;360&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;function&lt;/span&gt;&lt;/b&gt; t() {&lt;br /&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &lt;/span&gt;&quot;start&quot;&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;do&lt;/b&gt;&lt;/span&gt; {&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;try&lt;/b&gt;&lt;/span&gt; {&lt;br /&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;2&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;throw&lt;/b&gt;&lt;/span&gt; &lt;span style=&quot;color: #38761d;&quot;&gt;&quot;exception&quot;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;} &lt;span style=&quot;color: #660000;&quot;&gt;&lt;b&gt;finally&lt;/b&gt;&lt;/span&gt; {&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;break&lt;/b&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;}&lt;br /&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;} &lt;span style=&quot;color: #660000;&quot;&gt;&lt;b&gt;while&lt;/b&gt;&lt;/span&gt; (&lt;span style=&quot;color: #0b5394;&quot;&gt;4&lt;/span&gt;);&lt;br /&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &lt;/span&gt;&quot;end&quot;&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;}&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;by Marcus Mews&lt;/span&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 29 Aug 2018 11:57:56 +0000</pubDate>
-	<author>noreply@blogger.com (Project N4JS)</author>
 </item>
 
 </channel>
