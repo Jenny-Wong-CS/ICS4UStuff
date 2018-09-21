@@ -6,6 +6,187 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>IBM WebSphere Application Server Liberty Developer Tools Beta</title>
+    <link>http://marketplace.eclipse.org/content/ibm-websphere-application-server-liberty-developer-tools-beta</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wdt-was-lp-500.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-21 11:22&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2013-10-31 15:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/canderson/listings&quot; title=&quot;Carl Anderson&quot;&gt;Carl Anderson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;*Beta* An Eclipse 4.x IDE for building and deploying Java EE, OSGi and Web 2.0 applications to WebSphere Application Server Liberty v9 Beta with Java EE 7. For more information about installing and downloading the tools, including archived versions of the tools for older versions of Eclipse, see &lt;a href=&quot;https://developer.ibm.com/wasdev/docs/websphere-developer-tools-releases/&quot; rel=&quot;nofollow&quot;&gt;WebSphere Application Server Developer Tools Releases&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 31 Oct 2013 19:13:37 +0000</pubDate>
+ <dc:creator>canderson</dc:creator>
+ <guid isPermaLink="false">1280744 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/ibm-websphere-application-server-liberty-developer-tools-beta#comments</comments>
+  </item>
+  <item>
+    <title>ImageJ Plugin</title>
+    <link>http://marketplace.eclipse.org/content/imagej-plugin</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-21 08:58&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Bio7%22&quot;&gt;Bio7&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-10-05 06:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingnameaoh/listings&quot; title=&quot;Marcel Austenfeld&quot;&gt;Marcel Austenfeld&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This plugin integrates the scientific image application ImageJ in an Eclipse view and is also part of the Bio7 application (&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;ImageJ is an open source image processing program designed for the analysis of scientific multidimensional images. Supported ImageJ images can be opened and analyzed in multiple view tabs.&lt;/p&gt;
+&lt;p&gt;ImageJ Plugins and macros are supported, too and can be installed in the plugins subfolder or the install location defined in the preferences.&lt;/p&gt;
+&lt;p&gt;Furthermore a full featured ImageJ macro editor is available to script image analysis tasks within the Eclipse environment which can be opened together with the ImageJ view in an available ImageJ perspective.&lt;/p&gt;
+&lt;p&gt;For more information visit:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Bio7/EclipseImageJ1Plugin&quot; rel=&quot;nofollow&quot;&gt;https://github.com/Bio7/EclipseImageJ1Plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ImageJ documentation and websites:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://imagej.net/Welcome&quot; rel=&quot;nofollow&quot;&gt;http://imagej.net/Welcome&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/docs/guide/146.html&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/docs/guide/146.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;New in 1.52h (1.52h5):&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Updated to ImageJ 1.52h (1.52h5)&lt;/li&gt;
+&lt;li&gt;Added a new rename action (rename all words like the current selection - multiple cursor)&lt;/li&gt;
+&lt;li&gt;Improved dark theme with popular Eclipse darkest dark theme and default dark theme&lt;/li&gt;
+&lt;li&gt;Editor colors are automatically switched when using the dark theme (or darkest dark theme)&lt;/li&gt;
+&lt;li&gt;ImageJ toolbar improved for the dark theme&lt;/li&gt;
+&lt;li&gt;Added a new ImageJ detach image menu in the ‘Window’ menu of the ImageJ-Canvas view&lt;/li&gt;
+&lt;li&gt;Added all new ImageJ macro API functions to the code completion of the macro editor&lt;/li&gt;
+&lt;li&gt;Improved the ImageJ MacOSX touchpad resizing of the ImageJ panel&lt;/li&gt;
+&lt;li&gt;Improved the default font size for Swing components on Retina displays (e.g., ImageJ components - can be changed in the preferences)&lt;/li&gt;
+&lt;li&gt;Added some new macro source actions (Block Selection, Find And Replace, etc. - submenu Text ) to the macro editor&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.52c12:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Updated to ImageJ 1.52c12&lt;/li&gt;
+&lt;li&gt;Updated ImageJ2 libraries (pom-scijava 20.0.0)&lt;/li&gt;
+&lt;li&gt;Added recent macro API commands to code completion&lt;/li&gt;
+&lt;li&gt;Fixed some minor bugs (hoover offset, Linux awt dialogs etc.)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51u54:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Updated to ImageJ 1.51u54&lt;/li&gt;
+&lt;li&gt;Fixed lost keyboard focus for key shortcuts&lt;/li&gt;
+&lt;li&gt;Improved preferences for Swing fonts (to decrease on Retina displays)&lt;/li&gt;
+&lt;li&gt;Several other fixes for MacOSX&lt;/li&gt;
+&lt;li&gt;Added description for increased fonts for MacOSX (see Github page!)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51u20:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Cluttered MACOSX menus are now closed (added from opened application windows and frames). Some default added menus are disabled in the Bio7 preferences by default&lt;/li&gt;
+&lt;li&gt;Code completion (template) action now displays the macro documentation and context information when typing&lt;/li&gt;
+&lt;li&gt;Improved code completion layout (context information)&lt;/li&gt;
+&lt;li&gt;Added debug context menu actions to the macro editor&lt;/li&gt;
+&lt;li&gt;Added some other context menu actions, too (&#039;Get Macro Recorder Text&#039;, &#039;Evaluate Line&#039;)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51s24:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Updated ImageJ plugin to version 1.51.s24&lt;/li&gt;
+&lt;li&gt;Code completion (templates) action now displays the macro documentation when typing&lt;/li&gt;
+&lt;li&gt;Code completion context information improved&lt;/li&gt;
+&lt;li&gt;Images from macros are now opened fast (before had a 2s delay because of a missing attribute)&lt;/li&gt;
+&lt;li&gt;MacOSX extra menu disabled (avoids a cluttered menu)&lt;/li&gt;
+&lt;li&gt;Macros can now be executed within an external ImageJ instance in a separate Java process (if enabled in the preference - see screenshot 2 below)&lt;/li&gt;
+&lt;li&gt;Added JavaFX library reference for Java9&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51p4 (bugfix):&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Fixed a bug to rename the &#039;Results&#039; table&lt;/li&gt;
+&lt;li&gt;Fixed a key shortcut bug&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51p3 (bugfix):&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;    Improved the grammar&lt;/li&gt;
+&lt;li&gt;    Added an action to transfer the ImageJ macro recorder text to the selected line in the macro editor (CTRL+SHIFT+R, CMD+SHIFT+R)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51p (bugfix):&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Fixed a bug to control dialogs&lt;/li&gt;
+&lt;li&gt;Fixed a Linux code templates bug&lt;/li&gt;
+&lt;li&gt;Added more code completion templates&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51p:&lt;/p&gt;
+&lt;p&gt;In this relase a macro editor and ImageJ perspective have been added to the ImageJ plugin. In addition the menu of the ImageJ plugin is now right assigned and the toolbar resizes dynamically.&lt;/p&gt;
+&lt;p&gt;The editor has the following features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;    Dynamic error detection (grammar derived from the ECMA grammar by Bart Kiers)&lt;/li&gt;
+&lt;li&gt;    Toolbar action to execute ImageJ macros&lt;/li&gt;
+&lt;li&gt;    Syntax highlightening&lt;/li&gt;
+&lt;li&gt;    Debugging support (reusing and implementing interfaces and methods from ImageJ - same keyboard shortcuts - see animation below)&lt;/li&gt;
+&lt;li&gt;    Code completion (with browser help)&lt;/li&gt;
+&lt;li&gt;    Code templates (add you own templates)&lt;/li&gt;
+&lt;li&gt;    Info popups (text hoover)&lt;/li&gt;
+&lt;li&gt;    Outline view (var variables, variables, methods and macros)&lt;/li&gt;
+&lt;li&gt;    Automatic closing of braces, parentheses and strings Automatic indention of functions,loops, etc.&lt;/li&gt;
+&lt;li&gt;    Code folding&lt;/li&gt;
+&lt;li&gt;    Code formatting (based on the Eclipse-javascript-formatter by Sebastian Moran)&lt;/li&gt;
+&lt;li&gt;    Resize fonts functions (with Ctrl++ or CMD++, CTRL+- or CMD +-)&lt;/li&gt;
+&lt;li&gt;    Font preferences&lt;/li&gt;
+&lt;li&gt;    Mark occurences (scope independant)&lt;/li&gt;
+&lt;li&gt;    A copy function for this forum&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51n:&lt;/p&gt;
+&lt;p&gt;* Added a fake editor to register and open standard image files from the Navigator or Project Explorer, etc in the ImageJ view.&lt;/p&gt;
+&lt;p&gt;* Fixed several image conversion bugs&lt;/p&gt;
+&lt;p&gt;* Moved plugin update site to github (if you have an old installation please uninstall the old plugins first before you install from this location!)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 05 Oct 2016 10:59:26 +0000</pubDate>
+ <dc:creator>mmisingnameaoh</dc:creator>
+ <guid isPermaLink="false">3103502 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/imagej-plugin#comments</comments>
+  </item>
+  <item>
+    <title>pCloudy Plugin</title>
+    <link>http://marketplace.eclipse.org/content/pcloudy-plugin</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/pCloudy_logo.png&quot; width=&quot;106&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-21 08:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Smart%20Software%20Testing%20Solution%22&quot;&gt;Smart Software Testing Solution&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-07 06:15&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pnairt6a/listings&quot; title=&quot;Pratap Kumar  Raju&quot;&gt;Pratap Kumar  Raju&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.pcloudy.com&quot; rel=&quot;nofollow&quot;&gt;pCloudy.com&lt;/a&gt; is a Unified App Testing Platform for performing manual as well as automation testing on more than 500 mobile devices (smartphones &amp;amp; tablets) hosted on cloud. It provides hosts of other services like bot testing, in-field user experience testing.&lt;/p&gt;
+&lt;p&gt;pCloudy.com provides a plugin for Eclipse IDE. Using the plugin you can create a &lt;a href=&quot;https://www.pcloudy.com/device-tunnel/&quot; rel=&quot;nofollow&quot;&gt;DeviceTunnel&lt;/a&gt;, and also do manual and automation testing of mobile apps. The plugin provides a user interface to connect to the pCloudy platform. You can upload apps, book devices and perform your testing right from your IDE.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;A registered account with pCloudy having enough credits.&lt;/li&gt;
+&lt;li&gt;Latest web browsers on local machine&lt;/li&gt;
+&lt;li&gt;Latest version of Eclipse&lt;/li&gt;
+&lt;li&gt;Eclipse pCloudy plugin&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 07 Sep 2018 10:15:50 +0000</pubDate>
+ <dc:creator>pnairt6a</dc:creator>
+ <guid isPermaLink="false">4262962 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/pcloudy-plugin#comments</comments>
+  </item>
+  <item>
+    <title>jSparrow - Automatical Java Code Improvement</title>
+    <link>http://marketplace.eclipse.org/content/jsparrow-automatical-java-code-improvement</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/jSparrow_Fluegel_110x80.jpg&quot; width=&quot;110&quot; height=&quot;77&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-21 07:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Splendit%20IT-Consulting%20GmbH%22&quot;&gt;Splendit IT-Consulting GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-06-20 11:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mprehofer/listings&quot; title=&quot;Michaela Prehofer&quot;&gt;Michaela Prehofer&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h3&gt;&lt;strong&gt;Photon ready!!!&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Reliable code management - &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;jSparrow &lt;/strong&gt;is an automated Eclipse PlugIn, which detcts and replaces threats in Java sources with a rule based approach. It improves your Java code and &lt;strong&gt;transforms &lt;/strong&gt;it to Java 7/8.&lt;/p&gt;
+&lt;p&gt;
+jSparrow has a set of &lt;strong&gt;rules &lt;/strong&gt;now, which are grouped into seven categories (see rule matrix in our screenshots) and sets a standard logging:&lt;br /&gt;
+    • String manipulation&lt;br /&gt;
+    • Formatting&lt;br /&gt;
+    • Coding Convention&lt;br /&gt;
+    • Performance&lt;br /&gt;
+    • Readability&lt;br /&gt;
+    • Old language constructs&lt;br /&gt;
+    • Lambda&lt;br /&gt;
+    • Logging&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Removal &lt;/strong&gt;of potential &lt;strong&gt;bugs and code smells&lt;/strong&gt; is one of the main purposes of jSparrow. jSparrow is very efficient in disposing of these threats with its rules. You can group the profiles into individual &lt;strong&gt;rule profiles&lt;/strong&gt;, which also can be &lt;strong&gt;exported &lt;/strong&gt;and &lt;strong&gt;imported &lt;/strong&gt;to share them within your development team.&lt;/p&gt;
+&lt;p&gt;
+Being up to date with the latest Java standards is nornally requiring a lot of manual software maintenance work. &lt;strong&gt;jSparrow upgrades &lt;/strong&gt;old code-artifacts to new state-of-the-art programming practices. The usage of jSparrow´s &lt;strong&gt;full version&lt;/strong&gt; allows you to save a lot of valuable time, while offering the option of &lt;strong&gt;automatically upgrading&lt;/strong&gt; to the latest version of Java within minutes in a safe way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;jSparrow &lt;/strong&gt;improved his Preview Wizard and the Summary Page. It now &lt;strong&gt;estimates &lt;/strong&gt;the&lt;strong&gt; time to fix issues&lt;/strong&gt; manually. The preview wizard shows the number of issues fixed and estimates your &lt;strong&gt;saved time&lt;/strong&gt;. (see screenshots or our release notes: &lt;a href=&quot;https://jsparrow.eu/changelog/&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.eu/changelog/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Once you installed jSparrow in your Eclipse – you will SAVE TIME&amp;amp; MONEY in modernizing your Java sources.&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;jSparrow is now also available as Mave PlugIn.&lt;/p&gt;
+&lt;p&gt;Next Release: 21.09.2018 - Be aware of two new rules&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LATEST VERSION:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;jSparrow Release 2.6.0&lt;/p&gt;
+&lt;p&gt;jSparrow Maven PlugIn 1.0.0&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OUR RELEASE POLICY IS AS FOLLOWS:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Two major releases&lt;/strong&gt; per year&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;   21st June – Midsummer Release&lt;/strong&gt;&lt;br /&gt;
+    21st December – Winter solstice Release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monthly Rule releases&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If we developed new rules, they will be released on the 21st of each month - (if the 21st isn’t an Austrian working day- the release will be postponed one month)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Weekly Bugfix &lt;/strong&gt;releases&lt;/p&gt;
+&lt;p&gt;Bugfixes will be released each Tuesday&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix Releases &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hotfix Releases can be deployed any time (hopefully not necessary)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 20 Jun 2017 15:34:11 +0000</pubDate>
+ <dc:creator>mprehofer</dc:creator>
+ <guid isPermaLink="false">3503691 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jsparrow-automatical-java-code-improvement#comments</comments>
+  </item>
+  <item>
+    <title>Actifsource - Model-Driven Development and Software Configuration Tool</title>
+    <link>http://marketplace.eclipse.org/content/actifsource-model-driven-development-and-software-configuration-tool</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/a_eclipse_marktplace.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-21 02:07&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Actifsource%20AG%22&quot;&gt;Actifsource AG&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2010-04-15 11:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mriser6li/listings&quot; title=&quot;Micha Riser&quot;&gt;Micha Riser&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Actifsource is a code generator plug-in for the Eclipse IDE. Code generation is driven by models which are created according to user-defined meta-models. UML-like graphic editor assists modeling. Generic code templates which directly connect to the user&#039;s meta-model enable code generation. Among the supported all textual programminig languages (i.e. C/C++, Scala, Groovy, Java, Cobol, IEC 61131, ...). Regeneration of code happens in realtime whenever model, meta-model or code templates change. The user is guided by content-assist in every situation. Interoperability with other UML and modeling tools is provided by importing and exporting from/to ecore.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;Free Community Version available!&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;h2&gt;Feature List&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Lightweight&lt;/li&gt;
+&lt;li&gt;Manage models and meta-models in a single workspace&lt;/li&gt;
+&lt;li&gt;Realtime validation&lt;/li&gt;
+&lt;li&gt;Type-safe code templates&lt;/li&gt;
+&lt;li&gt;Groundbreaking template editor concept&lt;/li&gt;
+&lt;li&gt;Strong typing and content assist&lt;/li&gt;
+&lt;li&gt;VCS integration&lt;/li&gt;
+&lt;li&gt;File-based (no database)&lt;/li&gt;
+&lt;li&gt;Graphical UML-like editor for meta-models&lt;/li&gt;
+&lt;li&gt;Generate code for any programming language&lt;/li&gt;
+&lt;li&gt;All references linkable&lt;/li&gt;
+&lt;li&gt;Parallel build with outstanding performance&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 15 Apr 2010 15:35:03 +0000</pubDate>
+ <dc:creator>mriser6li</dc:creator>
+ <guid isPermaLink="false">1177 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/actifsource-model-driven-development-and-software-configuration-tool#comments</comments>
+  </item>
+  <item>
     <title>pxDoc</title>
     <link>http://marketplace.eclipse.org/content/pxdoc</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/pxDoc-logo-3.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 10:55&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22eXMS%22&quot;&gt;eXMS&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-05 08:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rbernarddv2/listings&quot; title=&quot;pxDoc Team&quot;&gt;pxDoc Team&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;Generate Word documents from Java.&lt;/h2&gt;
@@ -88,134 +269,6 @@ aCute provide supports&lt;strong&gt; debugging&lt;/strong&gt; for .NET applicati
  <dc:creator>mlaperle</dc:creator>
  <guid isPermaLink="false">2780381 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/trace-compass#comments</comments>
-  </item>
-  <item>
-    <title>Corrosion: develop Rust applications in Eclipse IDE</title>
-    <link>http://marketplace.eclipse.org/content/corrosion-develop-rust-applications-eclipse-ide</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/corrosionLogoSmall.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 10:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20Corrosion%20contributiors%22&quot;&gt;Eclipse Corrosion contributiors&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-12-20 15:07&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/lbullen/listings&quot; title=&quot;Lucas Bullen&quot;&gt;Lucas Bullen&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Corrosion enables &lt;strong&gt;Rust&lt;/strong&gt; application development in the Eclipse IDE.&lt;/p&gt;
-&lt;p&gt;!!! A standalone &lt;a href=&quot;https://www.eclipse.org/downloads/index-developer.php&quot; rel=&quot;nofollow&quot;&gt;Eclipse IDE for Rust Developers&lt;/a&gt; is also available for download !!!&lt;/p&gt;
-&lt;p&gt;Corrosion provides a&lt;strong&gt; rich and smart Rust editor &lt;/strong&gt;with: - Syntax highlighting (using TextMate grammar) and Error reporting, Hover. Content assist. Jump to references, Code Outline,  Formatting... provided by the Rust Language Server&lt;/p&gt;
-&lt;p&gt;Corrosion also integrates various operations of the `&lt;strong&gt;cargo&lt;/strong&gt;` command-line (&lt;strong&gt;New Project, Build, Run, Debug, Package&lt;/strong&gt;) as typical Eclipse IDE wizards and workflows.&lt;/p&gt;
-&lt;p&gt;Corrosion contains a&lt;strong&gt; rich debugger &lt;/strong&gt;for Rust applications, allowing to set breakpoints, jump in/over an instruction, view and edit structured variables...&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Wed, 20 Dec 2017 20:07:24 +0000</pubDate>
- <dc:creator>lbullen</dc:creator>
- <guid isPermaLink="false">3835145 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/corrosion-develop-rust-applications-eclipse-ide#comments</comments>
-  </item>
-  <item>
-    <title>Buildship Gradle Integration</title>
-    <link>http://marketplace.eclipse.org/content/buildship-gradle-integration</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Logo-110-80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 09:07&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20Buildship%20Project%22&quot;&gt;Eclipse Buildship Project&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-04-23 16:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/estuder/listings&quot; title=&quot;Etienne Studer&quot;&gt;Etienne Studer&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Eclipse plug-ins that provide support for building software using Gradle.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;This solution is provided by the Eclipse Foundation.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://www.eclipse.org/forums/eclipse.buildship&quot; rel=&quot;nofollow&quot;&gt;Get Help&lt;/a&gt; • &lt;a href=&quot;https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Buildship&quot; rel=&quot;nofollow&quot;&gt;Report a Bug&lt;/a&gt; • &lt;a href=&quot;http://www.eclipse.org/buildship&quot; rel=&quot;nofollow&quot;&gt;More Information&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Project Import&lt;/h3&gt;
-&lt;p&gt;You can import an existing Gradle project through the Eclipse Import Wizard functionality. In distinct steps, the import wizard allows you to specify the location of the Gradle project, configure the various optional, advanced settings, and see a summary of how the project will be imported. The summary page will also warn if you are using a target Gradle version for which Buildship is not able to offer all its functionality.&lt;/p&gt;
-&lt;p&gt;During the import, the Eclipse projects are created and added to the current workspace. In case of Java projects, the source paths and the classpath container which contains the external dependencies and the project dependencies are configured. The content of the classpath container is refreshed each time the project is opened.&lt;/p&gt;
-&lt;p&gt;You can stop the import at any time by pressing the Stop button in the Progress View.&lt;/p&gt;
-&lt;h3&gt;Project Creation&lt;/h3&gt;
-&lt;p&gt;You can create a new Gradle project and add it the current workspace with the New Gradle Project wizard. The wizard allows you to specify the project name and location, the working sets, and the target Gradle distribution. To create the project, the wizard executes Gradle&#039;s built-in init task with the &lt;a href=&quot;https://docs.gradle.org/current/userguide/build_init_plugin.html#sec:build_init_tasks&quot; rel=&quot;nofollow&quot;&gt;java-library&lt;/a&gt; template.  &lt;/p&gt;
-&lt;h3&gt;Tasks View&lt;/h3&gt;
-&lt;p&gt;In the Gradle Tasks View, you can see the tasks of all the imported Gradle projects. The tasks can be sorted, filtered, and executed. The selection in Eclipse can be linked to the selection of the tasks view, both ways. The content of the tasks view can be refreshed, meaning the latest versions of the Gradle build files are loaded. You can navigate from a project to its build file through the context menu.&lt;/p&gt;
-&lt;h3&gt;Task Execution&lt;/h3&gt;
-&lt;p&gt;You can run Gradle tasks from the Tasks View through double-clicking, right-clicking, or via keyboard. In case multiple tasks are selected, they are passed to Gradle in the order they were selected. Each time a Gradle build is executed with a different set of tasks, a new Gradle run configuration is created. You can edit existing run configurations and create new run configurations through the Run Configurations dialog. All settings can be configured in the run configurations dialog.&lt;/p&gt;
-&lt;p&gt;Whenever a Gradle build is executed, a new Gradle console is opened that contains the output from the build. You can cancel the execution of the build by pressing the Stop button in the Gradle console. The Gradle consoles can be closed individually or all at once.&lt;/p&gt;
-&lt;h3&gt;Executions View&lt;/h3&gt;
-&lt;p&gt;Whenever a Gradle build is executed, a new Execution page is opened in the Executions View that displays the progress of running the build. You can see the different life-cycle phases of the build, the tasks and tests being run, and the success of each operation.&lt;/p&gt;
-&lt;p&gt;You can switch between the execution pages and you can jump to the corresponding Gradle console. You can also rerun a finished build. You can cancel the execution of the build by pressing the Stop button in the execution page. The execution pages can be closed individually or all at once.&lt;/p&gt;
-&lt;p&gt;This is available if the Gradle build is run with target Gradle version 2.5 or newer.&lt;/p&gt;
-&lt;h3&gt;Test Execution&lt;/h3&gt;
-&lt;p&gt;You can run tests from the Execution page through right-clicking on a node that represents a test class or test method. A new Gradle build is executed and the selected tests are run by Gradle. If the test task to which the tests belongs has setup and cleanup tasks configured, those are run accordingly. Once the build has finished and there are test failures, you can rerun all failed tests by pressing the Rerun Failed Tests button in the execution page.&lt;/p&gt;
-&lt;p&gt;This is available if the Gradle build is run with target Gradle version 2.6 or newer.&lt;/p&gt;
-&lt;h3&gt;Basic Web Project Support&lt;/h3&gt;
-&lt;p&gt;If you import a web project and your Eclipse contains the Web Tools Platform plugin then Buildship will automatically generate the WTP configuration files. The generated files will respect all customizations that are defined in the eclipse-wtp Gradle plugin.&lt;/p&gt;
-&lt;h3&gt;Build scans&lt;/h3&gt;
-&lt;p&gt;You can enable &lt;a href=&quot;https://scans.gradle.com/&quot; rel=&quot;nofollow&quot;&gt;build scans&lt;/a&gt; from the preferences for the entire workspace or for projects individually. If enabled and the project applies the com.gradle.build-scan plugin then a build scan is published after each build automatically. You can open the published build scans by clicking on the URL in the console view or by clicking on the &#039;Open build scan&#039; button on the Execution view&#039;s toolbar.&lt;/p&gt;
-&lt;h3&gt;Hierarchical preferences&lt;/h3&gt;
-&lt;p&gt;There are three hierarchical levels of configuration in Buildship. You can define default workspace settings for the project import, the build scans capturing, and for the offline mode. You can override those workspace settings in the project configuration settings. Finally, you can override the project configuration settings on any run configuration.&lt;/p&gt;
-&lt;h3&gt;Cancellation&lt;/h3&gt;
-&lt;p&gt;You can cancel all long-running operations like importing a project, executing tasks, refreshing the tasks, etc.&lt;/p&gt;
-&lt;p&gt;This is available if the Gradle build is run with target Gradle version 2.1 or newer.&lt;/p&gt;
-&lt;h3&gt;Offline mode&lt;/h3&gt;
-&lt;p&gt;Just like the build scans, you can enable the offline mode from the workspace or from the project preferences. If enabled, the project synchronization and the build execution won&#039;t try to connect to the internet so that you can continue working without continuous connectivity. &lt;/p&gt;
-&lt;h3&gt;Composite build support&lt;/h3&gt;
-&lt;p&gt;Gradle 3.1 introduced the concept of &lt;a href=&quot;https://docs.gradle.org/3.1/release-notes#composite-builds&quot; rel=&quot;nofollow&quot;&gt;composite builds&lt;/a&gt;. To quote the release notes&lt;em&gt;, &quot;they allow you to integrate independent Gradle builds, effectively giving you something like a multi-project build while keeping the builds separate&quot;&lt;/em&gt;. For more details, check out the &lt;a href=&quot;https://docs.gradle.org/current/userguide/composite_builds.html&quot; rel=&quot;nofollow&quot;&gt;Gradle User Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Staring from version 2.0, Buildship can seamlessly import composite builds into Eclipse.&lt;/p&gt;
-&lt;p&gt;Imported composite builds have a few special traits:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;All included builds are synchronized together.&lt;/li&gt;
-&lt;li&gt;Binary dependencies between included builds are replaced with Eclipse project dependencies. Also, the included build dependency substitution rules declared in the settings.gradle file are respected.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Current limitations:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Executing tasks in included builds is currently not supported. It will be enabled once the task addressing will be implemented in Gradle.&lt;/li&gt;
-&lt;li&gt;WTP support is not working with included builds.&lt;/li&gt;
-&lt;li&gt;The Executions view will not show events from included builds.&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 23 Apr 2015 20:39:36 +0000</pubDate>
- <dc:creator>estuder</dc:creator>
- <guid isPermaLink="false">2306961 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/buildship-gradle-integration#comments</comments>
-  </item>
-  <item>
-    <title>BLU AGE LP2C - application modernization of Cobol, Pacbase, CoolGen, VME, RPG...</title>
-    <link>http://marketplace.eclipse.org/content/blu-age-lp2c-application-modernization-cobol-pacbase-coolgen-vme-rpg</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ba_legacy_110x80_opt_0.jpg&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 07:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Blu%20Age%20Corp.%22&quot;&gt;Blu Age Corp.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2014-10-24 06:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/hlicari/listings&quot; title=&quot;Harold Licari&quot;&gt;Harold Licari&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;MDA compliant and built on Eclipse, BLU AGE&lt;/strong&gt; ®&lt;strong&gt; generates UML models from legacy applications&#039; source code and instantly transforms them into &quot;Cloud ready&quot; Java EE and .NET business applications. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;BLU AGE &lt;/strong&gt;is the most secure and efficient solution to modernize the batch and transactional Apps developed in procedural languages, into the OO languages Java EE and .NET. Once modernized, your business applications are ready for deployment on the Cloud. LP2C generates your applications for various target architectures (Web 2.0, Cloud, nomadic connectionless or connected to a network, open source or proprietary).&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;UML2 models debugging and transformation&lt;/li&gt;
-&lt;li&gt;100% automated Generation&lt;/li&gt;
-&lt;li&gt;Multi-architecture generation (Web 2.0, Cloud, nomadic connectionless or connected to a network, open source or proprietary)&lt;/li&gt;
-&lt;li&gt;Multi platform generation (Angular / JSF-JSF2 / Struts / Spring / BIRT / Jasper / Webforms / HTML5 / Drools / Jrules / CXF / Hibernate / JPA2 / EJB3)&lt;/li&gt;
-&lt;li&gt;Real time generated application deployment&lt;/li&gt;
-&lt;li&gt;No &quot;run time&quot; injected&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;With BLU AGE, free your legacy application from their technical debt&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;GET YOUR FREE BLU AGE TRIAL LICENSE HERE:&lt;/strong&gt; &lt;a href=&quot;http://www.bluage.com/trial&quot; rel=&quot;nofollow&quot;&gt;https://www.bluage.com&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Fri, 24 Oct 2014 10:13:25 +0000</pubDate>
- <dc:creator>hlicari</dc:creator>
- <guid isPermaLink="false">1993140 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/blu-age-lp2c-application-modernization-cobol-pacbase-coolgen-vme-rpg#comments</comments>
-  </item>
-  <item>
-    <title>PHP Development Tools</title>
-    <link>http://marketplace.eclipse.org/content/php-development-tools</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/phplogo.png&quot; width=&quot;85&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 06:44&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse.org%22&quot;&gt;Eclipse.org&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2014-09-29 17:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/dpakua/listings&quot; title=&quot;Dawid Pakula&quot;&gt;Dawid Pakula&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The PHP IDE project delivers a PHP Integrated Development Environment framework for the Eclipse platform. This project encompasses the development components necessary to develop PHP-based Web Applications and facilitates extensibility. It leverages the existing Web Tools Project in providing developers with PHP capabilities.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;PHP 5 - 7.2 Support&lt;/li&gt;
-&lt;li&gt;Syntax Highlighting&lt;/li&gt;
-&lt;li&gt;Syntax Validation&lt;/li&gt;
-&lt;li&gt;Code Refactoring&lt;/li&gt;
-&lt;li&gt;Content Assist&lt;/li&gt;
-&lt;li&gt;Code Formatter&lt;/li&gt;
-&lt;li&gt;Quick Outline&lt;/li&gt;
-&lt;li&gt;Code Templates&lt;/li&gt;
-&lt;li&gt;Code Navigation&lt;/li&gt;
-&lt;li&gt;PHP Debugging&lt;/li&gt;
-&lt;li&gt;Profiling Support (Zend Debugger and Xdebug)&lt;/li&gt;
-&lt;li&gt;Composer Support&lt;/li&gt;
-&lt;li&gt;PHPUnit Support (from 4 to 7)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;6.1 News &amp;amp; Noteworthy : &lt;a href=&quot;https://wiki.eclipse.org/PDT/NewIn61&quot; rel=&quot;nofollow&quot;&gt;https://wiki.eclipse.org/PDT/NewIn61&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Mon, 29 Sep 2014 21:25:22 +0000</pubDate>
- <dc:creator>dpakua</dc:creator>
- <guid isPermaLink="false">1944539 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/php-development-tools#comments</comments>
-  </item>
-  <item>
-    <title>BLU AGE - Application modernization of PowerBuilder, NatStar, VisualBasic, Delphi...</title>
-    <link>http://marketplace.eclipse.org/content/blu-age-application-modernization-powerbuilder-natstar-visualbasic-delphi</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ba_legacy_110x80_opt_2.jpg&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 06:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Blu%20Age%20Corp.%22&quot;&gt;Blu Age Corp.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2014-10-27 13:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/hlicari/listings&quot; title=&quot;Harold Licari&quot;&gt;Harold Licari&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;MDA compliant and built on Eclipse, BLU AGE&lt;/strong&gt; ®&lt;strong&gt; generates UML models from legacy applications&#039; source code and instantly transforms them into &quot;Cloud ready&quot; Java EE and .NET business applications. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;BLU AGE &lt;/strong&gt;is the most secure and efficient solution to modernize the Apps developed with client/server languages type, into the OO languages Java EE and .NET and a thin or rich client presentation according to your needs. Once modernized, your business applications are ready for deployment on the Cloud. CS2C generates your applications for various target architectures (Web 2.0, Cloud, nomadic connectionless or connected to a network, open source or proprietary).&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;UML2 models debugging and transformation&lt;/li&gt;
-&lt;li&gt;100% automated Generation&lt;/li&gt;
-&lt;li&gt;Multi-architecture generation (Web 2.0, Cloud, nomadic connectionless or connected to a network, open source or proprietary)&lt;/li&gt;
-&lt;li&gt;Multi platform generation (Angular / JSF-JSF2 / BIRT / Jasper / Webforms / HTML5 / Drools / Jrules / CXF / JMS / Hibernate / JPA2)&lt;/li&gt;
-&lt;li&gt;Real time generated application deployment&lt;/li&gt;
-&lt;li&gt;No &quot;run time&quot; injected&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;With BLU AGE, free your legacy application from their technical debt&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;GET YOUR FREE BLU AGE TRIAL LICENSE HERE:&lt;/strong&gt; &lt;a hef=&quot;http://www.bluage.com&quot; rel=&quot;nofollow&quot;&gt;http://www.bluage.com&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Mon, 27 Oct 2014 17:00:18 +0000</pubDate>
- <dc:creator>hlicari</dc:creator>
- <guid isPermaLink="false">1998227 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/blu-age-application-modernization-powerbuilder-natstar-visualbasic-delphi#comments</comments>
   </item>
   </channel>
 </rss>
