@@ -6,194 +6,160 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
-    <title>IBM WebSphere Application Server Liberty Developer Tools Beta</title>
-    <link>http://marketplace.eclipse.org/content/ibm-websphere-application-server-liberty-developer-tools-beta</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wdt-was-lp-500.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-21 11:22&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2013-10-31 15:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/canderson/listings&quot; title=&quot;Carl Anderson&quot;&gt;Carl Anderson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;*Beta* An Eclipse 4.x IDE for building and deploying Java EE, OSGi and Web 2.0 applications to WebSphere Application Server Liberty v9 Beta with Java EE 7. For more information about installing and downloading the tools, including archived versions of the tools for older versions of Eclipse, see &lt;a href=&quot;https://developer.ibm.com/wasdev/docs/websphere-developer-tools-releases/&quot; rel=&quot;nofollow&quot;&gt;WebSphere Application Server Developer Tools Releases&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 31 Oct 2013 19:13:37 +0000</pubDate>
- <dc:creator>canderson</dc:creator>
- <guid isPermaLink="false">1280744 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/ibm-websphere-application-server-liberty-developer-tools-beta#comments</comments>
+    <title>Veracode Greenlight</title>
+    <link>http://marketplace.eclipse.org/content/veracode-greenlight</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/01_Eclipse_Transparent_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-28 13:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Veracode%22&quot;&gt;Veracode&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-04-10 14:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jbaker4rv/listings&quot; title=&quot;Jeremy Baker&quot;&gt;Jeremy Baker&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Veracode Greenlight finds security defects in your code and provides contextual remediation advice to help you fix issues in seconds, right in your Eclipse IDE. With Veracode Greenlight, find issues early, reduce development and remediation costs, and deploy quality code on your timeline.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Not a customer? Try Veracode for free!&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://info.veracode.com/veracode-greenlight-self-service-free-trial.html&quot; rel=&quot;nofollow&quot;&gt;Register&lt;/a&gt; for a free 30-day trial of Veracode Greenlight. For information on getting started, visit our &lt;a href=&quot;https://help.veracode.com/reader/JVdG5ruGOiJnRpaJmQVCSQ/qkF59zimmFZwAw31QcK8xw&quot; rel=&quot;nofollow&quot;&gt;Help Center&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Using the Veracode Greenlight Eclipse Plugin&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Visit our &lt;a href=&quot;https://help.veracode.com/reader/JVdG5ruGOiJnRpaJmQVCSQ/yRM0PbHufBD_Uvl81gUDxA&quot; rel=&quot;nofollow&quot;&gt;Help Center&lt;/a&gt; for installation and usage instructions. If you have any questions or need assistance at any time, please contact your Veracode Program Manager or &lt;a href=&quot;mailto:support@veracode.com&quot; rel=&quot;nofollow&quot;&gt;support@veracode.com&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 10 Apr 2017 18:32:57 +0000</pubDate>
+ <dc:creator>jbaker4rv</dc:creator>
+ <guid isPermaLink="false">3388415 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/veracode-greenlight#comments</comments>
   </item>
   <item>
-    <title>ImageJ Plugin</title>
-    <link>http://marketplace.eclipse.org/content/imagej-plugin</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-21 08:58&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Bio7%22&quot;&gt;Bio7&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-10-05 06:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingnameaoh/listings&quot; title=&quot;Marcel Austenfeld&quot;&gt;Marcel Austenfeld&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This plugin integrates the scientific image application ImageJ in an Eclipse view and is also part of the Bio7 application (&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;ImageJ is an open source image processing program designed for the analysis of scientific multidimensional images. Supported ImageJ images can be opened and analyzed in multiple view tabs.&lt;/p&gt;
-&lt;p&gt;ImageJ Plugins and macros are supported, too and can be installed in the plugins subfolder or the install location defined in the preferences.&lt;/p&gt;
-&lt;p&gt;Furthermore a full featured ImageJ macro editor is available to script image analysis tasks within the Eclipse environment which can be opened together with the ImageJ view in an available ImageJ perspective.&lt;/p&gt;
-&lt;p&gt;For more information visit:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Bio7/EclipseImageJ1Plugin&quot; rel=&quot;nofollow&quot;&gt;https://github.com/Bio7/EclipseImageJ1Plugin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ImageJ documentation and websites:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://imagej.net/Welcome&quot; rel=&quot;nofollow&quot;&gt;http://imagej.net/Welcome&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/docs/guide/146.html&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/docs/guide/146.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;New in 1.52h (1.52h5):&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Updated to ImageJ 1.52h (1.52h5)&lt;/li&gt;
-&lt;li&gt;Added a new rename action (rename all words like the current selection - multiple cursor)&lt;/li&gt;
-&lt;li&gt;Improved dark theme with popular Eclipse darkest dark theme and default dark theme&lt;/li&gt;
-&lt;li&gt;Editor colors are automatically switched when using the dark theme (or darkest dark theme)&lt;/li&gt;
-&lt;li&gt;ImageJ toolbar improved for the dark theme&lt;/li&gt;
-&lt;li&gt;Added a new ImageJ detach image menu in the ‘Window’ menu of the ImageJ-Canvas view&lt;/li&gt;
-&lt;li&gt;Added all new ImageJ macro API functions to the code completion of the macro editor&lt;/li&gt;
-&lt;li&gt;Improved the ImageJ MacOSX touchpad resizing of the ImageJ panel&lt;/li&gt;
-&lt;li&gt;Improved the default font size for Swing components on Retina displays (e.g., ImageJ components - can be changed in the preferences)&lt;/li&gt;
-&lt;li&gt;Added some new macro source actions (Block Selection, Find And Replace, etc. - submenu Text ) to the macro editor&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.52c12:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Updated to ImageJ 1.52c12&lt;/li&gt;
-&lt;li&gt;Updated ImageJ2 libraries (pom-scijava 20.0.0)&lt;/li&gt;
-&lt;li&gt;Added recent macro API commands to code completion&lt;/li&gt;
-&lt;li&gt;Fixed some minor bugs (hoover offset, Linux awt dialogs etc.)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51u54:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Updated to ImageJ 1.51u54&lt;/li&gt;
-&lt;li&gt;Fixed lost keyboard focus for key shortcuts&lt;/li&gt;
-&lt;li&gt;Improved preferences for Swing fonts (to decrease on Retina displays)&lt;/li&gt;
-&lt;li&gt;Several other fixes for MacOSX&lt;/li&gt;
-&lt;li&gt;Added description for increased fonts for MacOSX (see Github page!)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51u20:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Cluttered MACOSX menus are now closed (added from opened application windows and frames). Some default added menus are disabled in the Bio7 preferences by default&lt;/li&gt;
-&lt;li&gt;Code completion (template) action now displays the macro documentation and context information when typing&lt;/li&gt;
-&lt;li&gt;Improved code completion layout (context information)&lt;/li&gt;
-&lt;li&gt;Added debug context menu actions to the macro editor&lt;/li&gt;
-&lt;li&gt;Added some other context menu actions, too (&#039;Get Macro Recorder Text&#039;, &#039;Evaluate Line&#039;)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51s24:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Updated ImageJ plugin to version 1.51.s24&lt;/li&gt;
-&lt;li&gt;Code completion (templates) action now displays the macro documentation when typing&lt;/li&gt;
-&lt;li&gt;Code completion context information improved&lt;/li&gt;
-&lt;li&gt;Images from macros are now opened fast (before had a 2s delay because of a missing attribute)&lt;/li&gt;
-&lt;li&gt;MacOSX extra menu disabled (avoids a cluttered menu)&lt;/li&gt;
-&lt;li&gt;Macros can now be executed within an external ImageJ instance in a separate Java process (if enabled in the preference - see screenshot 2 below)&lt;/li&gt;
-&lt;li&gt;Added JavaFX library reference for Java9&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51p4 (bugfix):&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Fixed a bug to rename the &#039;Results&#039; table&lt;/li&gt;
-&lt;li&gt;Fixed a key shortcut bug&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51p3 (bugfix):&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;    Improved the grammar&lt;/li&gt;
-&lt;li&gt;    Added an action to transfer the ImageJ macro recorder text to the selected line in the macro editor (CTRL+SHIFT+R, CMD+SHIFT+R)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51p (bugfix):&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Fixed a bug to control dialogs&lt;/li&gt;
-&lt;li&gt;Fixed a Linux code templates bug&lt;/li&gt;
-&lt;li&gt;Added more code completion templates&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51p:&lt;/p&gt;
-&lt;p&gt;In this relase a macro editor and ImageJ perspective have been added to the ImageJ plugin. In addition the menu of the ImageJ plugin is now right assigned and the toolbar resizes dynamically.&lt;/p&gt;
-&lt;p&gt;The editor has the following features:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;    Dynamic error detection (grammar derived from the ECMA grammar by Bart Kiers)&lt;/li&gt;
-&lt;li&gt;    Toolbar action to execute ImageJ macros&lt;/li&gt;
-&lt;li&gt;    Syntax highlightening&lt;/li&gt;
-&lt;li&gt;    Debugging support (reusing and implementing interfaces and methods from ImageJ - same keyboard shortcuts - see animation below)&lt;/li&gt;
-&lt;li&gt;    Code completion (with browser help)&lt;/li&gt;
-&lt;li&gt;    Code templates (add you own templates)&lt;/li&gt;
-&lt;li&gt;    Info popups (text hoover)&lt;/li&gt;
-&lt;li&gt;    Outline view (var variables, variables, methods and macros)&lt;/li&gt;
-&lt;li&gt;    Automatic closing of braces, parentheses and strings Automatic indention of functions,loops, etc.&lt;/li&gt;
-&lt;li&gt;    Code folding&lt;/li&gt;
-&lt;li&gt;    Code formatting (based on the Eclipse-javascript-formatter by Sebastian Moran)&lt;/li&gt;
-&lt;li&gt;    Resize fonts functions (with Ctrl++ or CMD++, CTRL+- or CMD +-)&lt;/li&gt;
-&lt;li&gt;    Font preferences&lt;/li&gt;
-&lt;li&gt;    Mark occurences (scope independant)&lt;/li&gt;
-&lt;li&gt;    A copy function for this forum&lt;br /&gt;
+    <title>Groovy Development Tools</title>
+    <link>http://marketplace.eclipse.org/content/groovy-development-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/groovy-logo-medium.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-28 11:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pivotal%22&quot;&gt;Pivotal&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2012-07-04 13:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/aclement/listings&quot; title=&quot;Andrew Clement&quot;&gt;Andrew Clement&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Groovy Development Tools (GDT) provides Eclipse and Maven support for the &lt;a href=&quot;http://groovy-lang.org/&quot; rel=&quot;nofollow&quot;&gt;Apache Groovy&lt;/a&gt; programming language. GDT adds full-featured IDE support for Groovy including editors, wizards, content assist, debugging, refactoring and searching.&lt;/p&gt;
+&lt;p&gt;The GDT requires the &lt;a href=&quot;https://marketplace.eclipse.org/content/eclipse-java-development-tools-0&quot; rel=&quot;nofollow&quot;&gt;Eclipse Java Development Tools&lt;/a&gt; (JDT) as it builds upon Java/JVM support, including Java interoperability. If your Eclipse flavor does not include JDT, you must install it first.&lt;/p&gt;
+&lt;p&gt;GDT does not provide any direct support for &lt;a href=&quot;http://grails.org&quot; rel=&quot;nofollow&quot;&gt;Grails&lt;/a&gt;. If you want Grails tooling, then please consider &lt;a href=&quot;https://marketplace.eclipse.org/content/groovygrails-tool-suite-ggts-eclipse&quot; rel=&quot;nofollow&quot;&gt;Groovy-Grails Tools Suite&lt;/a&gt; or &lt;a href=&quot;https://marketplace.eclipse.org/content/spring-tools-aka-spring-ide-and-spring-tool-suite&quot; rel=&quot;nofollow&quot;&gt;Spring Tool Suite&lt;/a&gt; for your Grails projects.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 04 Jul 2012 17:05:41 +0000</pubDate>
+ <dc:creator>aclement</dc:creator>
+ <guid isPermaLink="false">321859 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/groovy-development-tools#comments</comments>
+  </item>
+  <item>
+    <title>Darkest Dark Theme with DevStyle</title>
+    <link>http://marketplace.eclipse.org/content/darkest-dark-theme-devstyle</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/DARKESTdark-theme.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-28 09:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Genuitec%2C%20LLC%22&quot;&gt;Genuitec, LLC&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-01-31 12:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/twebbcke/listings&quot; title=&quot;Tim Webb&quot;&gt;Tim Webb&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.genuitec.com/tech/darkest-dark/&quot; rel=&quot;nofollow&quot;&gt;Darkest Dark&lt;/a&gt; is now &lt;a href=&quot;https://www.genuitec.com/products/devstyle/&quot; rel=&quot;nofollow&quot;&gt;DevStyle&lt;/a&gt; - a free plugin providing an enhanced set of experiences for Eclipse. Included:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Darkest Dark theme - #1 in the Marketplace:&lt;/strong&gt;&lt;br /&gt;
+	True dark theme with flat replacement icons&lt;br /&gt;
+	A great experience over Windows, Mac and Linux&lt;br /&gt;
 	 &lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51n:&lt;/p&gt;
-&lt;p&gt;* Added a fake editor to register and open standard image files from the Navigator or Project Explorer, etc in the ImageJ view.&lt;/p&gt;
-&lt;p&gt;* Fixed several image conversion bugs&lt;/p&gt;
-&lt;p&gt;* Moved plugin update site to github (if you have an old installation please uninstall the old plugins first before you install from this location!)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Wed, 05 Oct 2016 10:59:26 +0000</pubDate>
- <dc:creator>mmisingnameaoh</dc:creator>
- <guid isPermaLink="false">3103502 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/imagej-plugin#comments</comments>
+&lt;li&gt;&lt;strong&gt;Included with &lt;a href=&quot;https://www.genuitec.com/products/devstyle/&quot; rel=&quot;nofollow&quot;&gt;DevStyle&lt;/a&gt;&lt;/strong&gt;:&lt;br /&gt;
+	New light and dark color themes&lt;br /&gt;
+	All new startup experience for Eclipse&lt;br /&gt;
+	Inline search for text editors&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;​&lt;/strong&gt;&lt;strong&gt;Entirely free to use!  Get DevStyle today.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 31 Jan 2017 17:51:53 +0000</pubDate>
+ <dc:creator>twebbcke</dc:creator>
+ <guid isPermaLink="false">3274405 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/darkest-dark-theme-devstyle#comments</comments>
   </item>
   <item>
-    <title>pCloudy Plugin</title>
-    <link>http://marketplace.eclipse.org/content/pcloudy-plugin</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/pCloudy_logo.png&quot; width=&quot;106&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-21 08:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Smart%20Software%20Testing%20Solution%22&quot;&gt;Smart Software Testing Solution&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-07 06:15&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pnairt6a/listings&quot; title=&quot;Pratap Kumar  Raju&quot;&gt;Pratap Kumar  Raju&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.pcloudy.com&quot; rel=&quot;nofollow&quot;&gt;pCloudy.com&lt;/a&gt; is a Unified App Testing Platform for performing manual as well as automation testing on more than 500 mobile devices (smartphones &amp;amp; tablets) hosted on cloud. It provides hosts of other services like bot testing, in-field user experience testing.&lt;/p&gt;
-&lt;p&gt;pCloudy.com provides a plugin for Eclipse IDE. Using the plugin you can create a &lt;a href=&quot;https://www.pcloudy.com/device-tunnel/&quot; rel=&quot;nofollow&quot;&gt;DeviceTunnel&lt;/a&gt;, and also do manual and automation testing of mobile apps. The plugin provides a user interface to connect to the pCloudy platform. You can upload apps, book devices and perform your testing right from your IDE.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;&lt;li&gt;A registered account with pCloudy having enough credits.&lt;/li&gt;
-&lt;li&gt;Latest web browsers on local machine&lt;/li&gt;
-&lt;li&gt;Latest version of Eclipse&lt;/li&gt;
-&lt;li&gt;Eclipse pCloudy plugin&lt;/li&gt;
-&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Fri, 07 Sep 2018 10:15:50 +0000</pubDate>
- <dc:creator>pnairt6a</dc:creator>
- <guid isPermaLink="false">4262962 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/pcloudy-plugin#comments</comments>
+    <title>tokkyMessage</title>
+    <link>http://marketplace.eclipse.org/content/tokkymessage-0</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/icon.gif&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-28 08:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22heedong%22&quot;&gt;heedong&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-27 20:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ldongq2d/listings&quot; title=&quot;lee dong&quot;&gt;lee dong&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;It is a tool that helps multilingual processing when developing.&lt;/p&gt;
+&lt;p&gt;Dragging the word and choosing tokkymessage to open the menu on the right will find the word in the property file within the whole project or a specific project and bring the key into the specified sentence.&lt;/p&gt;
+&lt;p&gt;* For example&lt;/p&gt;
+&lt;p&gt;&amp;lt;div&amp;gt;저장&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;Drag the mouse to &amp;#039;저장&amp;#039; and select tokkymessage.&lt;/p&gt;
+&lt;p&gt;--&amp;gt;&lt;br /&gt;
+&amp;lt;div&amp;gt;&amp;lt;spring:message code=&amp;quot;ui.jsp.save&amp;quot; text=&amp;quot;저장&amp;quot;/&amp;gt;&amp;lt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;As shown above.&lt;/p&gt;
+&lt;p&gt;&amp;lt;spring:message code=&amp;quot;ui.jsp.save&amp;quot; text=&amp;quot;저장&amp;quot;/&amp;gt;&lt;/p&gt;
+&lt;p&gt;The text above can be changed as desired in the preferences.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 28 Sep 2018 00:54:35 +0000</pubDate>
+ <dc:creator>ldongq2d</dc:creator>
+ <guid isPermaLink="false">4294254 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/tokkymessage-0#comments</comments>
   </item>
   <item>
-    <title>jSparrow - Automatical Java Code Improvement</title>
-    <link>http://marketplace.eclipse.org/content/jsparrow-automatical-java-code-improvement</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/jSparrow_Fluegel_110x80.jpg&quot; width=&quot;110&quot; height=&quot;77&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-21 07:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Splendit%20IT-Consulting%20GmbH%22&quot;&gt;Splendit IT-Consulting GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-06-20 11:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mprehofer/listings&quot; title=&quot;Michaela Prehofer&quot;&gt;Michaela Prehofer&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h3&gt;&lt;strong&gt;Photon ready!!!&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Reliable code management - &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;jSparrow &lt;/strong&gt;is an automated Eclipse PlugIn, which detcts and replaces threats in Java sources with a rule based approach. It improves your Java code and &lt;strong&gt;transforms &lt;/strong&gt;it to Java 7/8.&lt;/p&gt;
-&lt;p&gt;
-jSparrow has a set of &lt;strong&gt;rules &lt;/strong&gt;now, which are grouped into seven categories (see rule matrix in our screenshots) and sets a standard logging:&lt;br /&gt;
-    • String manipulation&lt;br /&gt;
-    • Formatting&lt;br /&gt;
-    • Coding Convention&lt;br /&gt;
-    • Performance&lt;br /&gt;
-    • Readability&lt;br /&gt;
-    • Old language constructs&lt;br /&gt;
-    • Lambda&lt;br /&gt;
-    • Logging&lt;/p&gt;
-&lt;p&gt;
-&lt;strong&gt;Removal &lt;/strong&gt;of potential &lt;strong&gt;bugs and code smells&lt;/strong&gt; is one of the main purposes of jSparrow. jSparrow is very efficient in disposing of these threats with its rules. You can group the profiles into individual &lt;strong&gt;rule profiles&lt;/strong&gt;, which also can be &lt;strong&gt;exported &lt;/strong&gt;and &lt;strong&gt;imported &lt;/strong&gt;to share them within your development team.&lt;/p&gt;
-&lt;p&gt;
-Being up to date with the latest Java standards is nornally requiring a lot of manual software maintenance work. &lt;strong&gt;jSparrow upgrades &lt;/strong&gt;old code-artifacts to new state-of-the-art programming practices. The usage of jSparrow´s &lt;strong&gt;full version&lt;/strong&gt; allows you to save a lot of valuable time, while offering the option of &lt;strong&gt;automatically upgrading&lt;/strong&gt; to the latest version of Java within minutes in a safe way.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;jSparrow &lt;/strong&gt;improved his Preview Wizard and the Summary Page. It now &lt;strong&gt;estimates &lt;/strong&gt;the&lt;strong&gt; time to fix issues&lt;/strong&gt; manually. The preview wizard shows the number of issues fixed and estimates your &lt;strong&gt;saved time&lt;/strong&gt;. (see screenshots or our release notes: &lt;a href=&quot;https://jsparrow.eu/changelog/&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.eu/changelog/&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Once you installed jSparrow in your Eclipse – you will SAVE TIME&amp;amp; MONEY in modernizing your Java sources.&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;jSparrow is now also available as Mave PlugIn.&lt;/p&gt;
-&lt;p&gt;Next Release: 21.09.2018 - Be aware of two new rules&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;LATEST VERSION:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;jSparrow Release 2.6.0&lt;/p&gt;
-&lt;p&gt;jSparrow Maven PlugIn 1.0.0&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;OUR RELEASE POLICY IS AS FOLLOWS:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Two major releases&lt;/strong&gt; per year&lt;/p&gt;
-&lt;p&gt; &lt;strong&gt;   21st June – Midsummer Release&lt;/strong&gt;&lt;br /&gt;
-    21st December – Winter solstice Release&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Monthly Rule releases&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;If we developed new rules, they will be released on the 21st of each month - (if the 21st isn’t an Austrian working day- the release will be postponed one month)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Weekly Bugfix &lt;/strong&gt;releases&lt;/p&gt;
-&lt;p&gt;Bugfixes will be released each Tuesday&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Hotfix Releases &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Hotfix Releases can be deployed any time (hopefully not necessary)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 20 Jun 2017 15:34:11 +0000</pubDate>
- <dc:creator>mprehofer</dc:creator>
- <guid isPermaLink="false">3503691 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/jsparrow-automatical-java-code-improvement#comments</comments>
+    <title>Eclipse Xtend</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-xtend</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Xtend-Marke-farbig-800.png&quot; width=&quot;97&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-28 08:23&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20Foundation%22&quot;&gt;Eclipse Foundation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2011-11-07 09:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sefftinge/listings&quot; title=&quot;Sven Efftinge&quot;&gt;Sven Efftinge&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://xtend-lang.org&quot; rel=&quot;nofollow&quot;&gt;Xtend&lt;/a&gt; is a statically-typed programming languages for Java developers.&lt;/p&gt;
+&lt;p&gt;It leverages Java&#039;s typesystem and reuses its syntax as far as possible, but cuts down the amount of boilerplate you have to write. It compiles to readable Java source code and supports advanced language constructs, such as:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;lambda expressions,&lt;/li&gt;
+&lt;li&gt;type inference,&lt;/li&gt;
+&lt;li&gt;template expressions,&lt;/li&gt;
+&lt;li&gt;operator overloading and&lt;/li&gt;
+&lt;li&gt;extension methods.
+&lt;p&gt; &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;And of course it comes with advanced Eclipse-IDE support&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 07 Nov 2011 14:17:02 +0000</pubDate>
+ <dc:creator>sefftinge</dc:creator>
+ <guid isPermaLink="false">148396 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-xtend#comments</comments>
   </item>
   <item>
-    <title>Actifsource - Model-Driven Development and Software Configuration Tool</title>
-    <link>http://marketplace.eclipse.org/content/actifsource-model-driven-development-and-software-configuration-tool</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/a_eclipse_marktplace.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-21 02:07&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Actifsource%20AG%22&quot;&gt;Actifsource AG&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2010-04-15 11:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mriser6li/listings&quot; title=&quot;Micha Riser&quot;&gt;Micha Riser&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Actifsource is a code generator plug-in for the Eclipse IDE. Code generation is driven by models which are created according to user-defined meta-models. UML-like graphic editor assists modeling. Generic code templates which directly connect to the user&#039;s meta-model enable code generation. Among the supported all textual programminig languages (i.e. C/C++, Scala, Groovy, Java, Cobol, IEC 61131, ...). Regeneration of code happens in realtime whenever model, meta-model or code templates change. The user is guided by content-assist in every situation. Interoperability with other UML and modeling tools is provided by importing and exporting from/to ecore.&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;Free Community Version available!&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
-&lt;h2&gt;Feature List&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;Lightweight&lt;/li&gt;
-&lt;li&gt;Manage models and meta-models in a single workspace&lt;/li&gt;
-&lt;li&gt;Realtime validation&lt;/li&gt;
-&lt;li&gt;Type-safe code templates&lt;/li&gt;
-&lt;li&gt;Groundbreaking template editor concept&lt;/li&gt;
-&lt;li&gt;Strong typing and content assist&lt;/li&gt;
-&lt;li&gt;VCS integration&lt;/li&gt;
-&lt;li&gt;File-based (no database)&lt;/li&gt;
-&lt;li&gt;Graphical UML-like editor for meta-models&lt;/li&gt;
-&lt;li&gt;Generate code for any programming language&lt;/li&gt;
-&lt;li&gt;All references linkable&lt;/li&gt;
-&lt;li&gt;Parallel build with outstanding performance&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 15 Apr 2010 15:35:03 +0000</pubDate>
- <dc:creator>mriser6li</dc:creator>
- <guid isPermaLink="false">1177 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/actifsource-model-driven-development-and-software-configuration-tool#comments</comments>
+    <title>Eclipse Xtext</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-xtext</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/xtext-logo-color-marketplace.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-28 08:23&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20Foundation%22&quot;&gt;Eclipse Foundation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2009-12-09 08:16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sefftinge/listings&quot; title=&quot;Sven Efftinge&quot;&gt;Sven Efftinge&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;With Xtext you can easily create your own programming languages and domain-specific languages (DSLs). The framework supports the development of language infrastructures including compilers and interpreters as well as full blown Eclipse-based IDE integration. While Xtext equips you with a set of sensible defaults, you can tweak every single aspect of your language with Xtext&#039;s powerful APIs. A comprehensive documentation as well as the vivid community will help you getting started in no time. And if that is not enough you can buy trainings, consulting or support contracts delivered directly by the committers. The Xtext project is developed professionally, that is the core developers work full-time on it. Besides the comprehensive documentation, Xtext ships with several easy-to-consume examples demonstrating various aspects and customization points of the framework. Whenever you have a question, you&#039;ll get an answer in the forum which is driven by the ever growing community around Xtext. Furthermore, we offer professional support, build prototypes, review your language or will assist you with the implementation.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 09 Dec 2009 13:16:36 +0000</pubDate>
+ <dc:creator>sefftinge</dc:creator>
+ <guid isPermaLink="false">1073 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-xtext#comments</comments>
+  </item>
+  <item>
+    <title>pxDoc Capella integration</title>
+    <link>http://marketplace.eclipse.org/content/pxdoc-capella-integration</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo%20pxdoc%20marketplace_0.PNG&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-28 08:14&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22eXMS%22&quot;&gt;eXMS&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-08-31 11:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tsilbermann/listings&quot; title=&quot;Thomas Silbermann&quot;&gt;Thomas Silbermann&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The pxDoc Capella integration provides a ready-to-use integration of &lt;a href=&quot;https://marketplace.eclipse.org/content/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;pxDoc&lt;/a&gt; for &lt;a href=&quot;https://www.polarsys.org/capella/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Capella&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;INSTALLATION - Before installing the pxDoc-Capella Integration, please first install:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;&lt;strong&gt;Xtext (v2.11 minimum)&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;the &lt;a href=&quot;https://marketplace.eclipse.org/content/pxdoc&quot; rel=&quot;nofollow&quot;&gt;pxDoc SDK&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://marketplace.eclipse.org/content/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;pxDoc&lt;/a&gt; is a highly extensible framework to generate Word documents from Java. With only 30 keywords, generating Word documents has never been so easy !&lt;/p&gt;
+&lt;p&gt;This feature allows to &lt;strong&gt;integrate pxDoc with Eclipse Capella&lt;/strong&gt;. It is provided with two sample generators:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;u&gt;Full Model generator&lt;/u&gt;: a generic document generator based on EMF capabilities&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Logical Architecture example&lt;/u&gt;: custom document generator for Logical Architecture&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;pxDoc v1.1.1 released&lt;/strong&gt;: improve HTML laguage renderer and diagram management.&lt;/p&gt;
+&lt;p&gt;All pxDoc enablers (integration with tools) are open source. Source projects can be found on &lt;a href=&quot;https://gitlab.com/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;GitLab.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check out our &lt;a href=&quot;http://pragmatic-modeling.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Community Site&lt;/a&gt; to learn more about this enabler and the integrated generators.&lt;/p&gt;
+&lt;p&gt;To learn more about pxdoc: &lt;a href=&quot;https://www.pxdoc.fr&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;www.pxdoc.fr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 31 Aug 2018 15:40:08 +0000</pubDate>
+ <dc:creator>tsilbermann</dc:creator>
+ <guid isPermaLink="false">4252649 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/pxdoc-capella-integration#comments</comments>
+  </item>
+  <item>
+    <title>pxDoc Sirius integration</title>
+    <link>http://marketplace.eclipse.org/content/pxdoc-sirius-integration</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo%20pxdoc%20marketplace.PNG&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-28 08:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22eXMS%22&quot;&gt;eXMS&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-09-05 04:45&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tsilbermann/listings&quot; title=&quot;Thomas Silbermann&quot;&gt;Thomas Silbermann&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The pxDoc Sirius integration provides a ready-to-use integration of &lt;a href=&quot;https://marketplace.eclipse.org/content/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;pxDoc&lt;/a&gt; for &lt;a href=&quot;https://www.eclipse.org/sirius/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Eclipse Sirius&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;INSTALLATION - Before installing the pxDoc-Sirius Integration, please first install:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;&lt;strong&gt;Xtext (v2.11 minimum)&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;the &lt;a href=&quot;https://marketplace.eclipse.org/content/pxdoc&quot; rel=&quot;nofollow&quot;&gt;pxDoc SDK&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://marketplace.eclipse.org/content/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;pxDoc&lt;/a&gt; is a highly extensible framework to generate Word documents from Java. With only 30 keywords, generating Word documents has never been so easy!&lt;/p&gt;
+&lt;p&gt;This feature allows to &lt;strong&gt;integrate pxDoc with the &lt;a href=&quot;https://www.eclipse.org/sirius/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Obeo Sirius&lt;/a&gt; modeling environment&lt;/strong&gt;. It is provided with a sample generator:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;u&gt;Full Model generator&lt;/u&gt;: a generic document generator based on Sirius capabilities&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;pxDoc v1.1.1 released:&lt;/strong&gt; improve HTML laguage renderer and diagram management.&lt;/p&gt;
+&lt;p&gt;All pxDoc enablers (integration with tools) are open source. Source projects can be found on &lt;a href=&quot;https://gitlab.com/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;GitLab.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check out our &lt;a href=&quot;http://pragmatic-modeling.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Community Site&lt;/a&gt; to learn more about this enabler and the integrated generators.&lt;/p&gt;
+&lt;p&gt;To learn more about pxdoc: &lt;a href=&quot;https://www.pxdoc.fr&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;www.pxdoc.fr&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 05 Sep 2018 08:45:17 +0000</pubDate>
+ <dc:creator>tsilbermann</dc:creator>
+ <guid isPermaLink="false">4258936 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/pxdoc-sirius-integration#comments</comments>
+  </item>
+  <item>
+    <title>pxDoc Papyrus integration</title>
+    <link>http://marketplace.eclipse.org/content/pxdoc-papyrus-integration</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo%20pxdoc%20marketplace_1.PNG&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-28 08:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22eXMS%22&quot;&gt;eXMS&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 11:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tsilbermann/listings&quot; title=&quot;Thomas Silbermann&quot;&gt;Thomas Silbermann&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The pxDoc Papyrus integration provides a ready-to-use integration of &lt;a href=&quot;https://marketplace.eclipse.org/content/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;pxDoc&lt;/a&gt; for &lt;a href=&quot;https://www.eclipse.org/papyrus/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Eclipse Papyrus&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;INSTALLATION - Before installing the pxDoc-Papyrus Integration, please first install:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;&lt;strong&gt;Xtext (v2.11 minimum)&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;the &lt;a href=&quot;https://marketplace.eclipse.org/content/pxdoc&quot; rel=&quot;nofollow&quot;&gt;pxDoc SDK&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://marketplace.eclipse.org/content/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;pxDoc&lt;/a&gt; is a highly extensible framework to generate Word documents from Java. With only 30 keywords, generating Word documents has never been so easy!&lt;/p&gt;
+&lt;p&gt;This feature allows to &lt;strong&gt;integrate pxDoc with the &lt;a href=&quot;https://www.eclipse.org/papyrus/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Eclipse Papyrus&lt;/a&gt; modeling environment&lt;/strong&gt;. It is provided with a sample generator:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;u&gt;UML generic generator:&lt;/u&gt; a document generator providing a full documentation of a Papyrus UML model&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;pxDoc v1.1.1 released:&lt;/strong&gt; improve HTML laguage renderer and diagram management.&lt;/p&gt;
+&lt;p&gt;All pxDoc enablers (integration with tools) are open source. Source projects can be found on &lt;a href=&quot;https://gitlab.com/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;GitLab.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check out our &lt;a href=&quot;http://pragmatic-modeling.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Community Site&lt;/a&gt; to learn more about this enabler and the integrated generators.&lt;/p&gt;
+&lt;p&gt;To learn more about pxdoc: &lt;a href=&quot;https://www.pxdoc.fr&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;www.pxdoc.fr&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 20 Sep 2018 15:11:31 +0000</pubDate>
+ <dc:creator>tsilbermann</dc:creator>
+ <guid isPermaLink="false">4282688 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/pxdoc-papyrus-integration#comments</comments>
   </item>
   <item>
     <title>pxDoc</title>
     <link>http://marketplace.eclipse.org/content/pxdoc</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/pxDoc-logo-3.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 10:55&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22eXMS%22&quot;&gt;eXMS&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-05 08:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rbernarddv2/listings&quot; title=&quot;pxDoc Team&quot;&gt;pxDoc Team&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;Generate Word documents from Java.&lt;/h2&gt;
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/pxDoc-logo-3.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-09-28 08:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22eXMS%22&quot;&gt;eXMS&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-05 08:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rbernarddv2/listings&quot; title=&quot;pxDoc Team&quot;&gt;pxDoc Team&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;Generate Word documents from Java.&lt;/h2&gt;
 &lt;ul&gt;&lt;li&gt;A highly extensible framework, fully integrated in Eclipse.&lt;/li&gt;
 &lt;li&gt;A very simple language to generate high quality Word documents&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;With only 30 keywords, generating Word documents has never been so easy&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;pxDoc v1.1.0 released: &lt;/strong&gt;easier project creation, additional documentation&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;pxDoc v1.1.1 released: &lt;/strong&gt;improve HTML language renderer, improve diagram management&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;EFFICIENT&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Easy to learn and implement&lt;/li&gt;
 &lt;li&gt;Easy to maintain&lt;/li&gt;
@@ -215,60 +181,6 @@ Being up to date with the latest Java standards is nornally requiring a lot of m
  <dc:creator>rbernarddv2</dc:creator>
  <guid isPermaLink="false">4014155 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/pxdoc#comments</comments>
-  </item>
-  <item>
-    <title>pxDoc Capella integration</title>
-    <link>http://marketplace.eclipse.org/content/pxdoc-capella-integration</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo%20pxdoc%20marketplace_0.PNG&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 10:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22eXMS%22&quot;&gt;eXMS&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-08-31 11:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tsilbermann/listings&quot; title=&quot;Thomas Silbermann&quot;&gt;Thomas Silbermann&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://marketplace.eclipse.org/content/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;pxDoc&lt;/a&gt; is a highly extensible framework to generate Word documents from Java. With only 30 keywords, generating Word documents has never been so easy !&lt;/p&gt;
-&lt;p&gt;This feature allows to &lt;strong&gt;integrate pxDoc with Eclipse Capella&lt;/strong&gt;. It is provided with two sample generators:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;u&gt;Full Model generator&lt;/u&gt;: a generic document generator based on EMF capabilities&lt;/li&gt;
-&lt;li&gt;&lt;u&gt;Logical Architecture example&lt;/u&gt;: custom document generator for Logical Architecture&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;pxDoc v1.1.0 released&lt;/strong&gt;: easier project creation (enablers and common libs from the project creation wizard), additional documentation.&lt;/p&gt;
-&lt;p&gt;All pxDoc enablers (integration with tools) are open source. Source projects can be found on &lt;a href=&quot;https://gitlab.com/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;GitLab.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Check out our &lt;a href=&quot;http://pragmatic-modeling.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Community Site&lt;/a&gt; to learn more about this enabler and the integrated generators.&lt;/p&gt;
-&lt;p&gt;To learn more about pxdoc: &lt;a href=&quot;https://www.pxdoc.fr&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;www.pxdoc.fr&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Fri, 31 Aug 2018 15:40:08 +0000</pubDate>
- <dc:creator>tsilbermann</dc:creator>
- <guid isPermaLink="false">4252649 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/pxdoc-capella-integration#comments</comments>
-  </item>
-  <item>
-    <title>pxDoc Sirius integration</title>
-    <link>http://marketplace.eclipse.org/content/pxdoc-sirius-integration</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo%20pxdoc%20marketplace.PNG&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 10:52&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22eXMS%22&quot;&gt;eXMS&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-09-05 04:45&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tsilbermann/listings&quot; title=&quot;Thomas Silbermann&quot;&gt;Thomas Silbermann&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://marketplace.eclipse.org/content/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;pxDoc&lt;/a&gt; is a highly extensible framework to generate Word documents from Java. With only 30 keywords, generating Word documents has never been so easy!&lt;/p&gt;
-&lt;p&gt;This feature allows to &lt;strong&gt;integrate pxDoc with the &lt;a href=&quot;https://www.eclipse.org/sirius/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Obeo Sirius&lt;/a&gt; modeling environment&lt;/strong&gt;. It is provided with a sample generator:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;u&gt;Full Model generator&lt;/u&gt;: a generic document generator based on Sirius capabilities&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;pxDoc v1.1.0 released:&lt;/strong&gt; easier project creation (enablers and common libs from the project creation wizard), additional documentation.&lt;/p&gt;
-&lt;p&gt;All pxDoc enablers (integration with tools) are open source. Source projects can be found on &lt;a href=&quot;https://gitlab.com/pxdoc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;GitLab.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Check out our &lt;a href=&quot;http://pragmatic-modeling.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Community Site&lt;/a&gt; to learn more about this enabler and the integrated generators.&lt;/p&gt;
-&lt;p&gt;To learn more about pxdoc: &lt;a href=&quot;https://www.pxdoc.fr&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;www.pxdoc.fr&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Wed, 05 Sep 2018 08:45:17 +0000</pubDate>
- <dc:creator>tsilbermann</dc:creator>
- <guid isPermaLink="false">4258936 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/pxdoc-sirius-integration#comments</comments>
-  </item>
-  <item>
-    <title>aCute: C# edition in Eclipse IDE</title>
-    <link>http://marketplace.eclipse.org/content/acute-c-edition-eclipse-ide</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/csharp_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 10:31&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20aCute%20contributors%22&quot;&gt;Eclipse aCute contributors&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-01-26 10:22&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mistria/listings&quot; title=&quot;Mickael Istria&quot;&gt;Mickael Istria&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;aCute enables &lt;strong&gt;C#&lt;/strong&gt; application development in the Eclipse IDE.&lt;/p&gt;
-&lt;p&gt;aCute provides a &lt;strong&gt;rich C# editor&lt;/strong&gt; with error reporting, hover, content assist, jump to references... (using OmniSharp) and syntax highlighting (using TextMate grammar).&lt;br /&gt;
-aCute also integrates various operations of the `dotnet` command-line (&lt;strong&gt;New, Run, Test, Publish&lt;/strong&gt;) as typical Eclipse IDE wizards and workflows.&lt;br /&gt;
-aCute provide supports&lt;strong&gt; debugging&lt;/strong&gt; for .NET applications&lt;br /&gt;
- &lt;/p&gt;
-&lt;p&gt;aCute is in an Eclipse.org project: &lt;a href=&quot;https://projects.eclipse.org/projects/tools.acute&quot; rel=&quot;nofollow&quot;&gt;https://projects.eclipse.org/projects/tools.acute&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 26 Jan 2017 15:22:41 +0000</pubDate>
- <dc:creator>mistria</dc:creator>
- <guid isPermaLink="false">3269902 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/acute-c-edition-eclipse-ide#comments</comments>
-  </item>
-  <item>
-    <title>Trace Compass</title>
-    <link>http://marketplace.eclipse.org/content/trace-compass</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/tc.png&quot; width=&quot;110&quot; height=&quot;63&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-09-20 10:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse.org%22&quot;&gt;Eclipse.org&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2016-03-17 14:47&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mlaperle/listings&quot; title=&quot;Marc-André Laperle&quot;&gt;Marc-André Laperle&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Eclipse Trace Compass is an open source application for viewing and analyzing any type of logs or traces. Its goal is to provide views, graphs, metrics, and more to help extract useful information from traces, in a way that is more user-friendly and informative than huge text dumps.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 17 Mar 2016 18:47:50 +0000</pubDate>
- <dc:creator>mlaperle</dc:creator>
- <guid isPermaLink="false">2780381 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/trace-compass#comments</comments>
   </item>
   </channel>
 </rss>

@@ -4,22 +4,13 @@ public class File_01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		IO.createOutputFile("FirstFile.txt");
-		IO.print("i am awsome");
-		IO.closeOutputFile();
-		
-		IO.createOutputFile("HighScores.txt");
-		IO.println("Mouse: 14 seconds");
-		IO.println("Lion: 6 seconds");
-		IO.closeOutputFile();
-		
-		IO.createOutputFile("HighScores.txt", true);
-		IO.println("cheetah: 0.1 seconds");
+		IO.createOutputFile("File02.txt", true);
+		IO.print("i am big dumb");
 		IO.closeOutputFile();
 		
 		//first we need to count how many lines are in the file
 		
-		IO.openInputFile("Highscores.txt");
+		IO.openInputFile("File02.txt");
 		
 		String line = IO.readLine();
 		int numLines = 0;
@@ -37,7 +28,7 @@ public class File_01 {
 		
 		String[] highscores =  new String[numLines];
 		
-		IO.openInputFile("Highscores.txt");
+		IO.openInputFile("File02.txt");
 		for(int i =0; i < numLines; i++)
 			highscores[i] = IO.readLine();
 		IO.closeInputFile();
