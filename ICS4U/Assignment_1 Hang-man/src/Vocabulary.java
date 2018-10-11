@@ -5,13 +5,13 @@ public class Vocabulary {
 		// TODO Auto-generated method stub
 
 		Words.createOutputFile("Vocabulary_Library.txt", true);
-		Words.print("i am big dumb");
+		Words.print("Example");
 		Words.closeOutputFile();
 		
 		
 		//first we need to count how many lines are in the file
 		
-		Words.openInputFile("File02.txt");
+		Words.openInputFile("Vocabulary_Library.txt");
 		
 		String line = Words.readLine();
 		int numLines = 0;
@@ -27,16 +27,16 @@ public class Vocabulary {
 		Words.closeInputFile();
 		//now we can store these lines in an array
 		
-		String[] highscores =  new String[numLines];
+		String[] Vocabulary =  new String[numLines];
 		
-		Words.openInputFile("File02.txt");
+		Words.openInputFile("Vocabulary_Library.txt");
 		for(int i =0; i < numLines; i++)
-			highscores[i] = Words.readLine();
+			Vocabulary[i] = Words.readLine();
 		Words.closeInputFile();
 		
 		//now we can do things with the data
 		for(int i = 0; i < numLines; i++)
-			System.out.println(highscores[i].toLowerCase());
+			System.out.println(Vocabulary[i].toLowerCase());
 		
 		
 	}
