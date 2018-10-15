@@ -5,9 +5,6 @@ public class Vocabulary {
 		// TODO Auto-generated method stub
 
 		Words.createOutputFile("Vocabulary_Library.txt", true);
-		Words.print("Example");
-		Words.closeOutputFile();
-		
 		
 		//first we need to count how many lines are in the file
 		
@@ -35,8 +32,8 @@ public class Vocabulary {
 		Words.closeInputFile();
 		
 		//now we can do things with the data
-		for(int i = 0; i < numLines; i++)
-			System.out.println(Vocabulary[i].toLowerCase());
+//		for(int i = 0; i < numLines; i++)
+//			System.out.println(Vocabulary[i].toLowerCase());
 		
 		
 	}
