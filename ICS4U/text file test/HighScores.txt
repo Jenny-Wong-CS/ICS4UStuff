@@ -1,0 +1,3 @@
+Mouse: 14 seconds
+Lion: 6 seconds
+cheetah: 0.1 seconds

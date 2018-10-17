@@ -14,7 +14,7 @@ public class Vocabulary {
 		String line = Words.readLine();
 		int numLines = 0;
 		
-		while(line != null);
+		while(line != null)
 		{
 			System.out.println(line.toUpperCase());
 			numLines++;
