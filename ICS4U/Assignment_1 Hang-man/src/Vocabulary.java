@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Vocabulary {
 
@@ -27,15 +28,23 @@ public class Vocabulary {
 		String[] Vocabulary =  new String[numLines];
 		
 		Words.openInputFile("Vocabulary_Library.txt");
-		for(int i =0; i < numLines; i++)
+		for(int i = 0; i < numLines; i++)
 			Vocabulary[i] = Words.readLine();
 		Words.closeInputFile();
 		
 		//now we can do things with the data
-//		for(int i = 0; i < numLines; i++)
-//			System.out.println(Vocabulary[i].toLowerCase());
-		
-		
+
+        //String letter;
+        //Scanner scan1 = new Scanner(System.in);
+        //System.out.print("enter Letter: ");
+		//letter = scan1.nextLine();
+        String Picked;
+        for(int i = 0; i < numLines; i++)
+            //Picked = Vocabulary[i];
+            System.out.println("the chosen word is: " + Vocabulary[i] );
+
+
+
 	}
 
 }
