@@ -13,7 +13,7 @@ administration
 admit
 adult
 affect
-After
+after
 bed
 before
 begin
@@ -29,7 +29,7 @@ blood
 blue
 board
 body
-Book
+book
 card
 care
 career
@@ -38,7 +38,7 @@ case
 catch
 cause
 cell
-Center
+center
 daughter
 day
 dead
@@ -47,4 +47,4 @@ death
 debate
 decade
 decide
-Decision
+decision
