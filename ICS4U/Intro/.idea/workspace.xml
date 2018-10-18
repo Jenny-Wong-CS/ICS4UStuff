@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f386248-4273-461a-9fb0-8e0f49bd404d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/src/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/src/Vocabulary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo GUI/bin/DemoGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo GUI/bin/DemoGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Intro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextFile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextFile/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,6 +17,7 @@
     <session id="1500118061">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -51,7 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="69" />
     <option name="y" value="10" />
     <option name="width" value="1455" />
@@ -84,7 +83,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539751380106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539751599280" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -127,7 +126,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="10" width="1455" height="835" extended-state="1" />
+    <frame x="69" y="10" width="1455" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3fe899d-817b-49ba-b2a1-02060c67301c" name="Default Changelist" comment="idk">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vocabulary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo GUI/bin/DemoGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo GUI/bin/DemoGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/bin/Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/bin/Intro.class" afterDir="false" />
-    </list>
+    <list default="true" id="b3fe899d-817b-49ba-b2a1-02060c67301c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +13,7 @@
     <session id="-500441916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -127,7 +122,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539751380081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539751395346" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TextFile" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -170,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539734161956</updated>
     </task>
+    <task id="LOCAL-00001" summary="idk">
+      <created>1539751385429</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539751385429</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
