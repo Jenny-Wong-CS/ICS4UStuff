@@ -7,12 +7,18 @@
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
 =======
     <list default="true" id="3f386248-4273-461a-9fb0-8e0f49bd404d" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextFile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextFile/.idea/workspace.xml" afterDir="false" />
+=======
       <change afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/src/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/src/Vocabulary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Demo GUI/bin/DemoGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo GUI/bin/DemoGUI.class" afterDir="false" />
 
       <change beforePath="$PROJECT_DIR$/bin/Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Intro.class" afterDir="false" />
+>>>>>>> ae95dd61827594e14bb29663ec2154bf85d57eb3
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +40,7 @@
     <session id="1500118061">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
 
@@ -99,7 +106,7 @@
 =======
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="69" />
     <option name="y" value="10" />
     <option name="width" value="1455" />
@@ -144,8 +151,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539751599280" />
+=======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539751380106" />
 
+>>>>>>> ae95dd61827594e14bb29663ec2154bf85d57eb3
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -197,6 +208,9 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+    <frame x="69" y="10" width="1455" height="835" extended-state="0" />
+=======
+<<<<<<< HEAD
     <frame x="23" y="12" width="1400" height="820" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13656716" />
@@ -211,6 +225,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32896653" />
 =======
     <frame x="69" y="10" width="1455" height="835" extended-state="1" />
+>>>>>>> ae95dd61827594e14bb29663ec2154bf85d57eb3
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />

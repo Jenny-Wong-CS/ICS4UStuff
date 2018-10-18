@@ -1,4 +1,6 @@
-import java.util.Scanner;
+//import java.util.Collections;
+import java.util.Random;
+//import java.util.Scanner;
 
 public class Vocabulary {
 
@@ -6,42 +8,44 @@ public class Vocabulary {
 		// TODO Auto-generated method stub
 
 		Words.createOutputFile("Vocabulary_Library.txt", true);
-		
-		//first we need to count how many lines are in the file
-		
 		Words.openInputFile("Vocabulary_Library.txt");
-		
 		String line = Words.readLine();
 		int numLines = 0;
 		
 		while(line != null)
 		{
-			System.out.println(line.toUpperCase());
 			numLines++;
 			line = Words.readLine();
 		}
-		System.out.println(numLines);
-		
 		Words.closeInputFile();
-		//now we can store these lines in an array
+
 		
 		String[] Vocabulary =  new String[numLines];
-		
+		//int Chosen = 1;
 		Words.openInputFile("Vocabulary_Library.txt");
 		for(int i = 0; i < numLines; i++)
 			Vocabulary[i] = Words.readLine();
 		Words.closeInputFile();
 		
-		//now we can do things with the data
 
         //String letter;
         //Scanner scan1 = new Scanner(System.in);
         //System.out.print("enter Letter: ");
 		//letter = scan1.nextLine();
-        String Picked;
-        for(int i = 0; i < numLines; i++)
-            //Picked = Vocabulary[i];
-            System.out.println("the chosen word is: " + Vocabulary[i] );
+        //String yourRandom;
+
+		Random yourRandom = new Random(Vocabulary[i]);
+		String pickWord = Vocabulary[i];
+
+        //for(int i = 0; i < Chosen; i++)
+
+
+			//Collections.shuffle(Vocabulary[i]);
+			//String word = Vocabulary.get();
+
+
+
+            System.out.println("the chosen word is: " + pickWord );
 
 
 
