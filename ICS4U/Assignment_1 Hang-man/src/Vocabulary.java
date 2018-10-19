@@ -1,6 +1,6 @@
 //import java.util.Collections;
 import java.util.Random;
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class Vocabulary {
 
@@ -26,33 +26,40 @@ public class Vocabulary {
 		for(int i = 0; i < numLines; i++)
 			Vocabulary[i] = Words.readLine();
 		Words.closeInputFile();
-		
-
-        //String letter;
-        //Scanner scan1 = new Scanner(System.in);
-        //System.out.print("enter Letter: ");
-		//letter = scan1.nextLine();
-        //String yourRandom;
-
-		//Random yourRandom = new Random(Vocabulary[i]);
-		//String pickWord = Vocabulary[i];
-		int Num = 1;
-
-		Random rand = new Random();
-		String r;
-        for(int i = 0; i < numLines; i++)
-        	int Chosen = rand.nextInt(51);
 
 
-		System.out.println("the chosen word is: ");
-		//Collections.shuffle(Vocabulary[i]);
-			//String word = Vocabulary.get();
+        Random rand = new Random();
+        //String Guess;
 
+        for(int i = rand.nextInt((50 - 1) +1) ; i < numLines;)
+
+        System.out.println("the chosen word is: " + Vocabulary[i] );
+
+
+
+        Scanner scan1 = new Scanner(System.in);
+        char Guess;
+        System.out.println("Take a guess:");
+        Guess = scan1.nextLine();
+
+
+        if ()
+
+
+
+
+
+
+//		System.out.print(Vocabulary[i]);
+//		System.out.print("Insert a letter: ");
+//		Selection = scan1.nextLine();
+//		System.out.print("Your first letter guess is : " + Selection);
 
 
 
 
 
 	}
+
 
 }
