@@ -21,7 +21,7 @@ public class Vocabulary {
 
 		
 		String[] Vocabulary =  new String[numLines];
-		//int Chosen = 1;
+
 		Words.openInputFile("Vocabulary_Library.txt");
 		for(int i = 0; i < numLines; i++)
 			Vocabulary[i] = Words.readLine();
@@ -34,18 +34,22 @@ public class Vocabulary {
 		//letter = scan1.nextLine();
         //String yourRandom;
 
-		Random yourRandom = new Random(Vocabulary[i]);
-		String pickWord = Vocabulary[i];
+		//Random yourRandom = new Random(Vocabulary[i]);
+		//String pickWord = Vocabulary[i];
+		int Num = 1;
 
-        //for(int i = 0; i < Chosen; i++)
+		Random rand = new Random();
+		String r;
+        for(int i = 0; i < numLines; i++)
+        	int Chosen = rand.nextInt(51);
 
 
-			//Collections.shuffle(Vocabulary[i]);
+		System.out.println("the chosen word is: ");
+		//Collections.shuffle(Vocabulary[i]);
 			//String word = Vocabulary.get();
 
 
 
-            System.out.println("the chosen word is: " + pickWord );
 
 
 
