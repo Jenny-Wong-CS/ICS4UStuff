@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3fe899d-817b-49ba-b2a1-02060c67301c" name="Default Changelist" comment="idk">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vocabulary_Library.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Vocabulary_Library.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChosenWord.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vocabulary.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -18,7 +17,7 @@
     <session id="-500441916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.67" value="1" />
@@ -28,27 +27,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="3" />
-          <entry key="java" value="2" />
-          <entry key="txt" value="2" />
-          <entry key="words" value="1" />
+          <entry key="java" value="4" />
+          <entry key="txt" value="4" />
+          <entry key="words" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="2" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="4" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2491" />
+          <entry key="java" value="3046" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2491" />
+          <entry key="JAVA" value="3046" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -78,11 +77,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vocabulary_Library.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="260" lean-forward="true" selection-start-line="260" selection-end-line="260" />
+            <state relative-caret-position="85">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Words.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,21 +124,58 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="466" />
-    <option name="y" value="19" />
-    <option name="width" value="977" />
-    <option name="height" value="849" />
+    <option name="x" value="562" />
+    <option name="width" value="1041" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>LoopConditionNotUpdatedInsideLoop</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Assignment_1 Hang-man" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment_1 Hang-man" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment_1 Hang-man" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment_1 Hang-man" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539969136875" />
-    &gt;&gt;&gt;&gt;&gt;&gt;&gt; 2c03c6b00df5f6609f51e8de90760ccd7def7ad0
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540008024653" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Intro" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -173,10 +230,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="562" y="0" width="1041" height="867" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13861386" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.41463414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -185,7 +241,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.1801676" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.1801676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -193,7 +249,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32968536" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007163" side_tool="true" weight="0.25302827" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.19699043" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.1957672" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -217,10 +273,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="284" lean-forward="true" selection-start-line="284" selection-end-line="284" />
+        <state relative-caret-position="-92">
+          <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="241" />
+          <folding>
+            <element signature="e#5037#5041#0" expanded="true" />
+            <element signature="e#5041#5045#0" expanded="true" />
+            <element signature="e#5045#5049#0" expanded="true" />
+            <element signature="e#5049#5053#0" expanded="true" />
+            <element signature="e#5053#5057#0" expanded="true" />
+            <element signature="e#5057#5061#0" expanded="true" />
+            <element signature="e#5061#5065#0" expanded="true" />
+            <element signature="e#11172#11176#0" expanded="true" />
+            <element signature="e#11176#11180#0" expanded="true" />
+            <element signature="e#11180#11184#0" expanded="true" />
+            <element signature="e#11184#11188#0" expanded="true" />
+            <element signature="e#11188#11192#0" expanded="true" />
+            <element signature="e#11192#11196#0" expanded="true" />
+            <element signature="e#11196#11200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/words">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vocabulary_Library.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChosenWord.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Words.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -229,19 +316,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/words" />
-    <entry file="file://$PROJECT_DIR$/Vocabulary_Library.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          &gt;&gt;&gt;&gt;&gt;&gt;&gt; 2c03c6b00df5f6609f51e8de90760ccd7def7ad0
+        <state relative-caret-position="308">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
