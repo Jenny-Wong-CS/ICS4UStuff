@@ -29,7 +29,7 @@ public class Vocabulary {
 		Random rand = new Random();
 		Scanner Scan1 = new Scanner(System.in);
 		//random chosen word
-		String Word;
+		String Word = null;
 
 		//letter you guessed
 		String Guess;
@@ -39,7 +39,7 @@ public class Vocabulary {
 		Guess = Scan1.nextLine();
 
 		for (int i = rand.nextInt((50 - 1) + 1); i < numLines; )
-			Vocabulary[i] = Word;
+			Word = Vocabulary[i];
 
 
 		for (int i = rand.nextInt((50 - 1) + 1); i < numLines; ) {
