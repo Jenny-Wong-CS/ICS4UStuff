@@ -5,7 +5,7 @@ public class TextFile {
 		// TODO Auto-generated method stub
 		
 		IO.createOutputFile("FirstFile.txt");
-		IO.print("i am awsome");
+		IO.print("i am awesome");
 		IO.closeOutputFile();
 		
 		IO.createOutputFile("HighScores.txt");
@@ -19,7 +19,7 @@ public class TextFile {
 		
 		//first we need to count how many lines are in the file
 		
-		IO.openInputFile("Highscores.txt");
+		IO.openInputFile("HighScores.txt");
 		
 		String line = IO.readLine();
 		int numLines = 0;
@@ -37,14 +37,14 @@ public class TextFile {
 		
 		String[] highscores =  new String[numLines];
 		
-		IO.openInputFile("Highscores.txt");
+		IO.openInputFile("HighScores.txt");
 		for(int i =0; i < numLines; i++)
 			highscores[i] = IO.readLine();
 		IO.closeInputFile();
 		
 		//now we can do things with the data
 		for(int i = 0; i < numLines; i++)
-			System.out.println(highscores[i].toLowerCase());
+			System.out.println(highscores[i]);
 		
 		
 	}
