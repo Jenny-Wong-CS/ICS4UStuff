@@ -1,6 +1,6 @@
 public class Bubbles {
 
-    public static void main(String[] args) {
+    public void main (String [] args){
         //TODO Auto-generated method stub
         //create the text file
         IO.createOutputFile("List.txt");
@@ -10,8 +10,7 @@ public class Bubbles {
         String line = IO.readLine();
         int numLines = 0;
 
-        while (line != null)
-        {
+        while (line != null) {
             System.out.println(line.toUpperCase());
             numLines++;
             line = IO.readLine();
@@ -28,36 +27,34 @@ public class Bubbles {
 //        IO.closeInputFile();
 
         //sorts the lines and stuff
-        boolean Switch = true;
-        int Temp;
+        //public void main (){
+            boolean Switch = true;
+            int Temp;
 
-        IO.openInputFile("List.txt");
-        while (Switch) {
-            Switch = false;
-            for (int j = 0; j < numLines; j++ ) {
-                for (int i = 1; i < numLines - j; i++) {
-                    if (Things[i - 1] > Things[i]) {
-                        Temp = Things[i - 1];
-                        Things[i - 1] = Things[i];
-                        Things[i] = Temp;
-                        Switch = true;
+            IO.openInputFile("List.txt");
+            while (Switch) {
+                Switch = false;
+                for (int j = 0; j < numLines; j++) {
+                    for (int i = 1; i < numLines - j; i++) {
+                        if (Things[i - 1] > Things[i]) {
+                            Temp = Things[i - 1];
+                            Things[i - 1] = Things[i];
+                            Things[i] = Temp;
+                            Switch = true;
+                        }
+
                     }
-
                 }
-            }
-            //prints into console
-            for(int i = 0; i < numLines; i++)
-                System.out.println(Things[i]);
 
+                //prints into console
+
+
+
+            }
+            IO.closeInputFile();
+            for (int i = 0; i < numLines; i++)
+            System.out.println(Things[i]);
 
         }
-        IO.closeInputFile( );
-
-
-
-
-
 
     }
-
-}
