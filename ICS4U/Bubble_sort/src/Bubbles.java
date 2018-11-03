@@ -1,60 +1,64 @@
 public class Bubbles {
 
-    public void main (String [] args){
-        //TODO Auto-generated method stub
-        //create the text file
-        IO.createOutputFile("List.txt");
+    public static void main(String[] args) {
+        //TODO Auto-generated method
 
-        //counts the lines
+        //create the text file
+        IO.createOutputFile("List.txt", true);
+
+        //counts the number of lines
         IO.openInputFile("List.txt");
-        String line = IO.readLine();
+        String line = IO.readLine( );
         int numLines = 0;
 
         while (line != null) {
-            System.out.println(line.toUpperCase());
             numLines++;
-            line = IO.readLine();
+            line = IO.readLine( );
         }
-        System.out.println(numLines);
-        IO.closeOutputFile();
+
+        IO.closeOutputFile( );
 
         //stores the lines
         int[] Things = new int[numLines];
+        IO.openInputFile("List.txt");
+        for (int i = 0; i < numLines; i++)
+            Things[i] = Integer.parseInt(IO.readLine( ));
+        IO.closeInputFile( );
 
-//        IO.openInputFile("List.txt");
-//        for(int i =0; i < numLines; i++)
-//            Things[i] = IO.readLine();
-//        IO.closeInputFile();
 
-        //sorts the lines and stuff
-        //public void main (){
-            boolean Switch = true;
-            int Temp;
+        //sorts the lines in the text file
 
-            IO.openInputFile("List.txt");
-            while (Switch) {
-                Switch = false;
-                for (int j = 0; j < numLines; j++) {
-                    for (int i = 1; i < numLines - j; i++) {
-                        if (Things[i - 1] > Things[i]) {
-                            Temp = Things[i - 1];
-                            Things[i - 1] = Things[i];
-                            Things[i] = Temp;
-                            Switch = true;
-                        }
+        //public void sortList(int[] Temp){
+        int Temp;
+        boolean Switch = true;
 
+        IO.openInputFile("List.txt");
+        while (Switch) {
+            Switch = false;
+                for (int i = 1; i < numLines; i++) {
+                    if (Things[i - 1] < Things[i]) {
+                        Temp = Things[i - 1];
+                        Things[i - 1] = Things[i];
+                        Things[i] = Temp;
+                        Switch = true;
                     }
+
                 }
 
-                //prints into console
-
-
-
             }
-            IO.closeInputFile();
-            for (int i = 0; i < numLines; i++)
-            System.out.println(Things[i]);
+
+            IO.closeInputFile( );
+
+            //prints the sorted lines into console
+            for (int i = 0; i < numLines; i++) {
+                System.out.println(Things[i] + " ");
+            }
+
 
         }
 
+
     }
+
+
+    //FIGURE OUT HOW TO PUT SHIT INTO FUNCTIONS
