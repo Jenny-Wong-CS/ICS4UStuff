@@ -54,19 +54,16 @@ public class Bubbles {
 //        IO.closeInputFile( );
 
         //insertion sort calculation
-        for (int i = 1; i < numLines; i++) {
-            int temp = Things[i];
-            int j;
-            for (j = i - 1; j >= 0 && temp < Things[j]; j--)
-                Things[j + 1] = Things[j];
-            Things[j + 1] = temp;
-        }
+//        for (int i = 1; i < numLines; i++) {
+//            int temp = Things[i];
+//            int j;
+//            for (j = i - 1; j >= 0 && temp < Things[j]; j--)
+//                Things[j + 1] = Things[j];
+//            Things[j + 1] = temp;
+//        }
 
 
 
 
 
 
-    }
-
-}

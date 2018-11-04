@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Bubbles {
 
     public static void main(String[] args) {
@@ -20,21 +22,47 @@ public class Bubbles {
 
         //stores the lines
         int[] Things = new int[numLines];
+        int[] Things2 = new int [numLines];
+
         IO.openInputFile("List.txt");
         for (int i = 0; i < numLines; i++)
             Things[i] = Integer.parseInt(IO.readLine( ));
         IO.closeInputFile( );
+    }
 
 
-        //sorts the lines in the text file
+    public static void print(int numLines, int[] Things){
+        //prints the sorted lines into console
+        String Choice;
+        int Highlow = 1;
+        int LowHigh = 2
+        Scanner scan1 = new Scanner(System.in);
 
-        //public void sortList(int[] Temp){
-        int Temp;
-        boolean Switch = true;
+        System.out.println("decide your preference:(1)= Highest to lowest, or (2)= Lowest to highest: ");
+        Choice = scan1.nextLine();
 
-        IO.openInputFile("List.txt");
-        while (Switch) {
-            Switch = false;
+        for (int i = 0; i < numLines; i++) {
+            int decision = Integer.parseInt(Choice);
+            if(decision == Highlow){
+                System.out.println(Things[i] + " ");
+            }
+
+            if(decision == LowHigh) {
+                System.out.println(Things[i] + " ");
+            }
+        }
+    }
+
+
+
+    public static void sortList(int numLines, int[] Things, int decision){
+            int Temp;
+            boolean Switch = true;
+            //sorts the lines in the text file
+            IO.openInputFile("List.txt");
+        if(decision == 1) {
+            while (Switch) {
+                Switch = false;
                 for (int i = 1; i < numLines; i++) {
                     if (Things[i - 1] < Things[i]) {
                         Temp = Things[i - 1];
@@ -45,20 +73,51 @@ public class Bubbles {
 
                 }
 
+                IO.closeInputFile( );
             }
-
-            IO.closeInputFile( );
-
-            //prints the sorted lines into console
-            for (int i = 0; i < numLines; i++) {
-                System.out.println(Things[i] + " ");
-            }
-
-
         }
+
+        if(decision == 2) {
+            while (Switch) {
+                Switch = false;
+                for (int i = 1; i < numLines; i++) {
+                    if (Things[i - 1] > Things[i]) {
+                        Temp = Things[i - 1];
+                        Things[i - 1] = Things[i];
+                        Things[i] = Temp;
+                        Switch = true;
+                    }
+
+                }
+
+                IO.closeInputFile( );
+            }
+        }
+
 
 
     }
 
+
+    public static void print(int numLines, int[] Things, String Choice, int Highlow, int LowHigh){
+            //prints the sorted lines into console
+
+        for (int i = 0; i < numLines; i++) {
+            int decision = Integer.parseInt(Choice);
+                if(decision == Highlow){
+                    System.out.println(Things[i] + " ");
+                }
+
+                if(decision == LowHigh) {
+                    System.out.println(Things[i] + " ");
+                }
+        }
+    }
+
+
+}
+
+
+//System.out.println(Things[i] + " ");
 
     //FIGURE OUT HOW TO PUT SHIT INTO FUNCTIONS
