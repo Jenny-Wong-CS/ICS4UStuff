@@ -44,29 +44,29 @@ public class Vocabulary {
 //			} else {
 //				System.out.println("Try again!");
 //			}
-//
-//		boolean Blank = false;
-//		for (int i = 0; i < Word.length(); i++) {
-//			char Letter = Word.charAt(i);
-//			if (Word.indexOf(Guess)) {
-//				System.out.println(Letter);
-//			} else {
-//				System.out.print("-");
-//				Blank = true;
-//			}
-//		}
-//		return Blank;
 
 
 		for (int i = rand.nextInt((50 - 1) + 1); i < numLines; )
-			if (Vocabulary[i].contains(Guess)) {
+			Word = Vocabulary[i];
+
+			if (Word.contains(Guess)) {
 				System.out.println(Guess);
 			}
 			//else {
 
+
 			//	System.out.print("-");
 			//}
 
+
+		for (int i = 0; i < Word.length(); i++) {
+			char Letter = Word.charAt(i);
+			if (Word.indexOf(Guess)) {
+				System.out.println(Letter);
+			} else {
+				System.out.print("-");
+			}
+		}
 
 
 		}

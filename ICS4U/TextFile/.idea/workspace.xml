@@ -4,10 +4,6 @@
     <list default="true" id="c08d9aed-49d6-4010-bfaa-7cbc64768a46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/src/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/src/Vocabulary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bubble_sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bubble_sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bubble_sort/Bubble_sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bubble_sort/Bubble_sort.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +20,8 @@
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TextFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="396">
+              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -111,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-1" />
     <option name="y" value="2" />
     <option name="width" value="812" />
@@ -125,7 +122,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541231064589" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541732811791" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment_1 Hang-man" />
   </component>
   <component name="RunDashboard">
@@ -168,7 +165,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="2" width="812" height="858" extended-state="0" />
+    <frame x="-1" y="2" width="812" height="858" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.19221106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -218,8 +216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TextFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="396">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>
