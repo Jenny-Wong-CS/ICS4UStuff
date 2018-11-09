@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Vocabulary {
 
+	public static String Word;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -29,7 +31,7 @@ public class Vocabulary {
 		Scanner Scan1 = new Scanner(System.in);
 
 		//random chosen word
-		String Word;
+		//String Word;
 		//letter you guessed
 		String Guess;
 
@@ -47,9 +49,10 @@ public class Vocabulary {
 
 
 		for (int i = rand.nextInt((50 - 1) + 1); i < numLines; )
-			Word = Vocabulary[i];
+			Vocabulary[i] = Word;
 
 			if (Word.contains(Guess)) {
+				
 				System.out.println(Guess);
 			}
 			//else {
@@ -58,18 +61,38 @@ public class Vocabulary {
 			//	System.out.print("-");
 			//}
 
-
 		for (int i = 0; i < Word.length(); i++) {
 			char Letter = Word.charAt(i);
-			if (Word.indexOf(Guess)) {
+			if (Word.indexOf(Letter)) {
 				System.out.println(Letter);
 			} else {
 				System.out.print("-");
 			}
 		}
 
-
+	}
+	boolean Blank = false;
+	public static boolean printWord(char Letter) {
+		// Iterate through all letters in word
+		for (int i = 0; i < Word.length(); i++) {
+			Letter = Word.charAt(i);
+			if (Word.indexOf(Letter)) {
+				System.out.println(Letter);
+			} else {
+				System.out.print("-");
+				Blank = true;
+			}
 		}
+		return Blank;
+	}
+
+
+
+
+
+
+
+
 
 
 //		for (int i = rand.nextInt((50 - 1) + 1); i < numLines; ) {

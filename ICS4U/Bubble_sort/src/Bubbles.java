@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class Bubbles {
+    public static int[] Things;
+    public static boolean Switch;
+    //public static String Choice;
 
     public static void main(String[] args) {
         //TODO Auto-generated method
@@ -21,46 +24,28 @@ public class Bubbles {
         IO.closeOutputFile( );
 
         //stores the lines
-        int[] Things = new int[numLines];
-        //int[] Things2 = new int [numLines];
-
+        Things = new int[numLines];
         IO.openInputFile("List.txt");
         for (int i = 0; i < numLines; i++)
             Things[i] = Integer.parseInt(IO.readLine( ));
         IO.closeInputFile( );
-    //}
-
-
-    //public static void print(int numLines, int[] Things){
-        //prints the sorted lines into console
-        //String Choice;
-        //int Highlow = 1;
-        //int LowHigh = 2
-       // Scanner scan1 = new Scanner(System.in);
-
-        //System.out.println("decide your preference:(1)= Highest to lowest, or (2)= Lowest to highest: ");
-        //Choice = scan1.nextLine();
-
-//        for (int i = 0; i < numLines; i++) {
-//            int decision = Integer.parseInt(Choice);
-//            if(decision == Highlow){
-//                System.out.println(Things[i] + " ");
-//            }
 //
-//            if(decision == LowHigh) {
-//                System.out.println(Things[i] + " ");
-//            }
-//        }
-    //}
 
+        int Highlow = 1;
+        int LowHigh = 2;
+        String Choice;
+        Scanner scan1 = new Scanner(System.in);
 
+        System.out.print("decide your preference: 1(Highest to lowest), or 2(Lowest to highest): ");
+        Choice = scan1.nextLine( );
 
-    //public static void sortList(int numLines, int[] Things, int decision){
+        //for (int i = 0; i < numLines; i++) {
+        int decision = Integer.parseInt(Choice);
+        if (decision == Highlow) {
             int Temp;
-            boolean Switch = true;
-            //sorts the lines in the text file
+            Switch = true;
             IO.openInputFile("List.txt");
-        //if(decision == 1) {
+            //sorts from highest to lowest
             while (Switch) {
                 Switch = false;
                 for (int i = 1; i < numLines; i++) {
@@ -69,53 +54,44 @@ public class Bubbles {
                         Things[i - 1] = Things[i];
                         Things[i] = Temp;
                         Switch = true;
+                        System.out.println(Things[i] + " ");
+
+                    }
+
+                }
+                IO.closeInputFile( );
+            }
+        }
+
+        if (decision == LowHigh) {
+            int Temp;
+            Switch = true;
+            //sorts the lines in the text file
+            IO.openInputFile("List.txt");
+            //sorts from lowest to highest
+            while (Switch) {
+                Switch = false;
+                for (int i = 1; i < numLines; i++) {
+                    if (Things[i - 1] > Things[i]) {
+                        Temp = Things[i - 1];
+                        Things[i - 1] = Things[i];
+                        Things[i] = Temp;
+                        Switch = true;
+                        System.out.println(Things[i] + " ");
+
                     }
 
                 }
 
                 IO.closeInputFile( );
             }
-        //}
 
-        //if(decision == 2) {
-//            while (Switch) {
-//                Switch = false;
-//                for (int i = 1; i < numLines; i++) {
-//                    if (Things[i - 1] > Things[i]) {
-//                        Temp = Things[i - 1];
-//                        Things[i - 1] = Things[i];
-//                        Things[i] = Temp;
-//                        Switch = true;
-//                    }
-//
-//                }
-
-                IO.closeInputFile( );
-            //}
-        //}
-
-
-
-    //}
-
-
-    //public static void print(int numLines, int[] Things, String Choice, int Highlow, int LowHigh){
-            //prints the sorted lines into console
-
-            for (int i = 0; i < numLines; i++) {
-            //int decision = Integer.parseInt(Choice);
-               // if(decision == Highlow){
-                    System.out.println(Things[i] + " ");
-                }
-
-                //if(decision == LowHigh) {
-                    //System.out.println(Things[i] + " ");
-                }
         }
-   // }
 
+        //prints the sorted lines into console
+//        for (int i = 0; i < numLines; i++) {
+//            System.out.println(Things[i] + " ");
+//        }
 
-//}
-
-
-//System.out.println(Things[i] + " ");
+    }
+}
