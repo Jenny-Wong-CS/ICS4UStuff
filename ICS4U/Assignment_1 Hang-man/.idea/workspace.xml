@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3fe899d-817b-49ba-b2a1-02060c67301c" name="Default Changelist" comment="idk">
+      <change beforePath="$PROJECT_DIR$/../2_More_sorts/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_2_Bubble_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2_Bubble_Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextFile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextFile/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vocabulary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bubble_sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bubble_sort/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,22 +63,23 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.89" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="919" />
+          <entry key="java" value="1008" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="919" />
+          <entry key="JAVA" value="1008" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -113,15 +117,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="195" column="52" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
+            <state relative-caret-position="246">
+              <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
               <folding>
-                <element signature="e#0#3293#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="249" lean-forward="true" selection-start-line="249" selection-end-line="249" />
             </state>
           </provider>
         </entry>
@@ -150,7 +162,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="793" />
+    <option name="x" value="629" />
+    <option name="y" value="6" />
+    &gt;&gt;&gt;&gt;&gt;&gt;&gt; 910b2814a83660db59f88aeabb75f40dd8a95c60
     <option name="width" value="810" />
     <option name="height" value="860" />
   </component>
@@ -182,8 +196,9 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542007350641" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TextFile" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542050862212" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    &gt;&gt;&gt;&gt;&gt;&gt;&gt; 910b2814a83660db59f88aeabb75f40dd8a95c60
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -237,7 +252,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="793" y="0" width="810" height="860" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27272728" />
@@ -249,7 +264,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32977304" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.26969293" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.2696011" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -257,7 +272,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32968536" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007163" side_tool="true" weight="0.25302827" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.19489247" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.22611037" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -282,22 +297,13 @@
     <entry file="file://$PROJECT_DIR$/ChosenWord.txt" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3348">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        <state relative-caret-position="21">
+          <caret line="249" lean-forward="true" selection-start-line="249" selection-end-line="249" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/words" />
-    <entry file="file://$PROJECT_DIR$/src/Words.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Imputed_words.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Imputed_words.txt" />
     <entry file="file://$PROJECT_DIR$/Vocabulary_Library.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -305,12 +311,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Words.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="195" column="52" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
+        <state relative-caret-position="246">
+          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
           <folding>
-            <element signature="e#0#3293#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>

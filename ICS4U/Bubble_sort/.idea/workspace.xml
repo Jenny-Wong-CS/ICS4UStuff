@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f272128-194e-42de-a82e-9f5eb63520e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2_More_sorts/src/Bubbles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/src/Bubbles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List.txt" beforeDir="false" afterPath="$PROJECT_DIR$/List.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bubble_sort/Bubbles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bubble_sort/Bubbles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bubbles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bubbles.java" afterDir="false" />
-    </list>
+    <list default="true" id="6f272128-194e-42de-a82e-9f5eb63520e4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +17,7 @@
     <session id="-1198591355">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.21" value="1" />
@@ -37,12 +30,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -95,34 +90,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/List.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="108" lean-forward="true" selection-end-line="108" />
-              <folding>
-                <element signature="e#1855#1856#0" expanded="true" />
-                <element signature="e#1886#1887#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bubbles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="-1356">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -154,9 +127,7 @@
     <option name="width" value="1096" />
     <option name="height" value="858" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -224,7 +195,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="490" y="0" width="1096" height="858" extended-state="0" />
+    <frame x="186" y="8" width="1256" height="858" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.12060302" />
@@ -291,18 +262,21 @@
     <entry file="file://$PROJECT_DIR$/src/dvsf.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+        <state relative-caret-position="-68">
+          <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
+          <folding>
+            <element signature="e#6225#6229#0" expanded="true" />
+            <element signature="e#6229#6233#0" expanded="true" />
+            <element signature="e#6233#6237#0" expanded="true" />
+            <element signature="e#6237#6241#0" expanded="true" />
+            <element signature="e#6241#6245#0" expanded="true" />
+            <element signature="e#6245#6249#0" expanded="true" />
+            <element signature="e#6249#6253#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BubbleSort.java" />
     <entry file="file://$PROJECT_DIR$/src/IO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -321,10 +295,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bubble_sort.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bubbles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="-1356">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
