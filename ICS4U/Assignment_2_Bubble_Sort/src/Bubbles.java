@@ -11,7 +11,6 @@ public class Bubbles {
         //counts the number of lines
         IO.openInputFile("List.txt");
         String line = IO.readLine( );
-        //int numLines = 0;
 
         while (line != null) {
             numLines++;
@@ -20,7 +19,7 @@ public class Bubbles {
 
         IO.closeOutputFile( );
 
-        //stores the lines
+        //stores the lines in an array
         Things = new int[numLines];
         IO.openInputFile("List.txt");
         for (int i = 0; i < numLines; i++)
@@ -40,8 +39,7 @@ public class Bubbles {
 
         //Sorts the list
         Boolean Switch = true;
-        int Temp;//integer to hold the number that is to be switched
-        for (int j = 0; j < numLines; j++) {
+        int Temp; //integer to hold the number that is to be switched
             if (decision == Highlow) {//if number imputed is the same as the number assigned to this set of code, it will proceed with the next set of code within
                 IO.openInputFile("List.txt");
                 //sorts from highest to lowest
@@ -59,6 +57,7 @@ public class Bubbles {
                     }
                     IO.closeInputFile( );
                 }
+
             } else if (decision == LowHigh) { //if number imputed is the same as the number assigned to this set of code, it will proceed with the next set of code within
                 Switch = true;
                 //sorts the lines in the text file
@@ -67,7 +66,7 @@ public class Bubbles {
                 while (Switch) {
                     Switch = false;
                     for (int i = 1; i < numLines; i++) {
-                        //Same principle as the high to low switch, but it checks if the number in box 2 is bigger
+                        //Same principle as the high to low switch, but it checks if the number in box 2 is bigger instead
                         if (Things[i - 1] > Things[i]) {
                             Temp = Things[i - 1];
                             Things[i - 1] = Things[i];
@@ -78,10 +77,9 @@ public class Bubbles {
                     }
                     IO.closeInputFile( );
                 }
-
             }
 
-        }
+
         //prints your sorted numbers into the console
         for (int i = 0; i < numLines; i++) {
             System.out.println(Things[i] + " ");

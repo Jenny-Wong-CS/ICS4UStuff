@@ -28,64 +28,95 @@ public class Bubbles {
         IO.closeInputFile( );
 
         //console selection prep
-        int Highlow = 1;
+        int Insert = 1;
         int LowHigh = 2;
-        int insert = 3;
         String Choice;
         Scanner scan1 = new Scanner(System.in);
 
         //asks for your preferred sorting
-        System.out.print("decide your preference: 1(Highest to lowest), or 2(Lowest to highest): ");
+        System.out.print("decide your preference: 1(Insertion), or 2(): ");
         Choice = scan1.nextLine( );
         int decision = Integer.parseInt(Choice);
 
+
         //Sorts the list
         Boolean Switch = true;
-        int Temp;//integer to hold the number that is to be switched
-        for (int j = 0; j < numLines; j++) {
-            if (decision == Highlow) {//if number imputed is the same as the number assigned to this set of code, it will proceed with the next set of code within
-                IO.openInputFile("List.txt");
-                //sorts from highest to lowest
-                while (Switch) {
-                    Switch = false; //the "flag" that says if a switch has occurred is lowered
-                    for (int i = 1; i < numLines; i++) {
-                        if (Things[i - 1] < Things[i]) {//checks if the next number(will be refereed to as box 2) is smaller thant the current number(will be referred to as box 1)
-                            // (if it is, then it precedes with the next set of code)
-                            Temp = Things[i - 1]; //box 2 gets stored into the variable Temp
-                            Things[i - 1] = Things[i]; //what was once box 1, becomes the "NEW" box 2
-                            Things[i] = Temp; // the Temp number now becomes the new box 1
-                            Switch = true;
+        int Temp = 0;//integer to hold the number that is to be switched
+        //
+        if (decision == Insert) {
+            IO.openInputFile("List.txt");
+            while (Switch) {
+                Switch = false;
+                for (int i = 0; i < numLines - 1; i++)
+                {
+                    //int index = i;
+                    for (int j = i + 1; j < numLines; j++){
+                        if (Things[j] < Things[i]){
+                            i = j;//searching for lowest index
                         }
-
                     }
-                    IO.closeInputFile( );
-                }
-            } else if (decision == LowHigh) { //if number imputed is the same as the number assigned to this set of code, it will proceed with the next set of code within
-                Switch = true;
-                //sorts the lines in the text file
-                IO.openInputFile("List.txt");
-                //sorts from lowest to highest
-                while (Switch) {
-                    Switch = false;
-                    for (int i = 1; i < numLines; i++) {
-                        //Same principle as the high to low switch, but it checks if the number in box 2 is bigger
-                        if (Things[i - 1] > Things[i]) {
-                            Temp = Things[i - 1];
-                            Things[i - 1] = Things[i];
-                            Things[i] = Temp;
-                            Switch = true;
-                        }
-
-                    }
-                    IO.closeInputFile( );
-                }
-
+                    Things[i] = Temp;
+                IO.closeInputFile( );
             }
+        }
+//        if (decision == Insert) {
+//            IO.openInputFile("List.txt");
+//            while (Switch) {
+//                Switch = false;
+//                for (int j = 1; j < numLines; j++) {
+//                    for (int i = j; i > 0; i--) {
+//                        if (Things[i] < Things[i - 1]) {
+//                            Temp = Things[j];
+//                            Things[i] = Things[i - 1];
+//                            Things[i - 1] = Temp;
+//                            Switch = true;
+//                        }
+//                    }
+//
+//                }
+//                IO.closeInputFile( );
+//            }
+//        }
 
+//        if (decision == Insert) {
+//            IO.openInputFile("List.txt");
+//            while (Switch) {
+//                Switch = false;
+//                for (int j = 1; j < numLines; j++) {
+//                    int key = Things[j];
+//                    int i = j-1;
+//                    while ( (i > -1) && (Things[i] > key) ) {
+//                        Things[i+1] = Things[i];
+//                        i--;
+//                    }
+//                    Things[i+1] = key;
+//                }
+//                IO.closeInputFile( );
+//            }
+//        }
+
+//        for (int i = 0; i < numLines - 1; i++)
+//        {
+//            //int index = i;
+//            for (int j = i + 1; j < numLines; j++){
+//                if (Things[j] < Things[i]){
+//                    i = j;//searching for lowest index
+//                }
+//            }
+//            Things[i] = Temp;
         }
-        //prints your sorted numbers into the console
-        for (int i = 0; i < numLines; i++) {
-            System.out.println(Things[i] + " ");
+
+
+
+
+
+
+
+
+    //prints your sorted numbers into the console
+        for (int i = 1; i < numLines; i++){
+                System.out.println(Things[i] + " ");
+            //}
         }
+
     }
-}
