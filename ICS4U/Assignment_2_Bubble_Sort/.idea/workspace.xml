@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="28a9dbc5-40df-482a-b769-32ba872747d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2_More_sorts/out/production/2_More_sorts/Bubbles.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/out/production/2_More_sorts/Bubbles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2_More_sorts/src/Bubbles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/src/Bubbles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/src/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/src/Vocabulary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bubbles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bubbles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextFile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextFile/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,7 +17,7 @@
     <session id="-2142359853">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="3" />
@@ -104,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="705" />
     <option name="y" value="12" />
     <option name="width" value="699" />
@@ -118,7 +114,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542006177328" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542007345027" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -161,7 +157,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="705" y="12" width="699" height="858" extended-state="1" />
+    <frame x="705" y="12" width="699" height="858" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24904214" />
