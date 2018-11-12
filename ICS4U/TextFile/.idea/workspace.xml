@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c08d9aed-49d6-4010-bfaa-7cbc64768a46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2_More_sorts/src/Bubbles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/src/Bubbles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Bubble_sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bubble_sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bubble_sort/out/production/Bubble_sort/Bubbles.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bubble_sort/out/production/Bubble_sort/Bubbles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bubble_sort/src/Bubbles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bubble_sort/src/Bubbles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/bin/Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/bin/Intro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -56,10 +50,11 @@
     <session id="-324945768">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -88,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TextFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="235">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -115,9 +110,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="732" />
-    <option name="y" value="7" />
-    <option name="width" value="812" />
+    <option name="x" value="713" />
+    <option name="y" value="8" />
+    <option name="width" value="729" />
     <option name="height" value="858" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -129,7 +124,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541231064589" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JenJo-ICS4U/Sample Database" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,8 +166,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="732" y="7" width="812" height="858" extended-state="0" />
-    <editor active="true" />
+    <frame x="713" y="8" width="729" height="858" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.19221106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -222,8 +216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TextFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="235">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
     </entry>
