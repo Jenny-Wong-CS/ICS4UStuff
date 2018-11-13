@@ -3,8 +3,11 @@ import java.util.Scanner;
 
 public class Vocabulary {
 	public static String Word;
-	public static char Letters;
-	public static boolean Contain;
+	public static char Guess;
+	public static char[] Letters;
+	public static String Hidden;
+	public static int Length;
+	public static String Temp;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -28,42 +31,39 @@ public class Vocabulary {
 			Words.closeInputFile();
 		}
 
-
 		Random rand = new Random();
 		Scanner Scan1 = new Scanner(System.in);
 
-		//letter you guessed
-		String Guess;
-
-		System.out.print("input guess: ");
-		Guess = Scan1.nextLine();
-
-		for (int i = rand.nextInt((50 - 1) + 1); i < numLines; )
-			Vocabulary[i] = Word;
-
-
 		for (int i = rand.nextInt((50 - 1) + 1); i < numLines; ) {
-			if (Word.contains(Guess)) {
-				System.out.println("The letter " + Guess + "is in the word");
-			} else {
-				System.out.println("Try again!");
-			}
+			Vocabulary[i] = Word;
 		}
 
-		boolean Blank = false;
+		Length = Word.length();
+		Letters = new char[Length];
 		for (int i = 0; i < Word.length(); i++) {
-			 Letters = Word.charAt(i);
-			 Contain = Word.contains(Guess);
-			if (Contain == true) {
-				System.out.println(Letters.charAt()+" ");
-			} else {
-				System.out.print("-");
-				Blank = true;
-			}
+			Letters[i] = '-';
 		}
-		//return Blank;
 
+		Hidden = String.valueOf(Letters);
+		boolean Flag;
+		while(!Hidden.equals(Word)) {
+            Flag = false;
+            System.out.println(Hidden);
+            System.out.print("input guess: ");
+            Temp = Scan1.nextLine( );
+			Guess = Temp.charAt(0);
+			for(int i = 0; i< Word.length(); i++){
+				if(Word.charAt(i) == Guess){
+					Letters[i] = Guess;
+					Flag = true;
+				}
+			}
+
+			if(!Flag) {
+				System.out.print(Guess + " is not in the word.");
+			}
+			Hidden = String.valueOf(Letters);
+		}
 
 	}
 }
-
