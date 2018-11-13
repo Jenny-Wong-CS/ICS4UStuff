@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28a9dbc5-40df-482a-b769-32ba872747d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../textdemoyeet/src/Bubbles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_More_sorts/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_More_sorts/List.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/List.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_More_sorts/out/production/2_More_sorts/Bubbles.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/out/production/2_More_sorts/Bubbles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_More_sorts/out/production/2_More_sorts/IO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/out/production/2_More_sorts/IO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_More_sorts/src/Bubbles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/src/Bubbles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextFile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextFile/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/Assignment_1 Hang-man.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/Assignment_1 Hang-man.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/src/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/src/Vocabulary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../textdemoyeet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../textdemoyeet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../textdemoyeet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../textdemoyeet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../textdemoyeet/out/production/textdemoyeet/TextDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../textdemoyeet/out/production/textdemoyeet/TextDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../textdemoyeet/src/TextDemo.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +31,10 @@
     <session id="-2142359853">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/List.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state>
+              <caret selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -61,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
+            <state relative-caret-position="1683">
               <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="e#1855#1856#0" expanded="true" />
@@ -71,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bubbles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+            <state relative-caret-position="532">
+              <caret line="85" column="9" selection-start-line="40" selection-start-column="8" selection-end-line="85" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -100,9 +114,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="705" />
-    <option name="y" value="12" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1" />
+    <option name="y" value="6" />
     <option name="width" value="699" />
     <option name="height" value="858" />
   </component>
@@ -157,7 +171,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="705" y="12" width="699" height="858" extended-state="0" />
+    <frame x="1" y="6" width="699" height="858" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24904214" />
@@ -192,16 +206,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/List.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
+        <state relative-caret-position="1683">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="e#1855#1856#0" expanded="true" />
@@ -212,8 +219,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bubbles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        <state relative-caret-position="532">
+          <caret line="85" column="9" selection-start-line="40" selection-start-column="8" selection-end-line="85" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
