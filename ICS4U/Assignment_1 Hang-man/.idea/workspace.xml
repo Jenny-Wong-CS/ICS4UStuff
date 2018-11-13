@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3fe899d-817b-49ba-b2a1-02060c67301c" name="Default Changelist" comment="idk">
-      <change beforePath="$PROJECT_DIR$/../2_More_sorts/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vocabulary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bubble_sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bubble_sort/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b3fe899d-817b-49ba-b2a1-02060c67301c" name="Default Changelist" comment="idk" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +55,7 @@
     <session id="395510862">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.63" value="1" />
@@ -153,7 +146,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="629" />
+    <option name="x" value="635" />
     <option name="y" value="6" />
     <option name="width" value="810" />
     <option name="height" value="860" />
@@ -186,7 +179,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542050862212" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542051042384" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -241,8 +234,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="629" y="6" width="810" height="860" extended-state="0" />
-    <editor active="true" />
+    <frame x="635" y="6" width="810" height="860" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27272728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
