@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9ad99460-b7bf-4ef0-bdfa-66e674469c08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="9ad99460-b7bf-4ef0-bdfa-66e674469c08" name="Default Changelist" comment="" />
+>>>>>>> b108faab1dc25250f088b920990b42b6d4d97507
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +21,13 @@
     <session id="2116664151">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -82,8 +87,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bubbles.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="355">
               <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+=======
+            <state relative-caret-position="667">
+              <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+>>>>>>> b108faab1dc25250f088b920990b42b6d4d97507
             </state>
           </provider>
         </entry>
@@ -253,8 +263,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bubbles.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="355">
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+=======
+        <state relative-caret-position="667">
+          <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+>>>>>>> b108faab1dc25250f088b920990b42b6d4d97507
         </state>
       </provider>
     </entry>
