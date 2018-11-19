@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06cb909e-2a5d-4b70-94af-ab1ebbebe7c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_Bubble_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2_Bubble_Sort/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Intro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ultra poop code/YEETDAB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ultra poop code/YEETDAB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YEETDAB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YEETDAB.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,9 +19,11 @@
     <session id="-718312265">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,23 +38,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1038" />
+          <entry key="java" value="1361" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1038" />
+          <entry key="JAVA" value="1361" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/YEETDAB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="544">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+              <folding>
+                <element signature="method#asparagus#0;class#YEETDAB#0" />
+                <element signature="method#doge#0;class#YEETDAB#0" />
+                <element signature="method#dumpling#0;class#YEETDAB#0" />
+                <element signature="method#potatoSalad#0;class#YEETDAB#0" />
+                <element signature="method#&lt;unnamed&gt;#0;class#YEETDAB#0" />
+                <element signature="method#&lt;unnamed&gt;#0;class#YEETDAB#0" />
+                <element signature="method#raichu#0;class#YEETDAB#0" />
+                <element signature="method#main#0;class#YEETDAB#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,35 +92,20 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="782" />
-    <option name="y" value="3" />
-    <option name="width" value="817" />
-    <option name="height" value="860" />
+    <option name="x" value="538" />
+    <option name="width" value="1071" />
+    <option name="height" value="855" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Ultra poop code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ultra poop code" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542344070849" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Intro" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542602139766" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JenJo-ICS4U/Jenny's GUI" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,34 +177,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="782" y="3" width="817" height="860" extended-state="0" />
+    <frame x="538" y="0" width="1071" height="855" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.2494382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32977304" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32880846" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39919892" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -213,8 +213,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/YEETDAB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="544">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="method#asparagus#0;class#YEETDAB#0" />
+            <element signature="method#doge#0;class#YEETDAB#0" />
+            <element signature="method#dumpling#0;class#YEETDAB#0" />
+            <element signature="method#potatoSalad#0;class#YEETDAB#0" />
+            <element signature="method#&lt;unnamed&gt;#0;class#YEETDAB#0" />
+            <element signature="method#&lt;unnamed&gt;#0;class#YEETDAB#0" />
+            <element signature="method#raichu#0;class#YEETDAB#0" />
+            <element signature="method#main#0;class#YEETDAB#0" />
+          </folding>
         </state>
       </provider>
     </entry>
