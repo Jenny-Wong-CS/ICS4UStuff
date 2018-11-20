@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06cb909e-2a5d-4b70-94af-ab1ebbebe7c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ultra poop code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/YEETDAB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_More_sorts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1 Hang-man/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_2_Bubble_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2_Bubble_Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/ofcoursenotthatimadetheporjectname.class" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/ofcoursenotthatimadetheporjectname.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/ofcoursenotthatimadetheporjectname.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/ofcoursenotthatimadetheporjectname.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +19,7 @@
     <session id="-718312265">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.62" value="1" />
@@ -86,7 +80,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/YEETDAB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
@@ -94,15 +88,6 @@
               <folding>
                 <element signature="method#main#0;class#YEETDAB#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="281" lean-forward="true" selection-start-line="281" selection-end-line="281" />
             </state>
           </provider>
         </entry>
@@ -136,8 +121,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="538" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="width" value="1071" />
     <option name="height" value="855" />
   </component>
@@ -150,7 +135,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542651312028" />
-    <property name="last_opened_file_path" value="P:/ofcoursenotthatimadetheporjectname.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -233,8 +218,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="538" y="0" width="1071" height="855" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="0" width="1071" height="855" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2494382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -276,6 +260,13 @@
           <folding>
             <element signature="method#main#0;class#YEETDAB#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="273" lean-forward="true" selection-start-line="273" selection-end-line="273" />
         </state>
       </provider>
     </entry>
