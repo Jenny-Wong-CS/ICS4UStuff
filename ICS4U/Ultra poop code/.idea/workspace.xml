@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06cb909e-2a5d-4b70-94af-ab1ebbebe7c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/ofcoursenotthatimadetheporjectname.class" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/ofcoursenotthatimadetheporjectname.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/ofcoursenotthatimadetheporjectname.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/src/ofcoursenotthatimadetheporjectname.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/ofcoursenotthatimadetheporjectname.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,7 +50,7 @@
     <session id="-1426155782">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.81" value="1" />
           <entry key="project.opened" value="2" />
@@ -81,10 +80,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/YEETDAB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
+            <state relative-caret-position="850">
               <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
               <folding>
                 <element signature="method#芦笋#0;class#YEETDAB#0" />
@@ -95,15 +94,6 @@
                 <element signature="method#皮卡丘#0;class#YEETDAB#0" />
                 <element signature="method#雷丘#0;class#YEETDAB#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
             </state>
           </provider>
         </entry>
@@ -153,7 +143,6 @@
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542651312028" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
-    &gt;&gt;&gt;&gt;&gt;&gt;&gt; 7a66ce1c31fc898d0277ca607f9c49e4c2ceae24
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -272,9 +261,32 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://P:/ofcoursenotthatimadetheporjectname.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="292" lean-forward="true" selection-start-line="292" selection-end-line="292" />
+          <folding>
+            <element signature="e#6272#6276#0" expanded="true" />
+            <element signature="e#6276#6280#0" expanded="true" />
+            <element signature="e#6280#6284#0" expanded="true" />
+            <element signature="e#6284#6288#0" expanded="true" />
+            <element signature="e#6288#6292#0" expanded="true" />
+            <element signature="e#6292#6296#0" expanded="true" />
+            <element signature="e#6296#6300#0" expanded="true" />
+            <element signature="e#6855#6859#0" expanded="true" />
+            <element signature="e#6859#6863#0" expanded="true" />
+            <element signature="e#6863#6867#0" expanded="true" />
+            <element signature="e#6867#6871#0" expanded="true" />
+            <element signature="e#6871#6875#0" expanded="true" />
+            <element signature="e#6875#6879#0" expanded="true" />
+            <element signature="e#6879#6883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/YEETDAB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
+        <state relative-caret-position="850">
           <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
           <folding>
             <element signature="method#芦笋#0;class#YEETDAB#0" />
@@ -285,13 +297,6 @@
             <element signature="method#皮卡丘#0;class#YEETDAB#0" />
             <element signature="method#雷丘#0;class#YEETDAB#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
         </state>
       </provider>
     </entry>
